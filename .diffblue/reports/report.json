@@ -4,24 +4,23 @@
   },
   "run" : {
     "version" : "2025.02.02-08b2a5a-licensed",
-    "creationTimestamp" : "2025-03-06T11:52:10.18Z",
+    "creationTimestamp" : "2025-03-06T12:27:54.474Z",
     "command" : "dcover create --keep-partial-tests --coverage-reports",
-    "totalTime" : 106.105,
-    "environmentDetectionTime" : 0.7,
-    "indexingTime" : 0.181,
-    "entryPointsTime" : 0.689,
-    "generationTime" : 78.411,
-    "timeToFirstTest" : 19.222,
-    "timeToLastTest" : 92.545,
-    "indexQueryTime" : 4.007,
-    "verificationTime" : 5.584,
-    "validationTime" : 7.275
+    "totalTime" : 93.35,
+    "environmentDetectionTime" : 0.593,
+    "indexingTime" : 0.174,
+    "entryPointsTime" : 0.582,
+    "generationTime" : 62.607,
+    "timeToFirstTest" : 20.556,
+    "timeToLastTest" : 78.944,
+    "indexQueryTime" : 4.5520000000000005,
+    "verificationTime" : 7.147,
+    "validationTime" : 7.786
   },
   "codes" : {
     "R000" : "Success",
     "R002" : "Missing observers",
     "R011" : "Sandboxing policy violation",
-    "R013" : "No inputs found that don't throw a trivial exception",
     "R081" : "Exception in arrange section",
     "T000" : "Method eligible for test creation",
     "T001" : "Trivial getter",
@@ -33,10 +32,10 @@
   "summary" : {
     "classesCount" : 14,
     "methodsCount" : 83,
-    "cumulativeDiffblueTestCount" : 51,
+    "cumulativeDiffblueTestCount" : 65,
     "cumulativeManualTestCount" : 0,
-    "completeTestCount" : 18,
-    "incompleteTestCount" : 33,
+    "completeTestCount" : 46,
+    "incompleteTestCount" : 19,
     "skeletonTestCount" : 0,
     "totalPhysicalLineCount" : 944,
     "perMethodTestability" : {
@@ -47,141 +46,125 @@
       "T005" : 16
     },
     "perMethodOutcome" : {
-      "R000" : 48,
+      "R000" : 62,
       "R002" : 3,
       "R011" : 16,
-      "R013" : 14,
       "R081" : 1,
       "T003" : 1
     },
     "perTestOutcome" : {
-      "R000" : 18,
+      "R000" : 46,
       "R002" : 3,
-      "R011" : 16,
-      "R013" : 14
+      "R011" : 16
     },
     "perTestValidation" : {
-      "V000" : 18
+      "V000" : 46
     }
   },
   "classes" : {
     "controller.HomeServlet" : {
       "methodsCount" : 3,
-      "completeTestCount" : 1,
-      "incompleteTestCount" : 2,
+      "completeTestCount" : 5,
+      "incompleteTestCount" : 0,
       "perMethodTestability" : {
         "T000" : 2,
         "T005" : 1
       },
       "perMethodOutcome" : {
-        "R000" : 1,
-        "R013" : 2
+        "R000" : 3
       },
       "perTestOutcome" : {
-        "R000" : 1,
-        "R013" : 2
+        "R000" : 5
       }
     },
     "controller.LoginServlet" : {
       "methodsCount" : 3,
-      "completeTestCount" : 1,
-      "incompleteTestCount" : 2,
+      "completeTestCount" : 5,
+      "incompleteTestCount" : 0,
       "perMethodTestability" : {
         "T000" : 2,
         "T005" : 1
       },
       "perMethodOutcome" : {
-        "R000" : 1,
-        "R013" : 2
+        "R000" : 3
       },
       "perTestOutcome" : {
-        "R000" : 1,
-        "R013" : 2
+        "R000" : 5
       }
     },
     "controller.LogoutServlet" : {
       "methodsCount" : 3,
-      "completeTestCount" : 1,
-      "incompleteTestCount" : 2,
+      "completeTestCount" : 5,
+      "incompleteTestCount" : 0,
       "perMethodTestability" : {
         "T000" : 2,
         "T005" : 1
       },
       "perMethodOutcome" : {
-        "R000" : 1,
-        "R013" : 2
+        "R000" : 3
       },
       "perTestOutcome" : {
-        "R000" : 1,
-        "R013" : 2
+        "R000" : 5
       }
     },
     "controller.MessageServlet" : {
       "methodsCount" : 3,
-      "completeTestCount" : 1,
-      "incompleteTestCount" : 2,
+      "completeTestCount" : 5,
+      "incompleteTestCount" : 0,
       "perMethodTestability" : {
         "T000" : 2,
         "T005" : 1
       },
       "perMethodOutcome" : {
-        "R000" : 1,
-        "R013" : 2
+        "R000" : 3
       },
       "perTestOutcome" : {
-        "R000" : 1,
-        "R013" : 2
+        "R000" : 5
       }
     },
     "controller.ProfileServlet" : {
       "methodsCount" : 3,
-      "completeTestCount" : 1,
-      "incompleteTestCount" : 2,
+      "completeTestCount" : 5,
+      "incompleteTestCount" : 0,
       "perMethodTestability" : {
         "T000" : 2,
         "T005" : 1
       },
       "perMethodOutcome" : {
-        "R000" : 1,
-        "R013" : 2
+        "R000" : 3
       },
       "perTestOutcome" : {
-        "R000" : 1,
-        "R013" : 2
+        "R000" : 5
       }
     },
     "controller.RegisterServlet" : {
       "methodsCount" : 3,
-      "completeTestCount" : 1,
-      "incompleteTestCount" : 2,
+      "completeTestCount" : 5,
+      "incompleteTestCount" : 0,
       "perMethodTestability" : {
         "T000" : 2,
         "T005" : 1
       },
       "perMethodOutcome" : {
-        "R000" : 1,
-        "R013" : 2
+        "R000" : 3
       },
       "perTestOutcome" : {
-        "R000" : 1,
-        "R013" : 2
+        "R000" : 5
       }
     },
     "controller.ViewMessageServlet" : {
       "methodsCount" : 3,
-      "completeTestCount" : 1,
-      "incompleteTestCount" : 2,
+      "completeTestCount" : 5,
+      "incompleteTestCount" : 0,
       "perMethodTestability" : {
         "T000" : 2,
         "T005" : 1
       },
       "perMethodOutcome" : {
-        "R000" : 1,
-        "R013" : 2
+        "R000" : 3
       },
       "perTestOutcome" : {
-        "R000" : 1,
-        "R013" : 2
+        "R000" : 5
       }
     },
     "dao.MessageDAO" : {
@@ -321,12 +304,12 @@
       ]
     },
     "controller.HomeServlet.doGet:(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V" : {
-      "completeTestCount" : 0,
-      "incompleteTestCount" : 1,
+      "completeTestCount" : 2,
+      "incompleteTestCount" : 0,
       "perMethodTestability" : "T000",
-      "perMethodOutcome" : "R013",
+      "perMethodOutcome" : "R000",
       "perTestOutcome" : {
-        "R013" : 1
+        "R000" : 2
       },
       "lineNumbers" : [
         36,
@@ -345,12 +328,12 @@
       ]
     },
     "controller.HomeServlet.doPost:(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V" : {
-      "completeTestCount" : 0,
-      "incompleteTestCount" : 1,
+      "completeTestCount" : 2,
+      "incompleteTestCount" : 0,
       "perMethodTestability" : "T000",
-      "perMethodOutcome" : "R013",
+      "perMethodOutcome" : "R000",
       "perTestOutcome" : {
-        "R013" : 1
+        "R000" : 2
       },
       "lineNumbers" : [
         59,
@@ -382,12 +365,12 @@
       ]
     },
     "controller.LoginServlet.doGet:(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V" : {
-      "completeTestCount" : 0,
-      "incompleteTestCount" : 1,
+      "completeTestCount" : 2,
+      "incompleteTestCount" : 0,
       "perMethodTestability" : "T000",
-      "perMethodOutcome" : "R013",
+      "perMethodOutcome" : "R000",
       "perTestOutcome" : {
-        "R013" : 1
+        "R000" : 2
       },
       "lineNumbers" : [
         37,
@@ -398,12 +381,12 @@
       ]
     },
     "controller.LoginServlet.doPost:(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V" : {
-      "completeTestCount" : 0,
-      "incompleteTestCount" : 1,
+      "completeTestCount" : 2,
+      "incompleteTestCount" : 0,
       "perMethodTestability" : "T000",
-      "perMethodOutcome" : "R013",
+      "perMethodOutcome" : "R000",
       "perTestOutcome" : {
-        "R013" : 1
+        "R000" : 2
       },
       "lineNumbers" : [
         51,
@@ -453,12 +436,12 @@
       ]
     },
     "controller.LogoutServlet.doGet:(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V" : {
-      "completeTestCount" : 0,
-      "incompleteTestCount" : 1,
+      "completeTestCount" : 2,
+      "incompleteTestCount" : 0,
       "perMethodTestability" : "T000",
-      "perMethodOutcome" : "R013",
+      "perMethodOutcome" : "R000",
       "perTestOutcome" : {
-        "R013" : 1
+        "R000" : 2
       },
       "lineNumbers" : [
         30,
@@ -474,12 +457,12 @@
       ]
     },
     "controller.LogoutServlet.doPost:(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V" : {
-      "completeTestCount" : 0,
-      "incompleteTestCount" : 1,
+      "completeTestCount" : 2,
+      "incompleteTestCount" : 0,
       "perMethodTestability" : "T000",
-      "perMethodOutcome" : "R013",
+      "perMethodOutcome" : "R000",
       "perTestOutcome" : {
-        "R013" : 1
+        "R000" : 2
       },
       "lineNumbers" : [
         48,
@@ -500,12 +483,12 @@
       ]
     },
     "controller.MessageServlet.doGet:(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V" : {
-      "completeTestCount" : 0,
-      "incompleteTestCount" : 1,
+      "completeTestCount" : 2,
+      "incompleteTestCount" : 0,
       "perMethodTestability" : "T000",
-      "perMethodOutcome" : "R013",
+      "perMethodOutcome" : "R000",
       "perTestOutcome" : {
-        "R013" : 1
+        "R000" : 2
       },
       "lineNumbers" : [
         38,
@@ -533,12 +516,12 @@
       ]
     },
     "controller.MessageServlet.doPost:(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V" : {
-      "completeTestCount" : 0,
-      "incompleteTestCount" : 1,
+      "completeTestCount" : 2,
+      "incompleteTestCount" : 0,
       "perMethodTestability" : "T000",
-      "perMethodOutcome" : "R013",
+      "perMethodOutcome" : "R000",
       "perTestOutcome" : {
-        "R013" : 1
+        "R000" : 2
       },
       "lineNumbers" : [
         73,
@@ -559,12 +542,12 @@
       ]
     },
     "controller.ProfileServlet.doGet:(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V" : {
-      "completeTestCount" : 0,
-      "incompleteTestCount" : 1,
+      "completeTestCount" : 2,
+      "incompleteTestCount" : 0,
       "perMethodTestability" : "T000",
-      "perMethodOutcome" : "R013",
+      "perMethodOutcome" : "R000",
       "perTestOutcome" : {
-        "R013" : 1
+        "R000" : 2
       },
       "lineNumbers" : [
         37,
@@ -599,12 +582,12 @@
       ]
     },
     "controller.ProfileServlet.doPost:(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V" : {
-      "completeTestCount" : 0,
-      "incompleteTestCount" : 1,
+      "completeTestCount" : 2,
+      "incompleteTestCount" : 0,
       "perMethodTestability" : "T000",
-      "perMethodOutcome" : "R013",
+      "perMethodOutcome" : "R000",
       "perTestOutcome" : {
-        "R013" : 1
+        "R000" : 2
       },
       "lineNumbers" : [
         85,
@@ -682,12 +665,12 @@
       ]
     },
     "controller.RegisterServlet.doGet:(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V" : {
-      "completeTestCount" : 0,
-      "incompleteTestCount" : 1,
+      "completeTestCount" : 2,
+      "incompleteTestCount" : 0,
       "perMethodTestability" : "T000",
-      "perMethodOutcome" : "R013",
+      "perMethodOutcome" : "R000",
       "perTestOutcome" : {
-        "R013" : 1
+        "R000" : 2
       },
       "lineNumbers" : [
         33,
@@ -699,12 +682,12 @@
       ]
     },
     "controller.RegisterServlet.doPost:(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V" : {
-      "completeTestCount" : 0,
-      "incompleteTestCount" : 1,
+      "completeTestCount" : 2,
+      "incompleteTestCount" : 0,
       "perMethodTestability" : "T000",
-      "perMethodOutcome" : "R013",
+      "perMethodOutcome" : "R000",
       "perTestOutcome" : {
-        "R013" : 1
+        "R000" : 2
       },
       "lineNumbers" : [
         46,
@@ -767,12 +750,12 @@
       ]
     },
     "controller.ViewMessageServlet.doGet:(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V" : {
-      "completeTestCount" : 0,
-      "incompleteTestCount" : 1,
+      "completeTestCount" : 2,
+      "incompleteTestCount" : 0,
       "perMethodTestability" : "T000",
-      "perMethodOutcome" : "R013",
+      "perMethodOutcome" : "R000",
       "perTestOutcome" : {
-        "R013" : 1
+        "R000" : 2
       },
       "lineNumbers" : [
         35,
@@ -799,12 +782,12 @@
       ]
     },
     "controller.ViewMessageServlet.doPost:(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V" : {
-      "completeTestCount" : 0,
-      "incompleteTestCount" : 1,
+      "completeTestCount" : 2,
+      "incompleteTestCount" : 0,
       "perMethodTestability" : "T000",
-      "perMethodOutcome" : "R013",
+      "perMethodOutcome" : "R000",
       "perTestOutcome" : {
-        "R013" : 1
+        "R000" : 2
       },
       "lineNumbers" : [
         68,
