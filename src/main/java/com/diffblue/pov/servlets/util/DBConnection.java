@@ -1,16 +1,15 @@
-package util;
+package com.diffblue.pov.servlets.util;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class DBConnection {
-
     private static DBConnection instance;
     private Connection connection;
-    private String url = "jdbc:mysql://localhost:3306/social_db";
-    private String username = "root";
-    private String password = "";
+    private String url = "jdbc:mysql://database:3306/db";
+    private String username = "user";
+    private String password = "password";
 
     private DBConnection() throws SQLException {
         try {

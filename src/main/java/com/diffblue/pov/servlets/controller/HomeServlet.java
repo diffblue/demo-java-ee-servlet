@@ -1,4 +1,4 @@
-package controller;
+package com.diffblue.pov.servlets.controller;
 
 import java.io.IOException;
 import java.sql.SQLException;
@@ -11,8 +11,8 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-import dao.PostDAO;
-import model.Post;
+import com.diffblue.pov.servlets.dao.PostDAO;
+import com.diffblue.pov.servlets.model.Post;
 
 /**
  * Servlet implementation class HomeServlet

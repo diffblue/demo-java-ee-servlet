@@ -1,4 +1,4 @@
-package controller;
+package com.diffblue.pov.servlets.controller;
 
 import java.io.IOException;
 import javax.servlet.ServletException;
@@ -8,8 +8,8 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-import dao.UserDAO;
-import model.User;
+import com.diffblue.pov.servlets.dao.UserDAO;
+import com.diffblue.pov.servlets.model.User;
 
 /**
  * Servlet implementation class RegisterServlet

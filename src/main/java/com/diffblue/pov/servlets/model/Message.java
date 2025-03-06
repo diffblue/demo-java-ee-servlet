@@ -1,4 +1,4 @@
-package model;
+package com.diffblue.pov.servlets.model;
 
 public class Message {
 	private int chat_id;

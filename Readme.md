@@ -22,9 +22,11 @@ profile, add and update own post, update own profile, and chat with friends.
 Requires Java 8 update 442 `1.8.0_442`
 
 1. Clone this repository
-2. Use [`social_db.sql`](docs/social_db.sql) script to seed a MySQL database running locally
+2. Use [`init_db.sql`](database/init_db.sql) script to seed a MySQL database running locally
 3. Add your database connection settings to `DBConnection.java`
 4. Run the application on Apache Tomcat server
+
+If you have Docker, run `docker compose up` and visit `http://localhost:4000/demo/` in the browser.
 
 ### Screenshots
 

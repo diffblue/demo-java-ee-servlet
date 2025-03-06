@@ -1,4 +1,4 @@
-package dao;
+package com.diffblue.pov.servlets.dao;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -7,8 +7,8 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.sql.SQLIntegrityConstraintViolationException;
 
-import model.User;
-import util.DBConnection;
+import com.diffblue.pov.servlets.model.User;
+import com.diffblue.pov.servlets.util.DBConnection;
 
 public class UserDAO {
 	

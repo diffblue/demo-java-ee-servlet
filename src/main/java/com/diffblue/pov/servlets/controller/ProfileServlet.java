@@ -1,4 +1,4 @@
-package controller;
+package com.diffblue.pov.servlets.controller;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -10,10 +10,10 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-import dao.PostDAO;
-import dao.UserDAO;
-import model.Post;
-import model.User;
+import com.diffblue.pov.servlets.dao.PostDAO;
+import com.diffblue.pov.servlets.dao.UserDAO;
+import com.diffblue.pov.servlets.model.Post;
+import com.diffblue.pov.servlets.model.User;
 
 /**
  * Servlet implementation class ProfileServlet

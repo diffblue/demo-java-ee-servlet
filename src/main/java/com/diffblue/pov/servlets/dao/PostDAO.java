@@ -1,4 +1,4 @@
-package dao;
+package com.diffblue.pov.servlets.dao;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -6,8 +6,8 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 
-import model.Post;
-import util.DBConnection;
+import com.diffblue.pov.servlets.model.Post;
+import com.diffblue.pov.servlets.util.DBConnection;
 
 public class PostDAO {
 

@@ -58,7 +58,7 @@
   </dependencies>
 
   <build>
-    <finalName>demo-java-ee-servlet</finalName>
+    <finalName>demo</finalName>
     <pluginManagement>
       <plugins>
         <plugin>
