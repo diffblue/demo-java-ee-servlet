@@ -1,0 +1,23 @@
+services:
+  app:
+    build:
+      dockerfile: Dockerfile
+    container_name: demo-java-ee-servlet
+    image: demo-java-ee-servlet:1.0
+    ports:
+      - 4000:8080
+    environment:
+      MYSQL_DB: db
+      MYSQL_HOST: demo-java-ee-servlet-db
+      MYSQL_PASSWORD: password
+      MYSQL_USER: user
+  database:
+    image: mysql:latest
+    container_name: demo-java-ee-servlet-db
+    environment: 
+      MYSQL_DATABASE: db
+      MYSQL_PASSWORD: password
+      MYSQL_ROOT_PASSWORD: password
+      MYSQL_USER: user
+    volumes:
+      - ./database:/docker-entrypoint-initdb.d:ro

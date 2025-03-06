@@ -26,6 +26,8 @@ Requires Java 8 update 442 `1.8.0_442`
 3. Add your database connection settings to `DBConnection.java`
 4. Run the application on Apache Tomcat server
 
+If you have Docker, run `docker compose up` and visit `http://localhost:4000/demo/` in the browser.
+
 ### Screenshots
 
 If everything is up and running properly, you should be able to use the following functionality:
