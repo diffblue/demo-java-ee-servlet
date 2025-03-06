@@ -4,24 +4,23 @@
   },
   "run" : {
     "version" : "2025.02.02-08b2a5a-licensed",
-    "creationTimestamp" : "2025-03-06T00:22:09.508016Z",
-    "command" : "dcover create --keep-partial-tests --coverage-reports",
-    "totalTime" : 111.211,
-    "environmentDetectionTime" : 0.88,
-    "indexingTime" : 0.193,
-    "entryPointsTime" : 0.87,
-    "generationTime" : 82.807,
-    "timeToFirstTest" : 19.069,
-    "timeToLastTest" : 97.109,
-    "indexQueryTime" : 3.998,
-    "verificationTime" : 6.282,
-    "validationTime" : 7.299
+    "creationTimestamp" : "2025-03-06T00:35:43.643298Z",
+    "command" : "dcover create --mock-static util.DBConnection --mock util.DBConnection --mock java.sql.Connection --mock javax.servlet.ServletRequestWrapper --mock javax.servlet.http.HttpServletRequest --mock javax.servlet.http.HttpServletResponse --mock javax.servlet.http.HttpSession --mock javax.servlet.RequestDispatcher --keep-partial-tests --coverage-reports",
+    "totalTime" : 83.11,
+    "environmentDetectionTime" : 0.835,
+    "indexingTime" : 0.194,
+    "entryPointsTime" : 0.826,
+    "generationTime" : 48.357,
+    "timeToFirstTest" : 19.162,
+    "timeToLastTest" : 67.634,
+    "indexQueryTime" : 3.846,
+    "verificationTime" : 10.748,
+    "validationTime" : 8.28
   },
   "codes" : {
     "R000" : "Success",
     "R002" : "Missing observers",
     "R011" : "Sandboxing policy violation",
-    "R013" : "No inputs found that don't throw a trivial exception",
     "R081" : "Exception in arrange section",
     "T000" : "Method eligible for test creation",
     "T001" : "Trivial getter",
@@ -34,10 +33,10 @@
   "summary" : {
     "classesCount" : 15,
     "methodsCount" : 95,
-    "cumulativeDiffblueTestCount" : 52,
+    "cumulativeDiffblueTestCount" : 101,
     "cumulativeManualTestCount" : 0,
-    "completeTestCount" : 19,
-    "incompleteTestCount" : 33,
+    "completeTestCount" : 82,
+    "incompleteTestCount" : 19,
     "skeletonTestCount" : 0,
     "totalPhysicalLineCount" : 995,
     "perMethodTestability" : {
@@ -49,141 +48,125 @@
       "T020" : 1
     },
     "perMethodOutcome" : {
-      "R000" : 60,
+      "R000" : 74,
       "R002" : 3,
       "R011" : 16,
-      "R013" : 14,
       "R081" : 1,
       "T003" : 1
     },
     "perTestOutcome" : {
-      "R000" : 19,
+      "R000" : 82,
       "R002" : 3,
-      "R011" : 16,
-      "R013" : 14
+      "R011" : 16
     },
     "perTestValidation" : {
-      "V000" : 19
+      "V000" : 82
     }
   },
   "classes" : {
     "com.diffblue.pov.servlets.controller.HomeServlet" : {
       "methodsCount" : 3,
-      "completeTestCount" : 1,
-      "incompleteTestCount" : 2,
+      "completeTestCount" : 9,
+      "incompleteTestCount" : 0,
       "perMethodTestability" : {
         "T000" : 2,
         "T005" : 1
       },
       "perMethodOutcome" : {
-        "R000" : 1,
-        "R013" : 2
+        "R000" : 3
       },
       "perTestOutcome" : {
-        "R000" : 1,
-        "R013" : 2
+        "R000" : 9
       }
     },
     "com.diffblue.pov.servlets.controller.LoginServlet" : {
       "methodsCount" : 3,
-      "completeTestCount" : 1,
-      "incompleteTestCount" : 2,
+      "completeTestCount" : 8,
+      "incompleteTestCount" : 0,
       "perMethodTestability" : {
         "T000" : 2,
         "T005" : 1
       },
       "perMethodOutcome" : {
-        "R000" : 1,
-        "R013" : 2
+        "R000" : 3
       },
       "perTestOutcome" : {
-        "R000" : 1,
-        "R013" : 2
+        "R000" : 8
       }
     },
     "com.diffblue.pov.servlets.controller.LogoutServlet" : {
       "methodsCount" : 3,
-      "completeTestCount" : 1,
-      "incompleteTestCount" : 2,
+      "completeTestCount" : 9,
+      "incompleteTestCount" : 0,
       "perMethodTestability" : {
         "T000" : 2,
         "T005" : 1
       },
       "perMethodOutcome" : {
-        "R000" : 1,
-        "R013" : 2
+        "R000" : 3
       },
       "perTestOutcome" : {
-        "R000" : 1,
-        "R013" : 2
+        "R000" : 9
       }
     },
     "com.diffblue.pov.servlets.controller.MessageServlet" : {
       "methodsCount" : 3,
-      "completeTestCount" : 1,
-      "incompleteTestCount" : 2,
+      "completeTestCount" : 15,
+      "incompleteTestCount" : 0,
       "perMethodTestability" : {
         "T000" : 2,
         "T005" : 1
       },
       "perMethodOutcome" : {
-        "R000" : 1,
-        "R013" : 2
+        "R000" : 3
       },
       "perTestOutcome" : {
-        "R000" : 1,
-        "R013" : 2
+        "R000" : 15
       }
     },
     "com.diffblue.pov.servlets.controller.ProfileServlet" : {
       "methodsCount" : 3,
-      "completeTestCount" : 1,
-      "incompleteTestCount" : 2,
+      "completeTestCount" : 9,
+      "incompleteTestCount" : 0,
       "perMethodTestability" : {
         "T000" : 2,
         "T005" : 1
       },
       "perMethodOutcome" : {
-        "R000" : 1,
-        "R013" : 2
+        "R000" : 3
       },
       "perTestOutcome" : {
-        "R000" : 1,
-        "R013" : 2
+        "R000" : 9
       }
     },
     "com.diffblue.pov.servlets.controller.RegisterServlet" : {
       "methodsCount" : 3,
-      "completeTestCount" : 1,
-      "incompleteTestCount" : 2,
+      "completeTestCount" : 8,
+      "incompleteTestCount" : 0,
       "perMethodTestability" : {
         "T000" : 2,
         "T005" : 1
       },
       "perMethodOutcome" : {
-        "R000" : 1,
-        "R013" : 2
+        "R000" : 3
       },
       "perTestOutcome" : {
-        "R000" : 1,
-        "R013" : 2
+        "R000" : 8
       }
     },
     "com.diffblue.pov.servlets.controller.ViewMessageServlet" : {
       "methodsCount" : 3,
-      "completeTestCount" : 1,
-      "incompleteTestCount" : 2,
+      "completeTestCount" : 12,
+      "incompleteTestCount" : 0,
       "perMethodTestability" : {
         "T000" : 2,
         "T005" : 1
       },
       "perMethodOutcome" : {
-        "R000" : 1,
-        "R013" : 2
+        "R000" : 3
       },
       "perTestOutcome" : {
-        "R000" : 1,
-        "R013" : 2
+        "R000" : 12
       }
     },
     "com.diffblue.pov.servlets.dao.MessageDAO" : {
@@ -340,12 +323,12 @@
       ]
     },
     "com.diffblue.pov.servlets.controller.HomeServlet.doGet:(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V" : {
-      "completeTestCount" : 0,
-      "incompleteTestCount" : 1,
+      "completeTestCount" : 4,
+      "incompleteTestCount" : 0,
       "perMethodTestability" : "T000",
-      "perMethodOutcome" : "R013",
+      "perMethodOutcome" : "R000",
       "perTestOutcome" : {
-        "R013" : 1
+        "R000" : 4
       },
       "lineNumbers" : [
         36,
@@ -364,12 +347,12 @@
       ]
     },
     "com.diffblue.pov.servlets.controller.HomeServlet.doPost:(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V" : {
-      "completeTestCount" : 0,
-      "incompleteTestCount" : 1,
+      "completeTestCount" : 4,
+      "incompleteTestCount" : 0,
       "perMethodTestability" : "T000",
-      "perMethodOutcome" : "R013",
+      "perMethodOutcome" : "R000",
       "perTestOutcome" : {
-        "R013" : 1
+        "R000" : 4
       },
       "lineNumbers" : [
         59,
@@ -401,12 +384,12 @@
       ]
     },
     "com.diffblue.pov.servlets.controller.LoginServlet.doGet:(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V" : {
-      "completeTestCount" : 0,
-      "incompleteTestCount" : 1,
+      "completeTestCount" : 3,
+      "incompleteTestCount" : 0,
       "perMethodTestability" : "T000",
-      "perMethodOutcome" : "R013",
+      "perMethodOutcome" : "R000",
       "perTestOutcome" : {
-        "R013" : 1
+        "R000" : 3
       },
       "lineNumbers" : [
         37,
@@ -417,12 +400,12 @@
       ]
     },
     "com.diffblue.pov.servlets.controller.LoginServlet.doPost:(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V" : {
-      "completeTestCount" : 0,
-      "incompleteTestCount" : 1,
+      "completeTestCount" : 4,
+      "incompleteTestCount" : 0,
       "perMethodTestability" : "T000",
-      "perMethodOutcome" : "R013",
+      "perMethodOutcome" : "R000",
       "perTestOutcome" : {
-        "R013" : 1
+        "R000" : 4
       },
       "lineNumbers" : [
         51,
@@ -472,12 +455,12 @@
       ]
     },
     "com.diffblue.pov.servlets.controller.LogoutServlet.doGet:(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V" : {
-      "completeTestCount" : 0,
-      "incompleteTestCount" : 1,
+      "completeTestCount" : 4,
+      "incompleteTestCount" : 0,
       "perMethodTestability" : "T000",
-      "perMethodOutcome" : "R013",
+      "perMethodOutcome" : "R000",
       "perTestOutcome" : {
-        "R013" : 1
+        "R000" : 4
       },
       "lineNumbers" : [
         30,
@@ -493,12 +476,12 @@
       ]
     },
     "com.diffblue.pov.servlets.controller.LogoutServlet.doPost:(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V" : {
-      "completeTestCount" : 0,
-      "incompleteTestCount" : 1,
+      "completeTestCount" : 4,
+      "incompleteTestCount" : 0,
       "perMethodTestability" : "T000",
-      "perMethodOutcome" : "R013",
+      "perMethodOutcome" : "R000",
       "perTestOutcome" : {
-        "R013" : 1
+        "R000" : 4
       },
       "lineNumbers" : [
         48,
@@ -519,12 +502,12 @@
       ]
     },
     "com.diffblue.pov.servlets.controller.MessageServlet.doGet:(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V" : {
-      "completeTestCount" : 0,
-      "incompleteTestCount" : 1,
+      "completeTestCount" : 7,
+      "incompleteTestCount" : 0,
       "perMethodTestability" : "T000",
-      "perMethodOutcome" : "R013",
+      "perMethodOutcome" : "R000",
       "perTestOutcome" : {
-        "R013" : 1
+        "R000" : 7
       },
       "lineNumbers" : [
         38,
@@ -552,12 +535,12 @@
       ]
     },
     "com.diffblue.pov.servlets.controller.MessageServlet.doPost:(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V" : {
-      "completeTestCount" : 0,
-      "incompleteTestCount" : 1,
+      "completeTestCount" : 7,
+      "incompleteTestCount" : 0,
       "perMethodTestability" : "T000",
-      "perMethodOutcome" : "R013",
+      "perMethodOutcome" : "R000",
       "perTestOutcome" : {
-        "R013" : 1
+        "R000" : 7
       },
       "lineNumbers" : [
         73,
@@ -578,12 +561,12 @@
       ]
     },
     "com.diffblue.pov.servlets.controller.ProfileServlet.doGet:(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V" : {
-      "completeTestCount" : 0,
-      "incompleteTestCount" : 1,
+      "completeTestCount" : 5,
+      "incompleteTestCount" : 0,
       "perMethodTestability" : "T000",
-      "perMethodOutcome" : "R013",
+      "perMethodOutcome" : "R000",
       "perTestOutcome" : {
-        "R013" : 1
+        "R000" : 5
       },
       "lineNumbers" : [
         37,
@@ -618,12 +601,12 @@
       ]
     },
     "com.diffblue.pov.servlets.controller.ProfileServlet.doPost:(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V" : {
-      "completeTestCount" : 0,
-      "incompleteTestCount" : 1,
+      "completeTestCount" : 3,
+      "incompleteTestCount" : 0,
       "perMethodTestability" : "T000",
-      "perMethodOutcome" : "R013",
+      "perMethodOutcome" : "R000",
       "perTestOutcome" : {
-        "R013" : 1
+        "R000" : 3
       },
       "lineNumbers" : [
         85,
@@ -701,12 +684,12 @@
       ]
     },
     "com.diffblue.pov.servlets.controller.RegisterServlet.doGet:(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V" : {
-      "completeTestCount" : 0,
-      "incompleteTestCount" : 1,
+      "completeTestCount" : 3,
+      "incompleteTestCount" : 0,
       "perMethodTestability" : "T000",
-      "perMethodOutcome" : "R013",
+      "perMethodOutcome" : "R000",
       "perTestOutcome" : {
-        "R013" : 1
+        "R000" : 3
       },
       "lineNumbers" : [
         33,
@@ -718,12 +701,12 @@
       ]
     },
     "com.diffblue.pov.servlets.controller.RegisterServlet.doPost:(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V" : {
-      "completeTestCount" : 0,
-      "incompleteTestCount" : 1,
+      "completeTestCount" : 4,
+      "incompleteTestCount" : 0,
       "perMethodTestability" : "T000",
-      "perMethodOutcome" : "R013",
+      "perMethodOutcome" : "R000",
       "perTestOutcome" : {
-        "R013" : 1
+        "R000" : 4
       },
       "lineNumbers" : [
         46,
@@ -786,12 +769,12 @@
       ]
     },
     "com.diffblue.pov.servlets.controller.ViewMessageServlet.doGet:(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V" : {
-      "completeTestCount" : 0,
-      "incompleteTestCount" : 1,
+      "completeTestCount" : 4,
+      "incompleteTestCount" : 0,
       "perMethodTestability" : "T000",
-      "perMethodOutcome" : "R013",
+      "perMethodOutcome" : "R000",
       "perTestOutcome" : {
-        "R013" : 1
+        "R000" : 4
       },
       "lineNumbers" : [
         35,
@@ -818,12 +801,12 @@
       ]
     },
     "com.diffblue.pov.servlets.controller.ViewMessageServlet.doPost:(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V" : {
-      "completeTestCount" : 0,
-      "incompleteTestCount" : 1,
+      "completeTestCount" : 7,
+      "incompleteTestCount" : 0,
       "perMethodTestability" : "T000",
-      "perMethodOutcome" : "R013",
+      "perMethodOutcome" : "R000",
       "perTestOutcome" : {
-        "R013" : 1
+        "R000" : 7
       },
       "lineNumbers" : [
         68,
