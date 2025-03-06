@@ -1,5 +1,3 @@
 name: com.diffblue.cover.refactoring.Recipe
-recipeList:
-- org.openrewrite.maven.ChangeDependencyGroupIdAndArtifactId: {oldGroupId: org.mockito,
-    oldArtifactId: mockito-core, overrideManagedVersion: 'true', newVersion: 4.11.0}
+recipeList: []
 type: specs.openrewrite.org/v1beta/recipe
