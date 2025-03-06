@@ -1,0 +1,268 @@
+11:47:43.344 [INFO]  [Preparing] Diffblue Cover 2025.02.02-08b2a5a-licensed
+11:47:43.345 [INFO]  [Preparing] Running: dcover create --preflight
+11:47:43.345 [INFO]  [Preparing] 
+11:47:43.345 [INFO]  [Preparing] Command: create
+11:47:43.345 [INFO]  [Preparing] Create tests for the specified package/class/method.
+11:47:43.346 [INFO]  [Preparing] 
+11:47:45.828 [INFO]  [Checking] Maven Using ${maven.home} of: /opt/homebrew/Cellar/maven/3.9.9.
+11:47:45.831 [INFO]  [Checking] Maven Executing: /bin/sh -c cd /Users/amishra/Developer/demo-java-ee-servlet && /opt/homebrew/Cellar/maven/3.9.9/bin/mvn -B -version
+11:47:46.340 [INFO]  [Checking] Standard output of build tool (Maven)
+11:47:46.340 [INFO]  [Checking] > Apache Maven 3.9.9 (8e8579a9e76f7d015ee5ec7bfcdc97d260186937)
+11:47:46.340 [INFO]  [Checking] > Maven home: /opt/homebrew/Cellar/maven/3.9.9/libexec
+11:47:46.340 [INFO]  [Checking] > Java version: 1.8.0_442, vendor: Azul Systems, Inc., runtime: /Library/Java/JavaVirtualMachines/zulu-8.jdk/Contents/Home/jre
+11:47:46.340 [INFO]  [Checking] > Default locale: en_GB, platform encoding: UTF-8
+11:47:46.340 [INFO]  [Checking] > OS name: "mac os x", version: "15.3.1", arch: "aarch64", family: "mac"
+11:47:46.342 [INFO]  [Checking] Using CUSTOMISABLE Build System Implementation
+11:47:46.460 [INFO]  [Checking] Using default build rules as no custom rules found in any of [/Users/amishra/Developer/demo-java-ee-servlet]
+11:47:46.466 [INFO]  [Checking] Attempting to invoke mvnw in working directory: /Users/amishra/Developer/demo-java-ee-servlet
+11:47:46.480 [INFO]  [Checking] Attempting to invoke /opt/homebrew/bin/mvn in working directory: /Users/amishra/Developer/demo-java-ee-servlet
+11:47:46.494 [INFO]  [Checking] Started "/opt/homebrew/bin/mvn -Dmaven.ext.class.path=/usr/local/bin/diffblue/cover-buildsystem-maven-spy-jar-with-dependencies.jar -Dcom.diffblue.cover.skipTests=true --batch-mode install -Dmaven.compiler.failOnWarning=false --also-make -DskipTests -DskipITs --threads=1C"
+11:47:47.557 [INFO]  [Checking] out: [INFO] Scanning for projects...
+11:47:47.594 [INFO]  [Checking] out: [INFO] 
+11:47:47.595 [INFO]  [Checking] out: [INFO] Using the MultiThreadedBuilder implementation with a thread count of 10
+11:47:47.597 [INFO]  [Checking] out: [INFO] 
+11:47:47.597 [INFO]  [Checking] out: [INFO] ------------------< com.diffblue.pov:java-ee-servlet >------------------
+11:47:47.597 [INFO]  [Checking] out: [INFO] Building Java EE Servlet Webapp 1.0.0
+11:47:47.597 [INFO]  [Checking] out: [INFO]   from pom.xml
+11:47:47.597 [INFO]  [Checking] out: [INFO] --------------------------------[ war ]---------------------------------
+11:47:48.006 [INFO]  [Checking] out: [INFO] 
+11:47:48.006 [INFO]  [Checking] out: [INFO] --- resources:3.3.1:resources (default-resources) @ java-ee-servlet ---
+11:47:48.180 [INFO]  [Checking] out: [INFO] skip non existing resourceDirectory /Users/amishra/Developer/demo-java-ee-servlet/src/main/resources
+11:47:48.182 [INFO]  [Checking] out: [INFO] 
+11:47:48.182 [INFO]  [Checking] out: [INFO] --- compiler:3.13.0:compile (default-compile) @ java-ee-servlet ---
+11:47:48.396 [INFO]  [Checking] out: [INFO] Nothing to compile - all classes are up to date.
+11:47:48.398 [INFO]  [Checking] out: [INFO] 
+11:47:48.398 [INFO]  [Checking] out: [INFO] --- resources:3.3.1:testResources (default-testResources) @ java-ee-servlet ---
+11:47:48.400 [INFO]  [Checking] out: [INFO] skip non existing resourceDirectory /Users/amishra/Developer/demo-java-ee-servlet/src/test/resources
+11:47:48.401 [INFO]  [Checking] out: [INFO] 
+11:47:48.402 [INFO]  [Checking] out: [INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ java-ee-servlet ---
+11:47:48.415 [INFO]  [Checking] out: [INFO] Recompiling the module because of added or removed source files.
+11:47:48.425 [INFO]  [Checking] out: [INFO] 
+11:47:48.426 [INFO]  [Checking] out: [INFO] --- surefire:3.3.0:test (default-test) @ java-ee-servlet ---
+11:47:48.532 [INFO]  [Checking] out: [INFO] Tests are skipped.
+11:47:48.534 [INFO]  [Checking] out: [INFO] 
+11:47:48.534 [INFO]  [Checking] out: [INFO] --- war:3.4.0:war (default-war) @ java-ee-servlet ---
+11:47:48.973 [INFO]  [Checking] out: [INFO] Packaging webapp
+11:47:48.974 [INFO]  [Checking] out: [INFO] Assembling webapp [java-ee-servlet] in [/Users/amishra/Developer/demo-java-ee-servlet/target/DemoServlet]
+11:47:48.980 [INFO]  [Checking] out: [INFO] Processing war project
+11:47:48.980 [INFO]  [Checking] out: [INFO] Copying webapp resources [/Users/amishra/Developer/demo-java-ee-servlet/src/main/webapp]
+11:47:49.010 [INFO]  [Checking] out: [INFO] Building war: /Users/amishra/Developer/demo-java-ee-servlet/target/DemoServlet.war
+11:47:49.114 [INFO]  [Checking] out: [INFO] 
+11:47:49.115 [INFO]  [Checking] out: [INFO] --- install:3.1.2:install (default-install) @ java-ee-servlet ---
+11:47:49.178 [INFO]  [Checking] out: [INFO] Installing /Users/amishra/Developer/demo-java-ee-servlet/pom.xml to /Users/amishra/.m2/repository/com/diffblue/pov/java-ee-servlet/1.0.0/java-ee-servlet-1.0.0.pom
+11:47:49.196 [INFO]  [Checking] out: [INFO] Installing /Users/amishra/Developer/demo-java-ee-servlet/target/DemoServlet.war to /Users/amishra/.m2/repository/com/diffblue/pov/java-ee-servlet/1.0.0/java-ee-servlet-1.0.0.war
+11:47:49.292 [INFO]  [Checking] Operating System: Mac OS X aarch64 15.3.1
+11:47:49.292 [INFO]  [Checking] Default charset: UTF-8
+11:47:49.292 [INFO]  [Checking] Default locale: en_GB
+11:47:49.292 [INFO]  [Checking] Default time zone: Europe/London
+11:47:49.301 [INFO]  [Checking] Discovered modules:
+11:47:49.301 [INFO]  [Checking] - com.diffblue.pov:java-ee-servlet
+11:47:49.301 [INFO]  [Checking] 
+11:47:49.304 [INFO]  [Checking] 
+11:47:49.304 [INFO]  [Checking] [1/1] Creating tests for module: com.diffblue.pov:java-ee-servlet
+11:47:49.304 [INFO]  [Checking] =================================================================
+11:47:49.305 [INFO]  [Checking] 
+11:47:49.305 [INFO]  [Checking] Detecting environment:
+11:47:49.305 [INFO]  [Checking] ----------------------
+11:47:49.347 [INFO]  [Checking] Detected Java version 1.8.0_442
+11:47:49.349 [INFO]  [Checking] Maven Using ${maven.home} of: /opt/homebrew/Cellar/maven/3.9.9.
+11:47:49.349 [INFO]  [Checking] Maven Executing: /bin/sh -c cd /Users/amishra/Developer/demo-java-ee-servlet && /opt/homebrew/Cellar/maven/3.9.9/bin/mvn -B -version
+11:47:49.837 [INFO]  [Checking] Standard output of build tool (Maven)
+11:47:49.837 [INFO]  [Checking] > Apache Maven 3.9.9 (8e8579a9e76f7d015ee5ec7bfcdc97d260186937)
+11:47:49.837 [INFO]  [Checking] > Maven home: /opt/homebrew/Cellar/maven/3.9.9/libexec
+11:47:49.837 [INFO]  [Checking] > Java version: 1.8.0_442, vendor: Azul Systems, Inc., runtime: /Library/Java/JavaVirtualMachines/zulu-8.jdk/Contents/Home/jre
+11:47:49.837 [INFO]  [Checking] > Default locale: en_GB, platform encoding: UTF-8
+11:47:49.837 [INFO]  [Checking] > OS name: "mac os x", version: "15.3.1", arch: "aarch64", family: "mac"
+11:47:49.838 [INFO]  [Checking] Using CUSTOMISABLE Build System Implementation
+11:47:49.838 [INFO]  [Checking] Using default build rules as no custom rules found in any of [/Users/amishra/Developer/demo-java-ee-servlet]
+11:47:49.840 [INFO]  [Checking] Attempting to invoke mvnw in working directory: /Users/amishra/Developer/demo-java-ee-servlet
+11:47:49.862 [INFO]  [Checking] Attempting to invoke /opt/homebrew/bin/mvn in working directory: /Users/amishra/Developer/demo-java-ee-servlet
+11:47:49.867 [INFO]  [Checking] Started "/opt/homebrew/bin/mvn -Dmaven.ext.class.path=/usr/local/bin/diffblue/cover-buildsystem-maven-spy-jar-with-dependencies.jar -Dcom.diffblue.cover.skipTests=true --batch-mode install -Dmaven.compiler.failOnWarning=false --also-make -DskipTests -DskipITs --threads=1C"
+11:47:50.910 [INFO]  [Checking] out: [INFO] Scanning for projects...
+11:47:50.950 [INFO]  [Checking] out: [INFO] 
+11:47:50.950 [INFO]  [Checking] out: [INFO] Using the MultiThreadedBuilder implementation with a thread count of 10
+11:47:50.952 [INFO]  [Checking] out: [INFO] 
+11:47:50.952 [INFO]  [Checking] out: [INFO] ------------------< com.diffblue.pov:java-ee-servlet >------------------
+11:47:50.952 [INFO]  [Checking] out: [INFO] Building Java EE Servlet Webapp 1.0.0
+11:47:50.952 [INFO]  [Checking] out: [INFO]   from pom.xml
+11:47:50.952 [INFO]  [Checking] out: [INFO] --------------------------------[ war ]---------------------------------
+11:47:51.338 [INFO]  [Checking] out: [INFO] 
+11:47:51.338 [INFO]  [Checking] out: [INFO] --- resources:3.3.1:resources (default-resources) @ java-ee-servlet ---
+11:47:51.514 [INFO]  [Checking] out: [INFO] skip non existing resourceDirectory /Users/amishra/Developer/demo-java-ee-servlet/src/main/resources
+11:47:51.516 [INFO]  [Checking] out: [INFO] 
+11:47:51.516 [INFO]  [Checking] out: [INFO] --- compiler:3.13.0:compile (default-compile) @ java-ee-servlet ---
+11:47:51.706 [INFO]  [Checking] out: [INFO] Nothing to compile - all classes are up to date.
+11:47:51.708 [INFO]  [Checking] out: [INFO] 
+11:47:51.708 [INFO]  [Checking] out: [INFO] --- resources:3.3.1:testResources (default-testResources) @ java-ee-servlet ---
+11:47:51.709 [INFO]  [Checking] out: [INFO] skip non existing resourceDirectory /Users/amishra/Developer/demo-java-ee-servlet/src/test/resources
+11:47:51.711 [INFO]  [Checking] out: [INFO] 
+11:47:51.711 [INFO]  [Checking] out: [INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ java-ee-servlet ---
+11:47:51.720 [INFO]  [Checking] out: [INFO] Nothing to compile - all classes are up to date.
+11:47:51.722 [INFO]  [Checking] out: [INFO] 
+11:47:51.722 [INFO]  [Checking] out: [INFO] --- surefire:3.3.0:test (default-test) @ java-ee-servlet ---
+11:47:51.865 [INFO]  [Checking] out: [INFO] Tests are skipped.
+11:47:51.867 [INFO]  [Checking] out: [INFO] 
+11:47:51.867 [INFO]  [Checking] out: [INFO] --- war:3.4.0:war (default-war) @ java-ee-servlet ---
+11:47:52.262 [INFO]  [Checking] out: [INFO] Packaging webapp
+11:47:52.263 [INFO]  [Checking] out: [INFO] Assembling webapp [java-ee-servlet] in [/Users/amishra/Developer/demo-java-ee-servlet/target/DemoServlet]
+11:47:52.269 [INFO]  [Checking] out: [INFO] Processing war project
+11:47:52.269 [INFO]  [Checking] out: [INFO] Copying webapp resources [/Users/amishra/Developer/demo-java-ee-servlet/src/main/webapp]
+11:47:52.299 [INFO]  [Checking] out: [INFO] Building war: /Users/amishra/Developer/demo-java-ee-servlet/target/DemoServlet.war
+11:47:52.402 [INFO]  [Checking] out: [INFO] 
+11:47:52.402 [INFO]  [Checking] out: [INFO] --- install:3.1.2:install (default-install) @ java-ee-servlet ---
+11:47:52.455 [INFO]  [Checking] out: [INFO] Installing /Users/amishra/Developer/demo-java-ee-servlet/pom.xml to /Users/amishra/.m2/repository/com/diffblue/pov/java-ee-servlet/1.0.0/java-ee-servlet-1.0.0.pom
+11:47:52.476 [INFO]  [Checking] out: [INFO] Installing /Users/amishra/Developer/demo-java-ee-servlet/target/DemoServlet.war to /Users/amishra/.m2/repository/com/diffblue/pov/java-ee-servlet/1.0.0/java-ee-servlet-1.0.0.war
+11:47:52.542 [INFO]  [Checking] out: [INFO] ------------------------------------------------------------------------
+11:47:52.542 [INFO]  [Checking] out: [INFO] BUILD SUCCESS
+11:47:52.542 [INFO]  [Checking] out: [INFO] ------------------------------------------------------------------------
+11:47:52.542 [INFO]  [Checking] out: [INFO] Total time:  1.649 s (Wall Clock)
+11:47:52.542 [INFO]  [Checking] out: [INFO] Finished at: 2025-03-06T11:47:52Z
+11:47:52.542 [INFO]  [Checking] out: [INFO] ------------------------------------------------------------------------
+11:47:52.565 [INFO]  [Checking] Detected build system: Maven 3.9.9
+11:47:52.565 [INFO]  [Checking] Operating System: Mac OS X aarch64 15.3.1
+11:47:52.565 [INFO]  [Checking] Default charset: UTF-8
+11:47:52.565 [INFO]  [Checking] Default locale: en_GB
+11:47:52.565 [INFO]  [Checking] Default time zone: Europe/London
+11:47:52.566 [INFO]  [Checking] Selected build system: Maven
+11:47:52.568 [INFO]  [Checking] Selected classpath from build system maven
+11:47:52.568 [INFO]  [Checking] Expanded classpath: 
+/Users/amishra/Developer/demo-java-ee-servlet/target/test-classes (test build path)
+/Users/amishra/Developer/demo-java-ee-servlet/target/classes (code under test)
+/Users/amishra/.m2/repository/javax/servlet/javax.servlet-api/4.0.1/javax.servlet-api-4.0.1.jar
+/Users/amishra/.m2/repository/junit/junit/4.13.1/junit-4.13.1.jar
+/Users/amishra/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar
+/Users/amishra/.m2/repository/com/mysql/mysql-connector-j/9.0.0/mysql-connector-j-9.0.0.jar
+/Users/amishra/.m2/repository/com/google/protobuf/protobuf-java/4.26.1/protobuf-java-4.26.1.jar
+/Users/amishra/.m2/repository/org/mockito/mockito-core/5.15.2/mockito-core-5.15.2.jar
+/Users/amishra/.m2/repository/net/bytebuddy/byte-buddy/1.15.11/byte-buddy-1.15.11.jar
+/Users/amishra/.m2/repository/net/bytebuddy/byte-buddy-agent/1.15.11/byte-buddy-agent-1.15.11.jar
+/Users/amishra/.m2/repository/org/objenesis/objenesis/3.3/objenesis-3.3.jar
+/Users/amishra/.m2/repository/com/diffblue/cover/cover-annotations/1.3.0/cover-annotations-1.3.0.jar
+11:47:52.606 [INFO]  [Checking] Detected test framework: JUnit 4.13.1
+11:47:52.737 [INFO]  [Checking] Detected Mockito version 5.15.2
+11:47:52.755 [INFO]  [Checking] Indexing...
+11:47:53.081 [INFO]  [Checking] Selected test output directory: /Users/amishra/Developer/demo-java-ee-servlet/src/test/java
+11:47:53.088 [INFO]  [Checking] Using default build rules as no custom rules found in any of [/Users/amishra/Developer/demo-java-ee-servlet]
+11:47:53.090 [INFO]  [Checking] Attempting to invoke mvnw in working directory: /Users/amishra/Developer/demo-java-ee-servlet
+11:47:53.115 [INFO]  [Checking] Attempting to invoke /opt/homebrew/bin/mvn in working directory: /Users/amishra/Developer/demo-java-ee-servlet
+11:47:53.122 [INFO]  [Checking] Started "/opt/homebrew/bin/mvn -Dmaven.ext.class.path=/usr/local/bin/diffblue/cover-buildsystem-maven-spy-jar-with-dependencies.jar -Dcom.diffblue.cover.skipTests=true --batch-mode --projects=com.diffblue.pov:java-ee-servlet test -DfailIfNoTests=false -Dsurefire.failIfNoSpecifiedTests=false -Dmaven.test.failure.ignore=True -Dtest=DummyJunitDiffblueTest"
+11:47:54.183 [INFO]  [Checking] out: [INFO] Scanning for projects...
+11:47:54.220 [INFO]  [Checking] out: [INFO] 
+11:47:54.220 [INFO]  [Checking] out: [INFO] ------------------< com.diffblue.pov:java-ee-servlet >------------------
+11:47:54.220 [INFO]  [Checking] out: [INFO] Building Java EE Servlet Webapp 1.0.0
+11:47:54.220 [INFO]  [Checking] out: [INFO]   from pom.xml
+11:47:54.220 [INFO]  [Checking] out: [INFO] --------------------------------[ war ]---------------------------------
+11:47:54.537 [INFO]  [Checking] out: [INFO] 
+11:47:54.538 [INFO]  [Checking] out: [INFO] --- resources:3.3.1:resources (default-resources) @ java-ee-servlet ---
+11:47:54.744 [INFO]  [Checking] out: [INFO] skip non existing resourceDirectory /Users/amishra/Developer/demo-java-ee-servlet/src/main/resources
+11:47:54.746 [INFO]  [Checking] out: [INFO] 
+11:47:54.746 [INFO]  [Checking] out: [INFO] --- compiler:3.13.0:compile (default-compile) @ java-ee-servlet ---
+11:47:54.872 [INFO]  [Checking] out: [INFO] Nothing to compile - all classes are up to date.
+11:47:54.874 [INFO]  [Checking] out: [INFO] 
+11:47:54.874 [INFO]  [Checking] out: [INFO] --- resources:3.3.1:testResources (default-testResources) @ java-ee-servlet ---
+11:47:54.876 [INFO]  [Checking] out: [INFO] skip non existing resourceDirectory /Users/amishra/Developer/demo-java-ee-servlet/src/test/resources
+11:47:54.877 [INFO]  [Checking] out: [INFO] 
+11:47:54.877 [INFO]  [Checking] out: [INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ java-ee-servlet ---
+11:47:54.908 [INFO]  [Checking] out: [INFO] Recompiling the module because of changed source code.
+11:47:54.927 [INFO]  [Checking] out: [INFO] Compiling 1 source file with javac [debug target 8] to target/test-classes
+11:47:55.157 [INFO]  [Checking] out: [INFO] 
+11:47:55.157 [INFO]  [Checking] out: [INFO] --- surefire:3.3.0:test (default-test) @ java-ee-servlet ---
+11:47:55.275 [INFO]  [Checking] out: [INFO] Using auto detected provider org.apache.maven.surefire.junit4.JUnit4Provider
+11:47:55.328 [INFO]  [Checking] out: [INFO] 
+11:47:55.329 [INFO]  [Checking] out: [INFO] -------------------------------------------------------
+11:47:55.329 [INFO]  [Checking] out: [INFO]  T E S T S
+11:47:55.329 [INFO]  [Checking] out: [INFO] -------------------------------------------------------
+11:47:55.586 [INFO]  [Checking] out: [INFO] Running DummyJunitDiffblueTest
+11:47:55.625 [INFO]  [Checking] out: [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 s -- in DummyJunitDiffblueTest
+11:47:55.629 [INFO]  [Checking] out: [INFO] 
+11:47:55.629 [INFO]  [Checking] out: [INFO] Results:
+11:47:55.629 [INFO]  [Checking] out: [INFO] 
+11:47:55.629 [INFO]  [Checking] out: [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+11:47:55.629 [INFO]  [Checking] out: [INFO] 
+11:47:55.747 [INFO]  [Checking] out: [INFO] ------------------------------------------------------------------------
+11:47:55.747 [INFO]  [Checking] out: [INFO] BUILD SUCCESS
+11:47:55.747 [INFO]  [Checking] out: [INFO] ------------------------------------------------------------------------
+11:47:55.747 [INFO]  [Checking] out: [INFO] Total time:  1.578 s
+11:47:55.748 [INFO]  [Checking] out: [INFO] Finished at: 2025-03-06T11:47:55Z
+11:47:55.748 [INFO]  [Checking] out: [INFO] ------------------------------------------------------------------------
+11:47:55.800 [INFO]  [Checking] Selected test framework: JUnit
+11:47:55.813 [INFO]  [Checking] Detected Hamcrest 1 version 1.3
+11:47:56.581 [INFO]  [Checking] Detected JVM architecture: 64-Bit
+11:47:56.742 [INFO]  [Checking] Selected Java language compliance level: 1.8
+11:47:56.743 [INFO]  [Checking] Selected test validation: enabled
+11:47:56.788 [INFO]  [Checking] Prefixes for filtering classes/methods:
+11:47:56.789 [INFO]  [Checking] - controller
+11:47:56.789 [INFO]  [Checking] - dao
+11:47:56.789 [INFO]  [Checking] - model
+11:47:56.789 [INFO]  [Checking] - util
+11:47:56.789 [INFO]  [Checking] Gathering methods to test...
+11:47:57.450 [WARN]  [Checking] E066: Dependency incompatible with JDK
+The following dependencies are incompatible with
+the current JDK (JDK version: 1.8.0_442). Consider fixing this first
+before tackling any of the other warnings.
+Please change the following dependencies in your project:
+  <dependency>
+    <groupId>org.mockito</groupId>
+    <artifactId>mockito-core</artifactId>
+    <version>4.11.0</version>
+    <scope>test</scope>
+  </dependency>
+11:47:57.457 [INFO]  [Reporting] 
+11:47:57.457 [INFO]  [Reporting] Environment summary for module: com.diffblue.pov:java-ee-servlet
+11:47:57.457 [INFO]  [Reporting] ----------------------------------------------------------------
+11:47:57.457 [INFO]  [Reporting] Java version                   1.8.0_442                     SUCCESS        
+11:47:57.457 [INFO]  [Reporting] Build system                   Maven                         SUCCESS        
+11:47:57.457 [WARN]  [Reporting] Mocking Framework              5.15.2                        WARNING        
+11:47:57.457 [INFO]  [Reporting] Surefire version               3.3.0                         SUCCESS        
+11:47:57.457 [INFO]  [Reporting] Testing framework              JUnit 4.13                    SUCCESS        
+11:47:57.457 [INFO]  [Reporting] JaCoCo plugin version          0.8.11                        SUCCESS        
+11:47:57.457 [INFO]  [Reporting] Launcher                       JUnit 4, TestNG, or unknown   SUCCESS        
+11:47:57.457 [INFO]  [Reporting] Test validation                Enabled                       SUCCESS        
+11:47:57.458 [INFO]  [Reporting] Hamcrest                       Hamcrest 1 1.3                SUCCESS        
+11:47:57.458 [INFO]  [Reporting] 
+11:47:57.458 [WARN]  [Reporting] Environment check status: WARNING
+11:47:57.483 [INFO]  [Checking] Build environment fixes have been generated - run `dcover fix-build` to apply them
+11:47:57.485 [INFO]  [Checking] Running existing non-Diffblue tests, this can take a few minutes
+11:47:57.490 [INFO]  [Checking] Using default build rules as no custom rules found in any of [/Users/amishra/Developer/demo-java-ee-servlet]
+11:47:57.491 [INFO]  [Checking] Attempting to invoke mvnw in working directory: /Users/amishra/Developer/demo-java-ee-servlet
+11:47:57.513 [INFO]  [Checking] Attempting to invoke /opt/homebrew/bin/mvn in working directory: /Users/amishra/Developer/demo-java-ee-servlet
+11:47:57.529 [INFO]  [Checking] Started "/opt/homebrew/bin/mvn -Dmaven.ext.class.path=/usr/local/bin/diffblue/cover-buildsystem-maven-spy-jar-with-dependencies.jar -Dcom.diffblue.cover.skipTests=true --batch-mode --projects=com.diffblue.pov:java-ee-servlet org.jacoco:jacoco-maven-plugin:0.8.11:prepare-agent -Djacoco.skip=false test -DfailIfNoTests=false -Dsurefire.failIfNoSpecifiedTests=false -Dmaven.test.failure.ignore=True -Dtest=!**DiffblueTest*.java,**/Test*.java,**/*Test.java,**/*Tests.java,**/*TestCase.java org.jacoco:jacoco-maven-plugin:0.8.11:report -Djacoco.skip=false"
+11:47:58.576 [INFO]  [Checking] out: [INFO] Scanning for projects...
+11:47:58.714 [INFO]  [Checking] out: [INFO] 
+11:47:58.714 [INFO]  [Checking] out: [INFO] ------------------< com.diffblue.pov:java-ee-servlet >------------------
+11:47:58.714 [INFO]  [Checking] out: [INFO] Building Java EE Servlet Webapp 1.0.0
+11:47:58.714 [INFO]  [Checking] out: [INFO]   from pom.xml
+11:47:58.714 [INFO]  [Checking] out: [INFO] --------------------------------[ war ]---------------------------------
+11:47:59.055 [INFO]  [Checking] out: [INFO] 
+11:47:59.055 [INFO]  [Checking] out: [INFO] --- jacoco:0.8.11:prepare-agent (default-cli) @ java-ee-servlet ---
+11:47:59.483 [INFO]  [Checking] out: [INFO] argLine set to -javaagent:/Users/amishra/.m2/repository/org/jacoco/org.jacoco.agent/0.8.11/org.jacoco.agent-0.8.11-runtime.jar=destfile=/Users/amishra/Developer/demo-java-ee-servlet/target/jacoco.exec
+11:47:59.485 [INFO]  [Checking] out: [INFO] 
+11:47:59.485 [INFO]  [Checking] out: [INFO] --- resources:3.3.1:resources (default-resources) @ java-ee-servlet ---
+11:47:59.598 [INFO]  [Checking] out: [INFO] skip non existing resourceDirectory /Users/amishra/Developer/demo-java-ee-servlet/src/main/resources
+11:47:59.600 [INFO]  [Checking] out: [INFO] 
+11:47:59.600 [INFO]  [Checking] out: [INFO] --- compiler:3.13.0:compile (default-compile) @ java-ee-servlet ---
+11:47:59.761 [INFO]  [Checking] out: [INFO] Nothing to compile - all classes are up to date.
+11:47:59.763 [INFO]  [Checking] out: [INFO] 
+11:47:59.763 [INFO]  [Checking] out: [INFO] --- resources:3.3.1:testResources (default-testResources) @ java-ee-servlet ---
+11:47:59.765 [INFO]  [Checking] out: [INFO] skip non existing resourceDirectory /Users/amishra/Developer/demo-java-ee-servlet/src/test/resources
+11:47:59.766 [INFO]  [Checking] out: [INFO] 
+11:47:59.766 [INFO]  [Checking] out: [INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ java-ee-servlet ---
+11:47:59.781 [INFO]  [Checking] out: [INFO] Recompiling the module because of added or removed source files.
+11:47:59.794 [INFO]  [Checking] out: [INFO] 
+11:47:59.795 [INFO]  [Checking] out: [INFO] --- surefire:3.3.0:test (default-test) @ java-ee-servlet ---
+11:47:59.968 [INFO]  [Checking] out: [INFO] 
+11:47:59.968 [INFO]  [Checking] out: [INFO] --- jacoco:0.8.11:report (default-cli) @ java-ee-servlet ---
+11:47:59.971 [INFO]  [Checking] out: [INFO] Loading execution data file /Users/amishra/Developer/demo-java-ee-servlet/target/jacoco.exec
+11:48:00.115 [INFO]  [Checking] out: [INFO] Analyzed bundle 'Java EE Servlet Webapp' with 14 classes
+11:48:00.278 [INFO]  [Checking] out: [INFO] ------------------------------------------------------------------------
+11:48:00.279 [INFO]  [Checking] out: [INFO] BUILD SUCCESS
+11:48:00.279 [INFO]  [Checking] out: [INFO] ------------------------------------------------------------------------
+11:48:00.279 [INFO]  [Checking] out: [INFO] Total time:  1.723 s
+11:48:00.279 [INFO]  [Checking] out: [INFO] Finished at: 2025-03-06T11:48:00Z
+11:48:00.279 [INFO]  [Checking] out: [INFO] ------------------------------------------------------------------------
+11:48:00.356 [INFO]  [Checking] Existing tests check successful
+11:48:00.416 [INFO]  [Checking] Existing tests cover 0 of 593 lines to cover (0.0%)
+11:48:00.429 [INFO]  [Reporting] 
+11:48:00.429 [WARN]  [Reporting] One or more warnings were logged, please review them in the log file
+11:48:00.429 [INFO]  [Reporting] Log file: /Users/amishra/Developer/demo-java-ee-servlet/.diffblue/log/user-20250306T114742.log
+11:48:00.429 [INFO]  [Reporting] Finished in 18s
