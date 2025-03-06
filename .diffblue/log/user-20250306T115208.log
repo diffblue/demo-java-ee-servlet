@@ -1,0 +1,1619 @@
+11:52:09.908 [INFO]  [Preparing] Diffblue Cover 2025.02.02-08b2a5a-licensed
+11:52:09.909 [INFO]  [Preparing] Running: dcover create --keep-partial-tests --coverage-reports
+11:52:09.909 [INFO]  [Preparing] 
+11:52:09.909 [INFO]  [Preparing] Command: create
+11:52:09.910 [INFO]  [Preparing] Create tests for the specified package/class/method.
+11:52:09.910 [INFO]  [Preparing] 
+11:52:13.133 [INFO]  [Checking] Maven Using ${maven.home} of: /opt/homebrew/Cellar/maven/3.9.9.
+11:52:13.135 [INFO]  [Checking] Maven Executing: /bin/sh -c cd /Users/amishra/Developer/demo-java-ee-servlet && /opt/homebrew/Cellar/maven/3.9.9/bin/mvn -B -version
+11:52:13.626 [INFO]  [Checking] Standard output of build tool (Maven)
+11:52:13.626 [INFO]  [Checking] > Apache Maven 3.9.9 (8e8579a9e76f7d015ee5ec7bfcdc97d260186937)
+11:52:13.626 [INFO]  [Checking] > Maven home: /opt/homebrew/Cellar/maven/3.9.9/libexec
+11:52:13.626 [INFO]  [Checking] > Java version: 1.8.0_442, vendor: Azul Systems, Inc., runtime: /Library/Java/JavaVirtualMachines/zulu-8.jdk/Contents/Home/jre
+11:52:13.627 [INFO]  [Checking] > Default locale: en_GB, platform encoding: UTF-8
+11:52:13.627 [INFO]  [Checking] > OS name: "mac os x", version: "15.3.1", arch: "aarch64", family: "mac"
+11:52:13.629 [INFO]  [Checking] Using CUSTOMISABLE Build System Implementation
+11:52:13.747 [INFO]  [Checking] Using default build rules as no custom rules found in any of [/Users/amishra/Developer/demo-java-ee-servlet]
+11:52:13.752 [INFO]  [Checking] Attempting to invoke mvnw in working directory: /Users/amishra/Developer/demo-java-ee-servlet
+11:52:13.766 [INFO]  [Checking] Attempting to invoke /opt/homebrew/bin/mvn in working directory: /Users/amishra/Developer/demo-java-ee-servlet
+11:52:13.779 [INFO]  [Checking] Started "/opt/homebrew/bin/mvn -Dmaven.ext.class.path=/usr/local/bin/diffblue/cover-buildsystem-maven-spy-jar-with-dependencies.jar -Dcom.diffblue.cover.skipTests=true --batch-mode install -Dmaven.compiler.failOnWarning=false --also-make -DskipTests -DskipITs --threads=1C"
+11:52:14.780 [INFO]  [Checking] out: [INFO] Scanning for projects...
+11:52:14.824 [INFO]  [Checking] out: [INFO] 
+11:52:14.824 [INFO]  [Checking] out: [INFO] Using the MultiThreadedBuilder implementation with a thread count of 10
+11:52:14.826 [INFO]  [Checking] out: [INFO] 
+11:52:14.826 [INFO]  [Checking] out: [INFO] ------------------< com.diffblue.pov:java-ee-servlet >------------------
+11:52:14.826 [INFO]  [Checking] out: [INFO] Building Java EE Servlet Webapp 1.0.0
+11:52:14.826 [INFO]  [Checking] out: [INFO]   from pom.xml
+11:52:14.826 [INFO]  [Checking] out: [INFO] --------------------------------[ war ]---------------------------------
+11:52:15.226 [INFO]  [Checking] out: [INFO] 
+11:52:15.226 [INFO]  [Checking] out: [INFO] --- resources:3.3.1:resources (default-resources) @ java-ee-servlet ---
+11:52:15.403 [INFO]  [Checking] out: [INFO] skip non existing resourceDirectory /Users/amishra/Developer/demo-java-ee-servlet/src/main/resources
+11:52:15.405 [INFO]  [Checking] out: [INFO] 
+11:52:15.405 [INFO]  [Checking] out: [INFO] --- compiler:3.13.0:compile (default-compile) @ java-ee-servlet ---
+11:52:15.581 [INFO]  [Checking] out: [INFO] Nothing to compile - all classes are up to date.
+11:52:15.583 [INFO]  [Checking] out: [INFO] 
+11:52:15.583 [INFO]  [Checking] out: [INFO] --- resources:3.3.1:testResources (default-testResources) @ java-ee-servlet ---
+11:52:15.584 [INFO]  [Checking] out: [INFO] skip non existing resourceDirectory /Users/amishra/Developer/demo-java-ee-servlet/src/test/resources
+11:52:15.586 [INFO]  [Checking] out: [INFO] 
+11:52:15.586 [INFO]  [Checking] out: [INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ java-ee-servlet ---
+11:52:15.596 [INFO]  [Checking] out: [INFO] Nothing to compile - all classes are up to date.
+11:52:15.598 [INFO]  [Checking] out: [INFO] 
+11:52:15.598 [INFO]  [Checking] out: [INFO] --- surefire:3.3.0:test (default-test) @ java-ee-servlet ---
+11:52:15.732 [INFO]  [Checking] out: [INFO] Tests are skipped.
+11:52:15.736 [INFO]  [Checking] out: [INFO] 
+11:52:15.736 [INFO]  [Checking] out: [INFO] --- war:3.4.0:war (default-war) @ java-ee-servlet ---
+11:52:16.103 [INFO]  [Checking] out: [INFO] Packaging webapp
+11:52:16.103 [INFO]  [Checking] out: [INFO] Assembling webapp [java-ee-servlet] in [/Users/amishra/Developer/demo-java-ee-servlet/target/DemoServlet]
+11:52:16.110 [INFO]  [Checking] out: [INFO] Processing war project
+11:52:16.110 [INFO]  [Checking] out: [INFO] Copying webapp resources [/Users/amishra/Developer/demo-java-ee-servlet/src/main/webapp]
+11:52:16.139 [INFO]  [Checking] out: [INFO] Building war: /Users/amishra/Developer/demo-java-ee-servlet/target/DemoServlet.war
+11:52:16.243 [INFO]  [Checking] out: [INFO] 
+11:52:16.243 [INFO]  [Checking] out: [INFO] --- install:3.1.2:install (default-install) @ java-ee-servlet ---
+11:52:16.296 [INFO]  [Checking] out: [INFO] Installing /Users/amishra/Developer/demo-java-ee-servlet/pom.xml to /Users/amishra/.m2/repository/com/diffblue/pov/java-ee-servlet/1.0.0/java-ee-servlet-1.0.0.pom
+11:52:16.312 [INFO]  [Checking] out: [INFO] Installing /Users/amishra/Developer/demo-java-ee-servlet/target/DemoServlet.war to /Users/amishra/.m2/repository/com/diffblue/pov/java-ee-servlet/1.0.0/java-ee-servlet-1.0.0.war
+11:52:16.389 [INFO]  [Checking] out: [INFO] ------------------------------------------------------------------------
+11:52:16.389 [INFO]  [Checking] out: [INFO] BUILD SUCCESS
+11:52:16.389 [INFO]  [Checking] out: [INFO] ------------------------------------------------------------------------
+11:52:16.389 [INFO]  [Checking] out: [INFO] Total time:  1.613 s (Wall Clock)
+11:52:16.389 [INFO]  [Checking] out: [INFO] Finished at: 2025-03-06T11:52:16Z
+11:52:16.389 [INFO]  [Checking] out: [INFO] ------------------------------------------------------------------------
+11:52:16.409 [INFO]  [Checking] Operating System: Mac OS X aarch64 15.3.1
+11:52:16.409 [INFO]  [Checking] Default charset: UTF-8
+11:52:16.409 [INFO]  [Checking] Default locale: en_GB
+11:52:16.409 [INFO]  [Checking] Default time zone: Europe/London
+11:52:16.419 [INFO]  [Checking] Discovered modules:
+11:52:16.419 [INFO]  [Checking] - com.diffblue.pov:java-ee-servlet
+11:52:16.419 [INFO]  [Checking] 
+11:52:16.422 [INFO]  [Checking] 
+11:52:16.422 [INFO]  [Checking] [1/1] Creating tests for module: com.diffblue.pov:java-ee-servlet
+11:52:16.423 [INFO]  [Checking] =================================================================
+11:52:16.423 [INFO]  [Checking] 
+11:52:16.423 [INFO]  [Checking] Detecting environment:
+11:52:16.423 [INFO]  [Checking] ----------------------
+11:52:16.474 [INFO]  [Checking] Detected Java version 1.8.0_442
+11:52:16.475 [INFO]  [Checking] Maven Using ${maven.home} of: /opt/homebrew/Cellar/maven/3.9.9.
+11:52:16.475 [INFO]  [Checking] Maven Executing: /bin/sh -c cd /Users/amishra/Developer/demo-java-ee-servlet && /opt/homebrew/Cellar/maven/3.9.9/bin/mvn -B -version
+11:52:16.957 [INFO]  [Checking] Standard output of build tool (Maven)
+11:52:16.957 [INFO]  [Checking] > Apache Maven 3.9.9 (8e8579a9e76f7d015ee5ec7bfcdc97d260186937)
+11:52:16.957 [INFO]  [Checking] > Maven home: /opt/homebrew/Cellar/maven/3.9.9/libexec
+11:52:16.957 [INFO]  [Checking] > Java version: 1.8.0_442, vendor: Azul Systems, Inc., runtime: /Library/Java/JavaVirtualMachines/zulu-8.jdk/Contents/Home/jre
+11:52:16.957 [INFO]  [Checking] > Default locale: en_GB, platform encoding: UTF-8
+11:52:16.957 [INFO]  [Checking] > OS name: "mac os x", version: "15.3.1", arch: "aarch64", family: "mac"
+11:52:16.958 [INFO]  [Checking] Using CUSTOMISABLE Build System Implementation
+11:52:16.958 [INFO]  [Checking] Using default build rules as no custom rules found in any of [/Users/amishra/Developer/demo-java-ee-servlet]
+11:52:16.960 [INFO]  [Checking] Attempting to invoke mvnw in working directory: /Users/amishra/Developer/demo-java-ee-servlet
+11:52:16.990 [INFO]  [Checking] Attempting to invoke /opt/homebrew/bin/mvn in working directory: /Users/amishra/Developer/demo-java-ee-servlet
+11:52:16.994 [INFO]  [Checking] Started "/opt/homebrew/bin/mvn -Dmaven.ext.class.path=/usr/local/bin/diffblue/cover-buildsystem-maven-spy-jar-with-dependencies.jar -Dcom.diffblue.cover.skipTests=true --batch-mode install -Dmaven.compiler.failOnWarning=false --also-make -DskipTests -DskipITs --threads=1C"
+11:52:18.062 [INFO]  [Checking] out: [INFO] Scanning for projects...
+11:52:18.102 [INFO]  [Checking] out: [INFO] 
+11:52:18.103 [INFO]  [Checking] out: [INFO] Using the MultiThreadedBuilder implementation with a thread count of 10
+11:52:18.105 [INFO]  [Checking] out: [INFO] 
+11:52:18.105 [INFO]  [Checking] out: [INFO] ------------------< com.diffblue.pov:java-ee-servlet >------------------
+11:52:18.105 [INFO]  [Checking] out: [INFO] Building Java EE Servlet Webapp 1.0.0
+11:52:18.105 [INFO]  [Checking] out: [INFO]   from pom.xml
+11:52:18.105 [INFO]  [Checking] out: [INFO] --------------------------------[ war ]---------------------------------
+11:52:18.552 [INFO]  [Checking] out: [INFO] 
+11:52:18.552 [INFO]  [Checking] out: [INFO] --- resources:3.3.1:resources (default-resources) @ java-ee-servlet ---
+11:52:18.736 [INFO]  [Checking] out: [INFO] skip non existing resourceDirectory /Users/amishra/Developer/demo-java-ee-servlet/src/main/resources
+11:52:18.738 [INFO]  [Checking] out: [INFO] 
+11:52:18.738 [INFO]  [Checking] out: [INFO] --- compiler:3.13.0:compile (default-compile) @ java-ee-servlet ---
+11:52:18.912 [INFO]  [Checking] out: [INFO] Nothing to compile - all classes are up to date.
+11:52:18.913 [INFO]  [Checking] out: [INFO] 
+11:52:18.914 [INFO]  [Checking] out: [INFO] --- resources:3.3.1:testResources (default-testResources) @ java-ee-servlet ---
+11:52:18.915 [INFO]  [Checking] out: [INFO] skip non existing resourceDirectory /Users/amishra/Developer/demo-java-ee-servlet/src/test/resources
+11:52:18.917 [INFO]  [Checking] out: [INFO] 
+11:52:18.917 [INFO]  [Checking] out: [INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ java-ee-servlet ---
+11:52:18.926 [INFO]  [Checking] out: [INFO] Nothing to compile - all classes are up to date.
+11:52:18.927 [INFO]  [Checking] out: [INFO] 
+11:52:18.928 [INFO]  [Checking] out: [INFO] --- surefire:3.3.0:test (default-test) @ java-ee-servlet ---
+11:52:19.020 [INFO]  [Checking] out: [INFO] Tests are skipped.
+11:52:19.022 [INFO]  [Checking] out: [INFO] 
+11:52:19.022 [INFO]  [Checking] out: [INFO] --- war:3.4.0:war (default-war) @ java-ee-servlet ---
+11:52:19.404 [INFO]  [Checking] out: [INFO] Packaging webapp
+11:52:19.405 [INFO]  [Checking] out: [INFO] Assembling webapp [java-ee-servlet] in [/Users/amishra/Developer/demo-java-ee-servlet/target/DemoServlet]
+11:52:19.411 [INFO]  [Checking] out: [INFO] Processing war project
+11:52:19.411 [INFO]  [Checking] out: [INFO] Copying webapp resources [/Users/amishra/Developer/demo-java-ee-servlet/src/main/webapp]
+11:52:19.443 [INFO]  [Checking] out: [INFO] Building war: /Users/amishra/Developer/demo-java-ee-servlet/target/DemoServlet.war
+11:52:19.541 [INFO]  [Checking] out: [INFO] 
+11:52:19.541 [INFO]  [Checking] out: [INFO] --- install:3.1.2:install (default-install) @ java-ee-servlet ---
+11:52:19.593 [INFO]  [Checking] out: [INFO] Installing /Users/amishra/Developer/demo-java-ee-servlet/pom.xml to /Users/amishra/.m2/repository/com/diffblue/pov/java-ee-servlet/1.0.0/java-ee-servlet-1.0.0.pom
+11:52:19.606 [INFO]  [Checking] out: [INFO] Installing /Users/amishra/Developer/demo-java-ee-servlet/target/DemoServlet.war to /Users/amishra/.m2/repository/com/diffblue/pov/java-ee-servlet/1.0.0/java-ee-servlet-1.0.0.war
+11:52:19.664 [INFO]  [Checking] out: [INFO] ------------------------------------------------------------------------
+11:52:19.664 [INFO]  [Checking] out: [INFO] BUILD SUCCESS
+11:52:19.664 [INFO]  [Checking] out: [INFO] ------------------------------------------------------------------------
+11:52:19.665 [INFO]  [Checking] out: [INFO] Total time:  1.620 s (Wall Clock)
+11:52:19.665 [INFO]  [Checking] out: [INFO] Finished at: 2025-03-06T11:52:19Z
+11:52:19.665 [INFO]  [Checking] out: [INFO] ------------------------------------------------------------------------
+11:52:19.694 [INFO]  [Checking] Detected build system: Maven 3.9.9
+11:52:19.694 [INFO]  [Checking] Operating System: Mac OS X aarch64 15.3.1
+11:52:19.694 [INFO]  [Checking] Default charset: UTF-8
+11:52:19.694 [INFO]  [Checking] Default locale: en_GB
+11:52:19.694 [INFO]  [Checking] Default time zone: Europe/London
+11:52:19.695 [INFO]  [Checking] Selected build system: Maven
+11:52:19.697 [INFO]  [Checking] Selected classpath from build system maven
+11:52:19.697 [INFO]  [Checking] Expanded classpath: 
+/Users/amishra/Developer/demo-java-ee-servlet/target/test-classes (test build path)
+/Users/amishra/Developer/demo-java-ee-servlet/target/classes (code under test)
+/Users/amishra/.m2/repository/javax/servlet/javax.servlet-api/4.0.1/javax.servlet-api-4.0.1.jar
+/Users/amishra/.m2/repository/junit/junit/4.13.1/junit-4.13.1.jar
+/Users/amishra/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar
+/Users/amishra/.m2/repository/com/mysql/mysql-connector-j/9.0.0/mysql-connector-j-9.0.0.jar
+/Users/amishra/.m2/repository/com/google/protobuf/protobuf-java/4.26.1/protobuf-java-4.26.1.jar
+/Users/amishra/.m2/repository/org/mockito/mockito-core/4.11.0/mockito-core-4.11.0.jar
+/Users/amishra/.m2/repository/net/bytebuddy/byte-buddy/1.12.19/byte-buddy-1.12.19.jar
+/Users/amishra/.m2/repository/net/bytebuddy/byte-buddy-agent/1.12.19/byte-buddy-agent-1.12.19.jar
+/Users/amishra/.m2/repository/org/objenesis/objenesis/3.3/objenesis-3.3.jar
+/Users/amishra/.m2/repository/com/diffblue/cover/cover-annotations/1.3.0/cover-annotations-1.3.0.jar
+11:52:19.730 [INFO]  [Checking] Detected test framework: JUnit 4.13.1
+11:52:19.852 [INFO]  [Checking] Detected Mockito version 4.11.0
+11:52:20.141 [INFO]  [Checking] Indexing...
+11:52:20.326 [INFO]  [Checking] Selected test output directory: /Users/amishra/Developer/demo-java-ee-servlet/src/test/java
+11:52:20.336 [INFO]  [Checking] Using default build rules as no custom rules found in any of [/Users/amishra/Developer/demo-java-ee-servlet]
+11:52:20.338 [INFO]  [Checking] Attempting to invoke mvnw in working directory: /Users/amishra/Developer/demo-java-ee-servlet
+11:52:20.355 [INFO]  [Checking] Attempting to invoke /opt/homebrew/bin/mvn in working directory: /Users/amishra/Developer/demo-java-ee-servlet
+11:52:20.365 [INFO]  [Checking] Started "/opt/homebrew/bin/mvn -Dmaven.ext.class.path=/usr/local/bin/diffblue/cover-buildsystem-maven-spy-jar-with-dependencies.jar -Dcom.diffblue.cover.skipTests=true --batch-mode --projects=com.diffblue.pov:java-ee-servlet test -DfailIfNoTests=false -Dsurefire.failIfNoSpecifiedTests=false -Dmaven.test.failure.ignore=True -Dtest=DummyJunitDiffblueTest"
+11:52:21.405 [INFO]  [Checking] out: [INFO] Scanning for projects...
+11:52:21.444 [INFO]  [Checking] out: [INFO] 
+11:52:21.445 [INFO]  [Checking] out: [INFO] ------------------< com.diffblue.pov:java-ee-servlet >------------------
+11:52:21.445 [INFO]  [Checking] out: [INFO] Building Java EE Servlet Webapp 1.0.0
+11:52:21.445 [INFO]  [Checking] out: [INFO]   from pom.xml
+11:52:21.445 [INFO]  [Checking] out: [INFO] --------------------------------[ war ]---------------------------------
+11:52:21.815 [INFO]  [Checking] out: [INFO] 
+11:52:21.815 [INFO]  [Checking] out: [INFO] --- resources:3.3.1:resources (default-resources) @ java-ee-servlet ---
+11:52:21.974 [INFO]  [Checking] out: [INFO] skip non existing resourceDirectory /Users/amishra/Developer/demo-java-ee-servlet/src/main/resources
+11:52:21.977 [INFO]  [Checking] out: [INFO] 
+11:52:21.977 [INFO]  [Checking] out: [INFO] --- compiler:3.13.0:compile (default-compile) @ java-ee-servlet ---
+11:52:22.165 [INFO]  [Checking] out: [INFO] Nothing to compile - all classes are up to date.
+11:52:22.167 [INFO]  [Checking] out: [INFO] 
+11:52:22.167 [INFO]  [Checking] out: [INFO] --- resources:3.3.1:testResources (default-testResources) @ java-ee-servlet ---
+11:52:22.169 [INFO]  [Checking] out: [INFO] skip non existing resourceDirectory /Users/amishra/Developer/demo-java-ee-servlet/src/test/resources
+11:52:22.170 [INFO]  [Checking] out: [INFO] 
+11:52:22.170 [INFO]  [Checking] out: [INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ java-ee-servlet ---
+11:52:22.181 [INFO]  [Checking] out: [INFO] Recompiling the module because of changed source code.
+11:52:22.189 [INFO]  [Checking] out: [INFO] Compiling 1 source file with javac [debug target 8] to target/test-classes
+11:52:22.464 [INFO]  [Checking] out: [INFO] 
+11:52:22.464 [INFO]  [Checking] out: [INFO] --- surefire:3.3.0:test (default-test) @ java-ee-servlet ---
+11:52:22.597 [INFO]  [Checking] out: [INFO] Using auto detected provider org.apache.maven.surefire.junit4.JUnit4Provider
+11:52:22.632 [INFO]  [Checking] out: [INFO] 
+11:52:22.632 [INFO]  [Checking] out: [INFO] -------------------------------------------------------
+11:52:22.632 [INFO]  [Checking] out: [INFO]  T E S T S
+11:52:22.632 [INFO]  [Checking] out: [INFO] -------------------------------------------------------
+11:52:22.897 [INFO]  [Checking] out: [INFO] Running DummyJunitDiffblueTest
+11:52:22.945 [INFO]  [Checking] out: [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 s -- in DummyJunitDiffblueTest
+11:52:22.950 [INFO]  [Checking] out: [INFO] 
+11:52:22.950 [INFO]  [Checking] out: [INFO] Results:
+11:52:22.950 [INFO]  [Checking] out: [INFO] 
+11:52:22.950 [INFO]  [Checking] out: [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+11:52:22.950 [INFO]  [Checking] out: [INFO] 
+11:52:22.997 [INFO]  [Checking] out: [INFO] ------------------------------------------------------------------------
+11:52:22.997 [INFO]  [Checking] out: [INFO] BUILD SUCCESS
+11:52:22.997 [INFO]  [Checking] out: [INFO] ------------------------------------------------------------------------
+11:52:23.047 [INFO]  [Checking] out: [INFO] Total time:  1.605 s
+11:52:23.047 [INFO]  [Checking] out: [INFO] Finished at: 2025-03-06T11:52:22Z
+11:52:23.047 [INFO]  [Checking] out: [INFO] ------------------------------------------------------------------------
+11:52:23.103 [INFO]  [Checking] Selected test framework: JUnit
+11:52:23.115 [INFO]  [Checking] Detected Hamcrest 1 version 1.3
+11:52:23.928 [INFO]  [Checking] Detected JVM architecture: 64-Bit
+11:52:24.050 [INFO]  [Checking] Selected Java language compliance level: 1.8
+11:52:24.051 [INFO]  [Checking] Selected test validation: enabled
+11:52:24.105 [INFO]  [Checking] Prefixes for filtering classes/methods:
+11:52:24.106 [INFO]  [Checking] - controller
+11:52:24.106 [INFO]  [Checking] - dao
+11:52:24.106 [INFO]  [Checking] - model
+11:52:24.106 [INFO]  [Checking] - util
+11:52:24.106 [INFO]  [Checking] Gathering methods to test...
+11:52:24.750 [INFO]  [Reporting] 
+11:52:24.750 [INFO]  [Reporting] Environment summary for module: com.diffblue.pov:java-ee-servlet
+11:52:24.750 [INFO]  [Reporting] ----------------------------------------------------------------
+11:52:24.750 [INFO]  [Reporting] Java version                   1.8.0_442                     SUCCESS        
+11:52:24.750 [INFO]  [Reporting] Build system                   Maven                         SUCCESS        
+11:52:24.750 [INFO]  [Reporting] Mocking Framework              Mockito 4.11.0                SUCCESS        
+11:52:24.750 [INFO]  [Reporting] Surefire version               3.3.0                         SUCCESS        
+11:52:24.750 [INFO]  [Reporting] Testing framework              JUnit 4.13                    SUCCESS        
+11:52:24.750 [INFO]  [Reporting] JavaEE version                 Skipped                       -----          
+11:52:24.750 [INFO]  [Reporting] Spring Core                    Not Detected                  -----          
+11:52:24.750 [INFO]  [Reporting] JaCoCo plugin version          0.8.11                        SUCCESS        
+11:52:24.750 [INFO]  [Reporting] Launcher                       JUnit 4, TestNG, or unknown   SUCCESS        
+11:52:24.750 [INFO]  [Reporting] Quarkus                        Not Detected                  -----          
+11:52:24.750 [INFO]  [Reporting] Test validation                Enabled                       SUCCESS        
+11:52:24.750 [INFO]  [Reporting] Hamcrest                       Hamcrest 1 1.3                SUCCESS        
+11:52:24.750 [INFO]  [Reporting] Spring Boot                    Skipped                       -----          
+11:52:24.750 [INFO]  [Reporting] Spring Boot Starter Webflux    Skipped                       -----          
+11:52:24.750 [INFO]  [Reporting] Spring Boot Test Autoconfigure Skipped                       -----          
+11:52:24.750 [INFO]  [Reporting] Spring Boot Test               Skipped                       -----          
+11:52:24.751 [INFO]  [Reporting] Spring Web                     Skipped                       -----          
+11:52:24.751 [INFO]  [Reporting] Spring Security Web            Skipped                       -----          
+11:52:24.751 [INFO]  [Reporting] Spring Test                    Skipped                       -----          
+11:52:24.751 [INFO]  [Reporting] Cover Annotations              Not Detected                  -----          
+11:52:24.751 [INFO]  [Reporting] 
+11:52:24.751 [INFO]  [Reporting] Environment check status: SUCCESS
+11:52:24.973 [INFO]  [Creating] Found 82 callable methods in 14 classes
+11:52:24.974 [INFO]  [Creating] 
+11:52:24.974 [INFO]  [Creating] Creating tests:
+11:52:24.974 [INFO]  [Creating] ---------------
+11:52:24.978 [INFO]  [Creating] 
+================================================================================
+= Starting analysis for class 'controller.HomeServlet'
+================================================================================
+11:52:24.978 [INFO]  [Creating] Filtering out non-testable methods...
+11:52:27.046 [INFO]  [Creating] Filtering of methods complete. Creating analysis request
+11:52:27.047 [INFO]  [Creating] Attempting to get service client, retry 1.
+11:52:27.064 [INFO]  [Creating] Starting monitoring server.
+11:52:27.201 [INFO]  [Creating] Monitoring server listening on localhost/127.0.0.1:49983
+11:52:27.309 [INFO]  [Creating] Starting analyzer server process...
+11:52:27.310 [INFO]  [Creating] Server command-line: /Library/Java/JavaVirtualMachines/zulu-8.jdk/Contents/Home/jre/bin/java -XX:+IgnoreUnrecognizedVMOptions -Djdk.attach.allowAttachSelf=true -Djdk.jar.maxSignatureFileSize=100000000 -ea -javaagent:/usr/local/bin/diffblue/launcher-shared-jar.jar -Dlogback.configurationFile=/var/folders/p2/qfsg813s0h9b5mhb_8typkwm0000gp/T/diffblue/config/logback-remote-service.xml -Dcom.diffblue.springIsolationJar=/usr/local/bin/diffblue/cover-isolation-layer.jar -Dcover.jar.path=/usr/local/bin/diffblue/cover-service-analyzer.jar -Dcom.diffblue.assertionSuggestionJar=/usr/local/bin/diffblue/cover-service-analyzer.jar -Dcover.main.class=com.diffblue.cover.service.analyzer.Main -jar /usr/local/bin/diffblue/launcher-shared-jar.jar --service-lifespan 120 --monitoring-service-port 49983 --index-service-port 49983 --debug-log
+11:52:27.328 [INFO]  [Creating] Server started. Waiting up to 300 seconds for a connection to be established...
+11:52:28.177 [INFO]  [Creating] Starting new remote monitor client
+11:52:28.487 [INFO]  [Creating] Attempting to start remote server.
+11:52:28.950 [INFO]  [Creating] Expect analyzer service to be listening on port 49985.
+11:52:28.947 [INFO]  [Creating] Server started, listening on localhost/127.0.0.1:49985
+11:52:29.404 [INFO]  [Creating] Started analyzer service and client retrieved.
+11:52:43.407 [INFO]  [Creating]      [1/82] controller.HomeServlet.<init>
+11:52:43.407 [INFO]  [Creating]      [1/82]   Tests created: 1
+11:52:47.228 [INFO]  [Creating]      [2/82] controller.HomeServlet.doGet
+11:52:47.228 [INFO]  [Creating]      [2/82]   Partial tests created: 1
+11:52:47.228 [INFO]  [Creating]      [2/82]   Reasons for partial tests:
+11:52:47.228 [INFO]  [Creating]      [2/82]   R013: No inputs found that don't throw a trivial exception
+11:52:47.228 [INFO]  [Creating]      [2/82]     Diffblue Cover tried to run the arrange/act section, but the test threw
+11:52:47.228 [INFO]  [Creating]      [2/82]     java.lang.IllegalArgumentException: Request cannot be null
+11:52:47.228 [INFO]  [Creating]      [2/82]         at javax.servlet.ServletRequestWrapper.<init>(ServletRequestWrapper.java:50)
+11:52:47.228 [INFO]  [Creating]      [2/82]         at javax.servlet.http.HttpServletRequestWrapper.<init>(HttpServletRequestWrapper.java:47)
+11:52:47.228 [INFO]  [Creating]      [2/82]     In order to prevent doGet(HttpServletRequest, HttpServletResponse)
+11:52:47.229 [INFO]  [Creating]      [2/82]     from throwing IllegalArgumentException, add constructors or factory
+11:52:47.229 [INFO]  [Creating]      [2/82]     methods that make it easier to construct fully initialized objects used in
+11:52:47.229 [INFO]  [Creating]      [2/82]     doGet(HttpServletRequest, HttpServletResponse).
+11:52:47.229 [INFO]  [Creating]      [2/82]     See https://diff.blue/R013 to resolve this issue.
+11:52:47.359 [INFO]  [Creating]      [3/82] controller.HomeServlet.doPost
+11:52:47.359 [INFO]  [Creating]      [3/82]   Partial tests created: 1
+11:52:47.359 [INFO]  [Creating]      [3/82]   Reasons for partial tests:
+11:52:47.359 [INFO]  [Creating]      [3/82]   R013: No inputs found that don't throw a trivial exception
+11:52:47.359 [INFO]  [Creating]      [3/82]     Diffblue Cover tried to run the arrange/act section, but the test threw
+11:52:47.359 [INFO]  [Creating]      [3/82]     java.lang.IllegalArgumentException: Request cannot be null
+11:52:47.359 [INFO]  [Creating]      [3/82]         at javax.servlet.ServletRequestWrapper.<init>(ServletRequestWrapper.java:50)
+11:52:47.359 [INFO]  [Creating]      [3/82]         at javax.servlet.http.HttpServletRequestWrapper.<init>(HttpServletRequestWrapper.java:47)
+11:52:47.359 [INFO]  [Creating]      [3/82]     In order to prevent doPost(HttpServletRequest, HttpServletResponse)
+11:52:47.359 [INFO]  [Creating]      [3/82]     from throwing IllegalArgumentException, add constructors or factory
+11:52:47.359 [INFO]  [Creating]      [3/82]     methods that make it easier to construct fully initialized objects used in
+11:52:47.359 [INFO]  [Creating]      [3/82]     doPost(HttpServletRequest, HttpServletResponse).
+11:52:47.359 [INFO]  [Creating]      [3/82]     See https://diff.blue/R013 to resolve this issue.
+11:52:47.363 [INFO]  [Creating]  [1/14] controller.HomeServlet
+11:52:47.363 [INFO]  [Creating]  [1/14]   Tests created: 1
+11:52:47.363 [INFO]  [Creating]  [1/14]   Partial tests created: 2
+11:52:47.363 [INFO]  [Creating] 
+================================================================================
+= Starting analysis for class 'controller.LoginServlet'
+================================================================================
+11:52:47.363 [INFO]  [Creating] Filtering out non-testable methods...
+11:52:47.363 [INFO]  [Creating] Filtering of methods complete. Creating analysis request
+11:52:47.363 [INFO]  [Creating] Attempting to get service client, retry 1.
+11:52:51.231 [INFO]  [Creating]      [4/82] controller.LoginServlet.<init>
+11:52:51.231 [INFO]  [Creating]      [4/82]   Tests created: 1
+11:52:54.798 [INFO]  [Creating]      [5/82] controller.LoginServlet.doGet
+11:52:54.799 [INFO]  [Creating]      [5/82]   Partial tests created: 1
+11:52:54.799 [INFO]  [Creating]      [5/82]   Reasons for partial tests:
+11:52:54.799 [INFO]  [Creating]      [5/82]   R013: No inputs found that don't throw a trivial exception
+11:52:54.799 [INFO]  [Creating]      [5/82]     Diffblue Cover tried to run the arrange/act section, but the test threw
+11:52:54.799 [INFO]  [Creating]      [5/82]     java.lang.IllegalArgumentException: Request cannot be null
+11:52:54.799 [INFO]  [Creating]      [5/82]         at javax.servlet.ServletRequestWrapper.<init>(ServletRequestWrapper.java:50)
+11:52:54.799 [INFO]  [Creating]      [5/82]         at javax.servlet.http.HttpServletRequestWrapper.<init>(HttpServletRequestWrapper.java:47)
+11:52:54.799 [INFO]  [Creating]      [5/82]     In order to prevent doGet(HttpServletRequest, HttpServletResponse)
+11:52:54.799 [INFO]  [Creating]      [5/82]     from throwing IllegalArgumentException, add constructors or factory
+11:52:54.799 [INFO]  [Creating]      [5/82]     methods that make it easier to construct fully initialized objects used in
+11:52:54.799 [INFO]  [Creating]      [5/82]     doGet(HttpServletRequest, HttpServletResponse).
+11:52:54.799 [INFO]  [Creating]      [5/82]     See https://diff.blue/R013 to resolve this issue.
+11:52:54.922 [INFO]  [Creating]      [6/82] controller.LoginServlet.doPost
+11:52:54.922 [INFO]  [Creating]      [6/82]   Partial tests created: 1
+11:52:54.922 [INFO]  [Creating]      [6/82]   Reasons for partial tests:
+11:52:54.922 [INFO]  [Creating]      [6/82]   R013: No inputs found that don't throw a trivial exception
+11:52:54.922 [INFO]  [Creating]      [6/82]     Diffblue Cover tried to run the arrange/act section, but the test threw
+11:52:54.922 [INFO]  [Creating]      [6/82]     java.lang.IllegalArgumentException: Request cannot be null
+11:52:54.922 [INFO]  [Creating]      [6/82]         at javax.servlet.ServletRequestWrapper.<init>(ServletRequestWrapper.java:50)
+11:52:54.922 [INFO]  [Creating]      [6/82]         at javax.servlet.http.HttpServletRequestWrapper.<init>(HttpServletRequestWrapper.java:47)
+11:52:54.922 [INFO]  [Creating]      [6/82]     In order to prevent doPost(HttpServletRequest, HttpServletResponse)
+11:52:54.922 [INFO]  [Creating]      [6/82]     from throwing IllegalArgumentException, add constructors or factory
+11:52:54.922 [INFO]  [Creating]      [6/82]     methods that make it easier to construct fully initialized objects used in
+11:52:54.922 [INFO]  [Creating]      [6/82]     doPost(HttpServletRequest, HttpServletResponse).
+11:52:54.922 [INFO]  [Creating]      [6/82]     See https://diff.blue/R013 to resolve this issue.
+11:52:54.924 [INFO]  [Creating]  [2/14] controller.LoginServlet
+11:52:54.924 [INFO]  [Creating]  [2/14]   Tests created: 1
+11:52:54.924 [INFO]  [Creating]  [2/14]   Partial tests created: 2
+11:52:54.924 [INFO]  [Creating] 
+================================================================================
+= Starting analysis for class 'controller.LogoutServlet'
+================================================================================
+11:52:54.924 [INFO]  [Creating] Filtering out non-testable methods...
+11:52:54.924 [INFO]  [Creating] Filtering of methods complete. Creating analysis request
+11:52:54.924 [INFO]  [Creating] Attempting to get service client, retry 1.
+11:52:58.421 [INFO]  [Creating]      [7/82] controller.LogoutServlet.<init>
+11:52:58.421 [INFO]  [Creating]      [7/82]   Tests created: 1
+11:53:01.793 [INFO]  [Creating]      [8/82] controller.LogoutServlet.doGet
+11:53:01.793 [INFO]  [Creating]      [8/82]   Partial tests created: 1
+11:53:01.793 [INFO]  [Creating]      [8/82]   Reasons for partial tests:
+11:53:01.793 [INFO]  [Creating]      [8/82]   R013: No inputs found that don't throw a trivial exception
+11:53:01.793 [INFO]  [Creating]      [8/82]     Diffblue Cover tried to run the arrange/act section, but the test threw
+11:53:01.793 [INFO]  [Creating]      [8/82]     java.lang.IllegalArgumentException: Request cannot be null
+11:53:01.793 [INFO]  [Creating]      [8/82]         at javax.servlet.ServletRequestWrapper.<init>(ServletRequestWrapper.java:50)
+11:53:01.794 [INFO]  [Creating]      [8/82]         at javax.servlet.http.HttpServletRequestWrapper.<init>(HttpServletRequestWrapper.java:47)
+11:53:01.794 [INFO]  [Creating]      [8/82]     In order to prevent doGet(HttpServletRequest, HttpServletResponse)
+11:53:01.794 [INFO]  [Creating]      [8/82]     from throwing IllegalArgumentException, add constructors or factory
+11:53:01.794 [INFO]  [Creating]      [8/82]     methods that make it easier to construct fully initialized objects used in
+11:53:01.794 [INFO]  [Creating]      [8/82]     doGet(HttpServletRequest, HttpServletResponse).
+11:53:01.794 [INFO]  [Creating]      [8/82]     See https://diff.blue/R013 to resolve this issue.
+11:53:01.896 [INFO]  [Creating]      [9/82] controller.LogoutServlet.doPost
+11:53:01.896 [INFO]  [Creating]      [9/82]   Partial tests created: 1
+11:53:01.896 [INFO]  [Creating]      [9/82]   Reasons for partial tests:
+11:53:01.896 [INFO]  [Creating]      [9/82]   R013: No inputs found that don't throw a trivial exception
+11:53:01.896 [INFO]  [Creating]      [9/82]     Diffblue Cover tried to run the arrange/act section, but the test threw
+11:53:01.896 [INFO]  [Creating]      [9/82]     java.lang.IllegalArgumentException: Request cannot be null
+11:53:01.896 [INFO]  [Creating]      [9/82]         at javax.servlet.ServletRequestWrapper.<init>(ServletRequestWrapper.java:50)
+11:53:01.896 [INFO]  [Creating]      [9/82]         at javax.servlet.http.HttpServletRequestWrapper.<init>(HttpServletRequestWrapper.java:47)
+11:53:01.896 [INFO]  [Creating]      [9/82]     In order to prevent doPost(HttpServletRequest, HttpServletResponse)
+11:53:01.896 [INFO]  [Creating]      [9/82]     from throwing IllegalArgumentException, add constructors or factory
+11:53:01.896 [INFO]  [Creating]      [9/82]     methods that make it easier to construct fully initialized objects used in
+11:53:01.896 [INFO]  [Creating]      [9/82]     doPost(HttpServletRequest, HttpServletResponse).
+11:53:01.897 [INFO]  [Creating]      [9/82]     See https://diff.blue/R013 to resolve this issue.
+11:53:01.898 [INFO]  [Creating]  [3/14] controller.LogoutServlet
+11:53:01.898 [INFO]  [Creating]  [3/14]   Tests created: 1
+11:53:01.898 [INFO]  [Creating]  [3/14]   Partial tests created: 2
+11:53:01.898 [INFO]  [Creating] 
+================================================================================
+= Starting analysis for class 'controller.MessageServlet'
+================================================================================
+11:53:01.898 [INFO]  [Creating] Filtering out non-testable methods...
+11:53:01.898 [INFO]  [Creating] Filtering of methods complete. Creating analysis request
+11:53:01.898 [INFO]  [Creating] Attempting to get service client, retry 1.
+11:53:05.320 [INFO]  [Creating]     [10/82] controller.MessageServlet.<init>
+11:53:05.320 [INFO]  [Creating]     [10/82]   Tests created: 1
+11:53:08.750 [INFO]  [Creating]     [11/82] controller.MessageServlet.doGet
+11:53:08.751 [INFO]  [Creating]     [11/82]   Partial tests created: 1
+11:53:08.751 [INFO]  [Creating]     [11/82]   Reasons for partial tests:
+11:53:08.751 [INFO]  [Creating]     [11/82]   R013: No inputs found that don't throw a trivial exception
+11:53:08.751 [INFO]  [Creating]     [11/82]     Diffblue Cover tried to run the arrange/act section, but the test threw
+11:53:08.751 [INFO]  [Creating]     [11/82]     java.lang.IllegalArgumentException: Request cannot be null
+11:53:08.751 [INFO]  [Creating]     [11/82]         at javax.servlet.ServletRequestWrapper.<init>(ServletRequestWrapper.java:50)
+11:53:08.751 [INFO]  [Creating]     [11/82]         at javax.servlet.http.HttpServletRequestWrapper.<init>(HttpServletRequestWrapper.java:47)
+11:53:08.751 [INFO]  [Creating]     [11/82]     In order to prevent doGet(HttpServletRequest, HttpServletResponse)
+11:53:08.751 [INFO]  [Creating]     [11/82]     from throwing IllegalArgumentException, add constructors or factory
+11:53:08.751 [INFO]  [Creating]     [11/82]     methods that make it easier to construct fully initialized objects used in
+11:53:08.751 [INFO]  [Creating]     [11/82]     doGet(HttpServletRequest, HttpServletResponse).
+11:53:08.751 [INFO]  [Creating]     [11/82]     See https://diff.blue/R013 to resolve this issue.
+11:53:08.835 [INFO]  [Creating]     [12/82] controller.MessageServlet.doPost
+11:53:08.835 [INFO]  [Creating]     [12/82]   Partial tests created: 1
+11:53:08.835 [INFO]  [Creating]     [12/82]   Reasons for partial tests:
+11:53:08.836 [INFO]  [Creating]     [12/82]   R013: No inputs found that don't throw a trivial exception
+11:53:08.836 [INFO]  [Creating]     [12/82]     Diffblue Cover tried to run the arrange/act section, but the test threw
+11:53:08.836 [INFO]  [Creating]     [12/82]     java.lang.IllegalArgumentException: Request cannot be null
+11:53:08.836 [INFO]  [Creating]     [12/82]         at javax.servlet.ServletRequestWrapper.<init>(ServletRequestWrapper.java:50)
+11:53:08.836 [INFO]  [Creating]     [12/82]         at javax.servlet.http.HttpServletRequestWrapper.<init>(HttpServletRequestWrapper.java:47)
+11:53:08.836 [INFO]  [Creating]     [12/82]     In order to prevent doPost(HttpServletRequest, HttpServletResponse)
+11:53:08.836 [INFO]  [Creating]     [12/82]     from throwing IllegalArgumentException, add constructors or factory
+11:53:08.836 [INFO]  [Creating]     [12/82]     methods that make it easier to construct fully initialized objects used in
+11:53:08.836 [INFO]  [Creating]     [12/82]     doPost(HttpServletRequest, HttpServletResponse).
+11:53:08.836 [INFO]  [Creating]     [12/82]     See https://diff.blue/R013 to resolve this issue.
+11:53:08.837 [INFO]  [Creating]  [4/14] controller.MessageServlet
+11:53:08.837 [INFO]  [Creating]  [4/14]   Tests created: 1
+11:53:08.837 [INFO]  [Creating]  [4/14]   Partial tests created: 2
+11:53:08.839 [INFO]  [Creating] 
+================================================================================
+= Starting analysis for class 'controller.ProfileServlet'
+================================================================================
+11:53:08.839 [INFO]  [Creating] Filtering out non-testable methods...
+11:53:08.839 [INFO]  [Creating] Filtering of methods complete. Creating analysis request
+11:53:08.839 [INFO]  [Creating] Attempting to get service client, retry 1.
+11:53:12.301 [INFO]  [Creating]     [13/82] controller.ProfileServlet.<init>
+11:53:12.301 [INFO]  [Creating]     [13/82]   Tests created: 1
+11:53:15.633 [INFO]  [Creating]     [14/82] controller.ProfileServlet.doGet
+11:53:15.633 [INFO]  [Creating]     [14/82]   Partial tests created: 1
+11:53:15.633 [INFO]  [Creating]     [14/82]   Reasons for partial tests:
+11:53:15.633 [INFO]  [Creating]     [14/82]   R013: No inputs found that don't throw a trivial exception
+11:53:15.633 [INFO]  [Creating]     [14/82]     Diffblue Cover tried to run the arrange/act section, but the test threw
+11:53:15.633 [INFO]  [Creating]     [14/82]     java.lang.IllegalArgumentException: Request cannot be null
+11:53:15.633 [INFO]  [Creating]     [14/82]         at javax.servlet.ServletRequestWrapper.<init>(ServletRequestWrapper.java:50)
+11:53:15.633 [INFO]  [Creating]     [14/82]         at javax.servlet.http.HttpServletRequestWrapper.<init>(HttpServletRequestWrapper.java:47)
+11:53:15.633 [INFO]  [Creating]     [14/82]     In order to prevent doGet(HttpServletRequest, HttpServletResponse)
+11:53:15.633 [INFO]  [Creating]     [14/82]     from throwing IllegalArgumentException, add constructors or factory
+11:53:15.633 [INFO]  [Creating]     [14/82]     methods that make it easier to construct fully initialized objects used in
+11:53:15.633 [INFO]  [Creating]     [14/82]     doGet(HttpServletRequest, HttpServletResponse).
+11:53:15.633 [INFO]  [Creating]     [14/82]     See https://diff.blue/R013 to resolve this issue.
+11:53:15.733 [INFO]  [Creating]     [15/82] controller.ProfileServlet.doPost
+11:53:15.733 [INFO]  [Creating]     [15/82]   Partial tests created: 1
+11:53:15.733 [INFO]  [Creating]     [15/82]   Reasons for partial tests:
+11:53:15.733 [INFO]  [Creating]     [15/82]   R013: No inputs found that don't throw a trivial exception
+11:53:15.733 [INFO]  [Creating]     [15/82]     Diffblue Cover tried to run the arrange/act section, but the test threw
+11:53:15.733 [INFO]  [Creating]     [15/82]     java.lang.IllegalArgumentException: Request cannot be null
+11:53:15.733 [INFO]  [Creating]     [15/82]         at javax.servlet.ServletRequestWrapper.<init>(ServletRequestWrapper.java:50)
+11:53:15.733 [INFO]  [Creating]     [15/82]         at javax.servlet.http.HttpServletRequestWrapper.<init>(HttpServletRequestWrapper.java:47)
+11:53:15.734 [INFO]  [Creating]     [15/82]     In order to prevent doPost(HttpServletRequest, HttpServletResponse)
+11:53:15.734 [INFO]  [Creating]     [15/82]     from throwing IllegalArgumentException, add constructors or factory
+11:53:15.734 [INFO]  [Creating]     [15/82]     methods that make it easier to construct fully initialized objects used in
+11:53:15.734 [INFO]  [Creating]     [15/82]     doPost(HttpServletRequest, HttpServletResponse).
+11:53:15.734 [INFO]  [Creating]     [15/82]     See https://diff.blue/R013 to resolve this issue.
+11:53:15.735 [INFO]  [Creating]  [5/14] controller.ProfileServlet
+11:53:15.735 [INFO]  [Creating]  [5/14]   Tests created: 1
+11:53:15.735 [INFO]  [Creating]  [5/14]   Partial tests created: 2
+11:53:15.735 [INFO]  [Creating] 
+================================================================================
+= Starting analysis for class 'controller.RegisterServlet'
+================================================================================
+11:53:15.735 [INFO]  [Creating] Filtering out non-testable methods...
+11:53:15.736 [INFO]  [Creating] Filtering of methods complete. Creating analysis request
+11:53:15.736 [INFO]  [Creating] Attempting to get service client, retry 1.
+11:53:19.218 [INFO]  [Creating]     [16/82] controller.RegisterServlet.<init>
+11:53:19.218 [INFO]  [Creating]     [16/82]   Tests created: 1
+11:53:22.504 [INFO]  [Creating]     [17/82] controller.RegisterServlet.doGet
+11:53:22.504 [INFO]  [Creating]     [17/82]   Partial tests created: 1
+11:53:22.504 [INFO]  [Creating]     [17/82]   Reasons for partial tests:
+11:53:22.504 [INFO]  [Creating]     [17/82]   R013: No inputs found that don't throw a trivial exception
+11:53:22.504 [INFO]  [Creating]     [17/82]     Diffblue Cover tried to run the arrange/act section, but the test threw
+11:53:22.504 [INFO]  [Creating]     [17/82]     java.lang.IllegalArgumentException: Request cannot be null
+11:53:22.504 [INFO]  [Creating]     [17/82]         at javax.servlet.ServletRequestWrapper.<init>(ServletRequestWrapper.java:50)
+11:53:22.504 [INFO]  [Creating]     [17/82]         at javax.servlet.http.HttpServletRequestWrapper.<init>(HttpServletRequestWrapper.java:47)
+11:53:22.504 [INFO]  [Creating]     [17/82]     In order to prevent doGet(HttpServletRequest, HttpServletResponse)
+11:53:22.504 [INFO]  [Creating]     [17/82]     from throwing IllegalArgumentException, add constructors or factory
+11:53:22.504 [INFO]  [Creating]     [17/82]     methods that make it easier to construct fully initialized objects used in
+11:53:22.504 [INFO]  [Creating]     [17/82]     doGet(HttpServletRequest, HttpServletResponse).
+11:53:22.504 [INFO]  [Creating]     [17/82]     See https://diff.blue/R013 to resolve this issue.
+11:53:22.590 [INFO]  [Creating]     [18/82] controller.RegisterServlet.doPost
+11:53:22.590 [INFO]  [Creating]     [18/82]   Partial tests created: 1
+11:53:22.590 [INFO]  [Creating]     [18/82]   Reasons for partial tests:
+11:53:22.590 [INFO]  [Creating]     [18/82]   R013: No inputs found that don't throw a trivial exception
+11:53:22.590 [INFO]  [Creating]     [18/82]     Diffblue Cover tried to run the arrange/act section, but the test threw
+11:53:22.590 [INFO]  [Creating]     [18/82]     java.lang.IllegalArgumentException: Request cannot be null
+11:53:22.590 [INFO]  [Creating]     [18/82]         at javax.servlet.ServletRequestWrapper.<init>(ServletRequestWrapper.java:50)
+11:53:22.590 [INFO]  [Creating]     [18/82]         at javax.servlet.http.HttpServletRequestWrapper.<init>(HttpServletRequestWrapper.java:47)
+11:53:22.590 [INFO]  [Creating]     [18/82]     In order to prevent doPost(HttpServletRequest, HttpServletResponse)
+11:53:22.590 [INFO]  [Creating]     [18/82]     from throwing IllegalArgumentException, add constructors or factory
+11:53:22.590 [INFO]  [Creating]     [18/82]     methods that make it easier to construct fully initialized objects used in
+11:53:22.590 [INFO]  [Creating]     [18/82]     doPost(HttpServletRequest, HttpServletResponse).
+11:53:22.590 [INFO]  [Creating]     [18/82]     See https://diff.blue/R013 to resolve this issue.
+11:53:22.592 [INFO]  [Creating]  [6/14] controller.RegisterServlet
+11:53:22.592 [INFO]  [Creating]  [6/14]   Tests created: 1
+11:53:22.592 [INFO]  [Creating]  [6/14]   Partial tests created: 2
+11:53:22.592 [INFO]  [Creating] 
+================================================================================
+= Starting analysis for class 'controller.ViewMessageServlet'
+================================================================================
+11:53:22.592 [INFO]  [Creating] Filtering out non-testable methods...
+11:53:22.592 [INFO]  [Creating] Filtering of methods complete. Creating analysis request
+11:53:22.592 [INFO]  [Creating] Attempting to get service client, retry 1.
+11:53:25.965 [INFO]  [Creating]     [19/82] controller.ViewMessageServlet.<init>
+11:53:25.965 [INFO]  [Creating]     [19/82]   Tests created: 1
+11:53:29.343 [INFO]  [Creating]     [20/82] controller.ViewMessageServlet.doGet
+11:53:29.343 [INFO]  [Creating]     [20/82]   Partial tests created: 1
+11:53:29.343 [INFO]  [Creating]     [20/82]   Reasons for partial tests:
+11:53:29.343 [INFO]  [Creating]     [20/82]   R013: No inputs found that don't throw a trivial exception
+11:53:29.343 [INFO]  [Creating]     [20/82]     Diffblue Cover tried to run the arrange/act section, but the test threw
+11:53:29.343 [INFO]  [Creating]     [20/82]     java.lang.IllegalArgumentException: Request cannot be null
+11:53:29.343 [INFO]  [Creating]     [20/82]         at javax.servlet.ServletRequestWrapper.<init>(ServletRequestWrapper.java:50)
+11:53:29.343 [INFO]  [Creating]     [20/82]         at javax.servlet.http.HttpServletRequestWrapper.<init>(HttpServletRequestWrapper.java:47)
+11:53:29.343 [INFO]  [Creating]     [20/82]     In order to prevent doGet(HttpServletRequest, HttpServletResponse)
+11:53:29.343 [INFO]  [Creating]     [20/82]     from throwing IllegalArgumentException, add constructors or factory
+11:53:29.343 [INFO]  [Creating]     [20/82]     methods that make it easier to construct fully initialized objects used in
+11:53:29.343 [INFO]  [Creating]     [20/82]     doGet(HttpServletRequest, HttpServletResponse).
+11:53:29.343 [INFO]  [Creating]     [20/82]     See https://diff.blue/R013 to resolve this issue.
+11:53:29.428 [INFO]  [Creating]     [21/82] controller.ViewMessageServlet.doPost
+11:53:29.428 [INFO]  [Creating]     [21/82]   Partial tests created: 1
+11:53:29.428 [INFO]  [Creating]     [21/82]   Reasons for partial tests:
+11:53:29.428 [INFO]  [Creating]     [21/82]   R013: No inputs found that don't throw a trivial exception
+11:53:29.428 [INFO]  [Creating]     [21/82]     Diffblue Cover tried to run the arrange/act section, but the test threw
+11:53:29.428 [INFO]  [Creating]     [21/82]     java.lang.IllegalArgumentException: Request cannot be null
+11:53:29.428 [INFO]  [Creating]     [21/82]         at javax.servlet.ServletRequestWrapper.<init>(ServletRequestWrapper.java:50)
+11:53:29.428 [INFO]  [Creating]     [21/82]         at javax.servlet.http.HttpServletRequestWrapper.<init>(HttpServletRequestWrapper.java:47)
+11:53:29.428 [INFO]  [Creating]     [21/82]     In order to prevent doPost(HttpServletRequest, HttpServletResponse)
+11:53:29.428 [INFO]  [Creating]     [21/82]     from throwing IllegalArgumentException, add constructors or factory
+11:53:29.428 [INFO]  [Creating]     [21/82]     methods that make it easier to construct fully initialized objects used in
+11:53:29.428 [INFO]  [Creating]     [21/82]     doPost(HttpServletRequest, HttpServletResponse).
+11:53:29.428 [INFO]  [Creating]     [21/82]     See https://diff.blue/R013 to resolve this issue.
+11:53:29.429 [INFO]  [Creating]  [7/14] controller.ViewMessageServlet
+11:53:29.429 [INFO]  [Creating]  [7/14]   Tests created: 1
+11:53:29.430 [INFO]  [Creating]  [7/14]   Partial tests created: 2
+11:53:29.430 [INFO]  [Creating] 
+================================================================================
+= Starting analysis for class 'dao.MessageDAO'
+================================================================================
+11:53:29.430 [INFO]  [Creating] Filtering out non-testable methods...
+11:53:29.430 [INFO]  [Creating] Filtering of methods complete. Creating analysis request
+11:53:29.430 [INFO]  [Creating] Attempting to get service client, retry 1.
+11:53:31.408 [INFO]  [Creating]     [22/82] dao.MessageDAO.<init>
+11:53:31.408 [INFO]  [Creating]     [22/82]   Partial tests created: 1
+11:53:31.408 [INFO]  [Creating]     [22/82]   Reasons for partial tests:
+11:53:31.408 [INFO]  [Creating]     [22/82]   R002: Missing observers
+11:53:31.408 [INFO]  [Creating]     [22/82]     Diffblue Cover was unable to create an assertion.
+11:53:31.408 [INFO]  [Creating]     [22/82]     There are no fields that could be asserted on.
+11:53:31.909 [INFO]  [Creating]     [23/82] dao.MessageDAO.deleteAllMessage
+11:53:31.909 [INFO]  [Creating]     [23/82]   Partial tests created: 1
+11:53:31.909 [INFO]  [Creating]     [23/82]   Reasons for partial tests:
+11:53:31.909 [INFO]  [Creating]     [23/82]   R011: Sandboxing policy violation
+11:53:31.909 [INFO]  [Creating]     [23/82]     Diffblue Cover ran code in your project that tried
+11:53:31.909 [INFO]  [Creating]     [23/82]       to access the network.
+11:53:31.909 [INFO]  [Creating]     [23/82]     Diffblue Cover's default sandboxing policy disallows this in order to prevent
+11:53:31.909 [INFO]  [Creating]     [23/82]     your code from damaging your system environment.
+11:53:31.909 [INFO]  [Creating]     [23/82]     See https://diff.blue/R011 to resolve this issue.
+11:53:32.433 [INFO]  [Creating]     [24/82] dao.MessageDAO.deleteMessage
+11:53:32.433 [INFO]  [Creating]     [24/82]   Partial tests created: 1
+11:53:32.433 [INFO]  [Creating]     [24/82]   Reasons for partial tests:
+11:53:32.433 [INFO]  [Creating]     [24/82]   R011: Sandboxing policy violation
+11:53:32.433 [INFO]  [Creating]     [24/82]     Diffblue Cover ran code in your project that tried
+11:53:32.433 [INFO]  [Creating]     [24/82]       to access the network.
+11:53:32.433 [INFO]  [Creating]     [24/82]     Diffblue Cover's default sandboxing policy disallows this in order to prevent
+11:53:32.433 [INFO]  [Creating]     [24/82]     your code from damaging your system environment.
+11:53:32.433 [INFO]  [Creating]     [24/82]     See https://diff.blue/R011 to resolve this issue.
+11:53:33.696 [INFO]  [Creating]     [25/82] dao.MessageDAO.getAllMessage
+11:53:33.696 [INFO]  [Creating]     [25/82]   Partial tests created: 1
+11:53:33.696 [INFO]  [Creating]     [25/82]   Reasons for partial tests:
+11:53:33.696 [INFO]  [Creating]     [25/82]   R011: Sandboxing policy violation
+11:53:33.696 [INFO]  [Creating]     [25/82]     Diffblue Cover ran code in your project that tried
+11:53:33.696 [INFO]  [Creating]     [25/82]       to access the network.
+11:53:33.696 [INFO]  [Creating]     [25/82]     Diffblue Cover's default sandboxing policy disallows this in order to prevent
+11:53:33.696 [INFO]  [Creating]     [25/82]     your code from damaging your system environment.
+11:53:33.696 [INFO]  [Creating]     [25/82]     See https://diff.blue/R011 to resolve this issue.
+11:53:34.958 [INFO]  [Creating]     [26/82] dao.MessageDAO.getMessage
+11:53:34.958 [INFO]  [Creating]     [26/82]   Partial tests created: 1
+11:53:34.958 [INFO]  [Creating]     [26/82]   Reasons for partial tests:
+11:53:34.958 [INFO]  [Creating]     [26/82]   R011: Sandboxing policy violation
+11:53:34.958 [INFO]  [Creating]     [26/82]     Diffblue Cover ran code in your project that tried
+11:53:34.958 [INFO]  [Creating]     [26/82]       to access the network.
+11:53:34.958 [INFO]  [Creating]     [26/82]     Diffblue Cover's default sandboxing policy disallows this in order to prevent
+11:53:34.958 [INFO]  [Creating]     [26/82]     your code from damaging your system environment.
+11:53:34.958 [INFO]  [Creating]     [26/82]     See https://diff.blue/R011 to resolve this issue.
+11:53:35.915 [INFO]  [Creating]     [27/82] dao.MessageDAO.insertMessage
+11:53:35.915 [INFO]  [Creating]     [27/82]   Partial tests created: 1
+11:53:35.915 [INFO]  [Creating]     [27/82]   Reasons for partial tests:
+11:53:35.915 [INFO]  [Creating]     [27/82]   R011: Sandboxing policy violation
+11:53:35.915 [INFO]  [Creating]     [27/82]     Diffblue Cover ran code in your project that tried
+11:53:35.915 [INFO]  [Creating]     [27/82]       to access the network.
+11:53:35.915 [INFO]  [Creating]     [27/82]     Diffblue Cover's default sandboxing policy disallows this in order to prevent
+11:53:35.915 [INFO]  [Creating]     [27/82]     your code from damaging your system environment.
+11:53:35.915 [INFO]  [Creating]     [27/82]     See https://diff.blue/R011 to resolve this issue.
+11:53:35.989 [INFO]  [Creating]     [28/82] dao.MessageDAO.messageCount
+11:53:35.989 [INFO]  [Creating]     [28/82]   Partial tests created: 1
+11:53:35.989 [INFO]  [Creating]     [28/82]   Reasons for partial tests:
+11:53:35.989 [INFO]  [Creating]     [28/82]   R011: Sandboxing policy violation
+11:53:35.989 [INFO]  [Creating]     [28/82]     Diffblue Cover ran code in your project that tried
+11:53:35.990 [INFO]  [Creating]     [28/82]       to access the network.
+11:53:35.990 [INFO]  [Creating]     [28/82]     Diffblue Cover's default sandboxing policy disallows this in order to prevent
+11:53:35.990 [INFO]  [Creating]     [28/82]     your code from damaging your system environment.
+11:53:35.990 [INFO]  [Creating]     [28/82]     See https://diff.blue/R011 to resolve this issue.
+11:53:35.996 [INFO]  [Creating]  [8/14] dao.MessageDAO
+11:53:35.996 [INFO]  [Creating]  [8/14]   Tests created: 0
+11:53:35.996 [INFO]  [Creating]  [8/14]   Partial tests created: 7
+11:53:35.996 [INFO]  [Creating] 
+================================================================================
+= Starting analysis for class 'dao.PostDAO'
+================================================================================
+11:53:35.996 [INFO]  [Creating] Filtering out non-testable methods...
+11:53:35.996 [INFO]  [Creating] Filtering of methods complete. Creating analysis request
+11:53:35.996 [INFO]  [Creating] Attempting to get service client, retry 1.
+11:53:36.699 [INFO]  [Creating]     [29/82] dao.PostDAO.<init>
+11:53:36.699 [INFO]  [Creating]     [29/82]   Partial tests created: 1
+11:53:36.699 [INFO]  [Creating]     [29/82]   Reasons for partial tests:
+11:53:36.699 [INFO]  [Creating]     [29/82]   R002: Missing observers
+11:53:36.699 [INFO]  [Creating]     [29/82]     Diffblue Cover was unable to create an assertion.
+11:53:36.699 [INFO]  [Creating]     [29/82]     There are no fields that could be asserted on.
+11:53:36.938 [INFO]  [Creating]     [30/82] dao.PostDAO.deletePost
+11:53:36.938 [INFO]  [Creating]     [30/82]   Partial tests created: 1
+11:53:36.938 [INFO]  [Creating]     [30/82]   Reasons for partial tests:
+11:53:36.938 [INFO]  [Creating]     [30/82]   R011: Sandboxing policy violation
+11:53:36.938 [INFO]  [Creating]     [30/82]     Diffblue Cover ran code in your project that tried
+11:53:36.938 [INFO]  [Creating]     [30/82]       to access the network.
+11:53:36.938 [INFO]  [Creating]     [30/82]     Diffblue Cover's default sandboxing policy disallows this in order to prevent
+11:53:36.938 [INFO]  [Creating]     [30/82]     your code from damaging your system environment.
+11:53:36.938 [INFO]  [Creating]     [30/82]     See https://diff.blue/R011 to resolve this issue.
+11:53:37.415 [INFO]  [Creating]     [31/82] dao.PostDAO.getAllPost
+11:53:37.415 [INFO]  [Creating]     [31/82]   Partial tests created: 1
+11:53:37.415 [INFO]  [Creating]     [31/82]   Reasons for partial tests:
+11:53:37.415 [INFO]  [Creating]     [31/82]   R011: Sandboxing policy violation
+11:53:37.415 [INFO]  [Creating]     [31/82]     Diffblue Cover ran code in your project that tried
+11:53:37.415 [INFO]  [Creating]     [31/82]       to access the network.
+11:53:37.415 [INFO]  [Creating]     [31/82]     Diffblue Cover's default sandboxing policy disallows this in order to prevent
+11:53:37.415 [INFO]  [Creating]     [31/82]     your code from damaging your system environment.
+11:53:37.415 [INFO]  [Creating]     [31/82]     See https://diff.blue/R011 to resolve this issue.
+11:53:37.879 [INFO]  [Creating]     [32/82] dao.PostDAO.getPost
+11:53:37.879 [INFO]  [Creating]     [32/82]   Partial tests created: 1
+11:53:37.879 [INFO]  [Creating]     [32/82]   Reasons for partial tests:
+11:53:37.879 [INFO]  [Creating]     [32/82]   R011: Sandboxing policy violation
+11:53:37.879 [INFO]  [Creating]     [32/82]     Diffblue Cover ran code in your project that tried
+11:53:37.879 [INFO]  [Creating]     [32/82]       to access the network.
+11:53:37.879 [INFO]  [Creating]     [32/82]     Diffblue Cover's default sandboxing policy disallows this in order to prevent
+11:53:37.879 [INFO]  [Creating]     [32/82]     your code from damaging your system environment.
+11:53:37.879 [INFO]  [Creating]     [32/82]     See https://diff.blue/R011 to resolve this issue.
+11:53:38.685 [INFO]  [Creating]     [33/82] dao.PostDAO.getUserPost
+11:53:38.686 [INFO]  [Creating]     [33/82]   Partial tests created: 1
+11:53:38.686 [INFO]  [Creating]     [33/82]   Reasons for partial tests:
+11:53:38.686 [INFO]  [Creating]     [33/82]   R011: Sandboxing policy violation
+11:53:38.686 [INFO]  [Creating]     [33/82]     Diffblue Cover ran code in your project that tried
+11:53:38.687 [INFO]  [Creating]     [33/82]       to access the network.
+11:53:38.687 [INFO]  [Creating]     [33/82]     Diffblue Cover's default sandboxing policy disallows this in order to prevent
+11:53:38.687 [INFO]  [Creating]     [33/82]     your code from damaging your system environment.
+11:53:38.687 [INFO]  [Creating]     [33/82]     See https://diff.blue/R011 to resolve this issue.
+11:53:39.764 [INFO]  [Creating]     [34/82] dao.PostDAO.insertPost
+11:53:39.764 [INFO]  [Creating]     [34/82]   Partial tests created: 1
+11:53:39.764 [INFO]  [Creating]     [34/82]   Reasons for partial tests:
+11:53:39.764 [INFO]  [Creating]     [34/82]   R011: Sandboxing policy violation
+11:53:39.764 [INFO]  [Creating]     [34/82]     Diffblue Cover ran code in your project that tried
+11:53:39.764 [INFO]  [Creating]     [34/82]       to access the network.
+11:53:39.764 [INFO]  [Creating]     [34/82]     Diffblue Cover's default sandboxing policy disallows this in order to prevent
+11:53:39.764 [INFO]  [Creating]     [34/82]     your code from damaging your system environment.
+11:53:39.764 [INFO]  [Creating]     [34/82]     See https://diff.blue/R011 to resolve this issue.
+11:53:40.181 [INFO]  [Creating]     [35/82] dao.PostDAO.updatePost
+11:53:40.181 [INFO]  [Creating]     [35/82]   Tests created: 1
+11:53:40.182 [INFO]  [Creating]  [9/14] dao.PostDAO
+11:53:40.182 [INFO]  [Creating]  [9/14]   Tests created: 1
+11:53:40.182 [INFO]  [Creating]  [9/14]   Partial tests created: 6
+11:53:40.182 [INFO]  [Creating] 
+================================================================================
+= Starting analysis for class 'dao.UserDAO'
+================================================================================
+11:53:40.182 [INFO]  [Creating] Filtering out non-testable methods...
+11:53:40.183 [INFO]  [Creating] Filtering of methods complete. Creating analysis request
+11:53:40.183 [INFO]  [Creating] Attempting to get service client, retry 1.
+11:53:40.527 [INFO]  [Creating]     [36/82] dao.UserDAO.<init>
+11:53:40.527 [INFO]  [Creating]     [36/82]   Partial tests created: 1
+11:53:40.527 [INFO]  [Creating]     [36/82]   Reasons for partial tests:
+11:53:40.527 [INFO]  [Creating]     [36/82]   R002: Missing observers
+11:53:40.527 [INFO]  [Creating]     [36/82]     Diffblue Cover was unable to create an assertion.
+11:53:40.527 [INFO]  [Creating]     [36/82]     There are no fields that could be asserted on.
+11:53:42.448 [INFO]  [Creating]     [37/82] dao.UserDAO.deleteUser
+11:53:42.448 [INFO]  [Creating]     [37/82]   Partial tests created: 1
+11:53:42.448 [INFO]  [Creating]     [37/82]   Reasons for partial tests:
+11:53:42.448 [INFO]  [Creating]     [37/82]   R011: Sandboxing policy violation
+11:53:42.448 [INFO]  [Creating]     [37/82]     Diffblue Cover ran code in your project that tried
+11:53:42.448 [INFO]  [Creating]     [37/82]       to access the network.
+11:53:42.448 [INFO]  [Creating]     [37/82]     Diffblue Cover's default sandboxing policy disallows this in order to prevent
+11:53:42.448 [INFO]  [Creating]     [37/82]     your code from damaging your system environment.
+11:53:42.448 [INFO]  [Creating]     [37/82]     See https://diff.blue/R011 to resolve this issue.
+11:53:42.677 [INFO]  [Creating]     [38/82] dao.UserDAO.getUserByEmail
+11:53:42.677 [INFO]  [Creating]     [38/82]   Partial tests created: 1
+11:53:42.677 [INFO]  [Creating]     [38/82]   Reasons for partial tests:
+11:53:42.677 [INFO]  [Creating]     [38/82]   R011: Sandboxing policy violation
+11:53:42.677 [INFO]  [Creating]     [38/82]     Diffblue Cover ran code in your project that tried
+11:53:42.677 [INFO]  [Creating]     [38/82]       to access the network.
+11:53:42.677 [INFO]  [Creating]     [38/82]     Diffblue Cover's default sandboxing policy disallows this in order to prevent
+11:53:42.677 [INFO]  [Creating]     [38/82]     your code from damaging your system environment.
+11:53:42.677 [INFO]  [Creating]     [38/82]     See https://diff.blue/R011 to resolve this issue.
+11:53:42.924 [INFO]  [Creating]     [39/82] dao.UserDAO.getUserById
+11:53:42.924 [INFO]  [Creating]     [39/82]   Partial tests created: 1
+11:53:42.924 [INFO]  [Creating]     [39/82]   Reasons for partial tests:
+11:53:42.924 [INFO]  [Creating]     [39/82]   R011: Sandboxing policy violation
+11:53:42.924 [INFO]  [Creating]     [39/82]     Diffblue Cover ran code in your project that tried
+11:53:42.924 [INFO]  [Creating]     [39/82]       to access the network.
+11:53:42.924 [INFO]  [Creating]     [39/82]     Diffblue Cover's default sandboxing policy disallows this in order to prevent
+11:53:42.924 [INFO]  [Creating]     [39/82]     your code from damaging your system environment.
+11:53:42.924 [INFO]  [Creating]     [39/82]     See https://diff.blue/R011 to resolve this issue.
+11:53:43.277 [INFO]  [Creating]     [40/82] dao.UserDAO.getUsersForChat
+11:53:43.277 [INFO]  [Creating]     [40/82]   Partial tests created: 1
+11:53:43.277 [INFO]  [Creating]     [40/82]   Reasons for partial tests:
+11:53:43.277 [INFO]  [Creating]     [40/82]   R011: Sandboxing policy violation
+11:53:43.277 [INFO]  [Creating]     [40/82]     Diffblue Cover ran code in your project that tried
+11:53:43.277 [INFO]  [Creating]     [40/82]       to access the network.
+11:53:43.277 [INFO]  [Creating]     [40/82]     Diffblue Cover's default sandboxing policy disallows this in order to prevent
+11:53:43.277 [INFO]  [Creating]     [40/82]     your code from damaging your system environment.
+11:53:43.277 [INFO]  [Creating]     [40/82]     See https://diff.blue/R011 to resolve this issue.
+11:53:44.508 [INFO]  [Creating]     [41/82] dao.UserDAO.login
+11:53:44.508 [INFO]  [Creating]     [41/82]   Tests created: 1
+11:53:45.753 [INFO]  [Creating]     [42/82] dao.UserDAO.register
+11:53:45.754 [INFO]  [Creating]     [42/82]   Tests created: 1
+11:53:47.177 [INFO]  [Creating]     [43/82] dao.UserDAO.updatePassword
+11:53:47.177 [INFO]  [Creating]     [43/82]   Tests created: 1
+11:53:47.264 [INFO]  [Creating]     [44/82] dao.UserDAO.updateProfile
+11:53:47.264 [INFO]  [Creating]     [44/82]   Tests created: 1
+11:53:47.265 [INFO]  [Creating] [10/14] dao.UserDAO
+11:53:47.265 [INFO]  [Creating] [10/14]   Tests created: 4
+11:53:47.265 [INFO]  [Creating] [10/14]   Partial tests created: 5
+11:53:47.265 [INFO]  [Creating] 
+================================================================================
+= Starting analysis for class 'model.Message'
+================================================================================
+11:53:47.265 [INFO]  [Creating] Filtering out non-testable methods...
+11:53:47.266 [INFO]  [Creating] Filtering of methods complete. Creating analysis request
+11:53:47.266 [INFO]  [Creating] Attempting to get service client, retry 1.
+11:53:47.868 [INFO]  [Creating]     [45/82] model.Message.<init>
+11:53:47.868 [INFO]  [Creating]     [46/82] model.Message.<init>
+11:53:47.868 [INFO]  [Creating]     [47/82] model.Message.getChat_id
+11:53:47.868 [INFO]  [Creating]     [48/82] model.Message.getChat_time
+11:53:47.868 [INFO]  [Creating]     [49/82] model.Message.getFrom_user
+11:53:47.868 [INFO]  [Creating]     [50/82] model.Message.getMessage
+11:53:47.868 [INFO]  [Creating]     [51/82] model.Message.getTo_user
+11:53:47.868 [INFO]  [Creating]     [52/82] model.Message.setChat_id
+11:53:47.868 [INFO]  [Creating]     [53/82] model.Message.setChat_time
+11:53:47.868 [INFO]  [Creating]     [54/82] model.Message.setFrom_user
+11:53:47.868 [INFO]  [Creating]     [55/82] model.Message.setMessage
+11:53:47.868 [INFO]  [Creating]     [56/82] model.Message.setTo_user
+11:53:47.868 [INFO]  [Creating]     [56/82]   Tests created: 2
+11:53:47.870 [INFO]  [Creating] [11/14] model.Message
+11:53:47.870 [INFO]  [Creating] [11/14]   Tests created: 2
+11:53:47.870 [INFO]  [Creating] 
+================================================================================
+= Starting analysis for class 'model.Post'
+================================================================================
+11:53:47.870 [INFO]  [Creating] Filtering out non-testable methods...
+11:53:47.870 [INFO]  [Creating] Filtering of methods complete. Creating analysis request
+11:53:47.870 [INFO]  [Creating] Attempting to get service client, retry 1.
+11:53:48.277 [INFO]  [Creating]     [57/82] model.Post.<init>
+11:53:48.277 [INFO]  [Creating]     [58/82] model.Post.<init>
+11:53:48.277 [INFO]  [Creating]     [59/82] model.Post.getBody
+11:53:48.277 [INFO]  [Creating]     [60/82] model.Post.getPost_id
+11:53:48.277 [INFO]  [Creating]     [61/82] model.Post.getPost_time
+11:53:48.277 [INFO]  [Creating]     [62/82] model.Post.getUser_id
+11:53:48.277 [INFO]  [Creating]     [63/82] model.Post.setBody
+11:53:48.277 [INFO]  [Creating]     [64/82] model.Post.setPost_id
+11:53:48.277 [INFO]  [Creating]     [65/82] model.Post.setPost_time
+11:53:48.277 [INFO]  [Creating]     [66/82] model.Post.setUser_id
+11:53:48.277 [INFO]  [Creating]     [66/82]   Tests created: 2
+11:53:48.278 [INFO]  [Creating] [12/14] model.Post
+11:53:48.278 [INFO]  [Creating] [12/14]   Tests created: 2
+11:53:48.278 [INFO]  [Creating] 
+================================================================================
+= Starting analysis for class 'model.User'
+================================================================================
+11:53:48.278 [INFO]  [Creating] Filtering out non-testable methods...
+11:53:48.278 [INFO]  [Creating] Filtering of methods complete. Creating analysis request
+11:53:48.278 [INFO]  [Creating] Attempting to get service client, retry 1.
+11:53:48.763 [INFO]  [Creating]     [67/82] model.User.<init>
+11:53:48.763 [INFO]  [Creating]     [68/82] model.User.<init>
+11:53:48.763 [INFO]  [Creating]     [69/82] model.User.getEmail
+11:53:48.763 [INFO]  [Creating]     [70/82] model.User.getFirst_name
+11:53:48.763 [INFO]  [Creating]     [71/82] model.User.getImage
+11:53:48.763 [INFO]  [Creating]     [72/82] model.User.getLast_name
+11:53:48.763 [INFO]  [Creating]     [73/82] model.User.getPassword
+11:53:48.763 [INFO]  [Creating]     [74/82] model.User.getUser_id
+11:53:48.763 [INFO]  [Creating]     [75/82] model.User.setEmail
+11:53:48.763 [INFO]  [Creating]     [76/82] model.User.setFirst_name
+11:53:48.763 [INFO]  [Creating]     [77/82] model.User.setImage
+11:53:48.763 [INFO]  [Creating]     [78/82] model.User.setLast_name
+11:53:48.763 [INFO]  [Creating]     [79/82] model.User.setPassword
+11:53:48.763 [INFO]  [Creating]     [80/82] model.User.setUser_id
+11:53:48.763 [INFO]  [Creating]     [80/82]   Tests created: 2
+11:53:48.764 [INFO]  [Creating] [13/14] model.User
+11:53:48.764 [INFO]  [Creating] [13/14]   Tests created: 2
+11:53:48.764 [INFO]  [Creating] 
+================================================================================
+= Starting analysis for class 'util.DBConnection'
+================================================================================
+11:53:48.764 [INFO]  [Creating] Filtering out non-testable methods...
+11:53:48.764 [INFO]  [Creating] Filtering of methods complete. Creating analysis request
+11:53:48.764 [INFO]  [Creating] Attempting to get service client, retry 1.
+11:53:48.813 [INFO]  [Creating]     [81/82] util.DBConnection.getConnection
+11:53:48.813 [INFO]  [Creating]     [81/82]   R081: Exception in arrange section
+11:53:48.813 [INFO]  [Creating]     [81/82]     Diffblue Cover was unable to construct an instance of the class under test using
+11:53:48.813 [INFO]  [Creating]     [81/82]     util.DBConnection.getConnection().
+11:53:48.813 [INFO]  [Creating]     [81/82]     The arrange section threw
+11:53:48.813 [INFO]  [Creating]     [81/82]     java.sql.SQLNonTransientConnectionException: Could not create connection to database server.
+11:53:48.813 [INFO]  [Creating]     [81/82]         at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:102)
+11:53:48.813 [INFO]  [Creating]     [81/82]         at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+11:53:48.813 [INFO]  [Creating]     [81/82]         at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:81)
+11:53:48.813 [INFO]  [Creating]     [81/82]         at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:55)
+11:53:48.813 [INFO]  [Creating]     [81/82]         at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:1025)
+11:53:48.813 [INFO]  [Creating]     [81/82]         at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:833)
+11:53:48.813 [INFO]  [Creating]     [81/82]         at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:420)
+11:53:48.813 [INFO]  [Creating]     [81/82]         at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:238)
+11:53:48.813 [INFO]  [Creating]     [81/82]         at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:180)
+11:53:48.813 [INFO]  [Creating]     [81/82]         at java.sql.DriverManager.getConnection(DriverManager.java:664)
+11:53:48.813 [INFO]  [Creating]     [81/82]         at java.sql.DriverManager.getConnection(DriverManager.java:247)
+11:53:48.813 [INFO]  [Creating]     [81/82]         at util.DBConnection.<init>(DBConnection.java:18)
+11:53:48.813 [INFO]  [Creating]     [81/82]         at util.DBConnection.getInstance(DBConnection.java:30)
+11:53:48.813 [INFO]  [Creating]     [81/82]     More information about the exception is provided in the support log.
+11:53:48.813 [INFO]  [Creating]     [81/82]     See https://diff.blue/R081 for further troubleshooting of this issue.
+11:53:48.964 [INFO]  [Creating]     [82/82] util.DBConnection.getInstance
+11:53:48.964 [INFO]  [Creating]     [82/82]   Partial tests created: 1
+11:53:48.964 [INFO]  [Creating]     [82/82]   Reasons for partial tests:
+11:53:48.964 [INFO]  [Creating]     [82/82]   R011: Sandboxing policy violation
+11:53:48.964 [INFO]  [Creating]     [82/82]     Diffblue Cover ran code in your project that tried
+11:53:48.964 [INFO]  [Creating]     [82/82]       to access the network.
+11:53:48.964 [INFO]  [Creating]     [82/82]     Diffblue Cover's default sandboxing policy disallows this in order to prevent
+11:53:48.964 [INFO]  [Creating]     [82/82]     your code from damaging your system environment.
+11:53:48.964 [INFO]  [Creating]     [82/82]     See https://diff.blue/R011 to resolve this issue.
+11:53:48.965 [INFO]  [Creating] [14/14] util.DBConnection
+11:53:48.965 [INFO]  [Creating] [14/14]   Tests created: 0
+11:53:48.965 [INFO]  [Creating] [14/14]   Partial tests created: 1
+11:53:48.973 [INFO]  [Reporting] 
+11:53:48.974 [INFO]  [Reporting] Test creation summary for module: com.diffblue.pov:java-ee-servlet
+11:53:48.974 [INFO]  [Reporting] ------------------------------------------------------------------
+11:53:48.974 [INFO]  [Reporting] Total:                                              82 methods
+11:53:48.974 [INFO]  [Reporting] 18 tests created for:                               48 methods
+11:53:48.974 [INFO]  [Reporting] 33 partial tests created for:                       33 methods
+11:53:48.974 [INFO]  [Reporting] 
+11:53:48.974 [INFO]  [Reporting] No tests created for:                               34 methods
+11:53:48.974 [INFO]  [Reporting]    16 R011: Sandboxing policy violation
+11:53:48.974 [INFO]  [Reporting]    14 R013: No inputs found that don't throw a trivial exception
+11:53:48.974 [INFO]  [Reporting]     3 R002: Missing observers
+11:53:48.974 [INFO]  [Reporting]     1 R081: Exception in arrange section
+11:53:49.047 [INFO]  [Validating] 
+11:53:49.047 [INFO]  [Validating] Running validation command.
+11:53:49.048 [INFO]  [Validating] Using default build rules as no custom rules found in any of [/Users/amishra/Developer/demo-java-ee-servlet]
+11:53:49.049 [INFO]  [Validating] Attempting to invoke mvnw in working directory: /Users/amishra/Developer/demo-java-ee-servlet
+11:53:49.071 [INFO]  [Validating] Attempting to invoke /opt/homebrew/bin/mvn in working directory: /Users/amishra/Developer/demo-java-ee-servlet
+11:53:49.076 [INFO]  [Validating] Started "/opt/homebrew/bin/mvn -Dmaven.ext.class.path=/usr/local/bin/diffblue/cover-buildsystem-maven-spy-jar-with-dependencies.jar -Dcom.diffblue.cover.skipTests=true --batch-mode --projects=com.diffblue.pov:java-ee-servlet install -Dmaven.compiler.failOnWarning=false --also-make -DskipTests -DskipITs --threads=1C"
+11:53:50.165 [INFO]  [Validating] out: [INFO] Scanning for projects...
+11:53:50.204 [INFO]  [Validating] out: [INFO] 
+11:53:50.204 [INFO]  [Validating] out: [INFO] Using the MultiThreadedBuilder implementation with a thread count of 10
+11:53:50.206 [INFO]  [Validating] out: [INFO] 
+11:53:50.206 [INFO]  [Validating] out: [INFO] ------------------< com.diffblue.pov:java-ee-servlet >------------------
+11:53:50.206 [INFO]  [Validating] out: [INFO] Building Java EE Servlet Webapp 1.0.0
+11:53:50.207 [INFO]  [Validating] out: [INFO]   from pom.xml
+11:53:50.207 [INFO]  [Validating] out: [INFO] --------------------------------[ war ]---------------------------------
+11:53:50.619 [INFO]  [Validating] out: [INFO] 
+11:53:50.619 [INFO]  [Validating] out: [INFO] --- resources:3.3.1:resources (default-resources) @ java-ee-servlet ---
+11:53:50.806 [INFO]  [Validating] out: [INFO] skip non existing resourceDirectory /Users/amishra/Developer/demo-java-ee-servlet/src/main/resources
+11:53:50.808 [INFO]  [Validating] out: [INFO] 
+11:53:50.808 [INFO]  [Validating] out: [INFO] --- compiler:3.13.0:compile (default-compile) @ java-ee-servlet ---
+11:53:51.006 [INFO]  [Validating] out: [INFO] Nothing to compile - all classes are up to date.
+11:53:51.008 [INFO]  [Validating] out: [INFO] 
+11:53:51.008 [INFO]  [Validating] out: [INFO] --- resources:3.3.1:testResources (default-testResources) @ java-ee-servlet ---
+11:53:51.009 [INFO]  [Validating] out: [INFO] skip non existing resourceDirectory /Users/amishra/Developer/demo-java-ee-servlet/src/test/resources
+11:53:51.011 [INFO]  [Validating] out: [INFO] 
+11:53:51.011 [INFO]  [Validating] out: [INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ java-ee-servlet ---
+11:53:51.027 [INFO]  [Validating] out: [INFO] Recompiling the module because of changed source code.
+11:53:51.039 [INFO]  [Validating] out: [INFO] Compiling 14 source files with javac [debug target 8] to target/test-classes
+11:53:51.577 [INFO]  [Validating] out: [INFO] 
+11:53:51.578 [INFO]  [Validating] out: [INFO] --- surefire:3.3.0:test (default-test) @ java-ee-servlet ---
+11:53:51.765 [INFO]  [Validating] out: [INFO] Tests are skipped.
+11:53:51.766 [INFO]  [Validating] out: [INFO] 
+11:53:51.766 [INFO]  [Validating] out: [INFO] --- war:3.4.0:war (default-war) @ java-ee-servlet ---
+11:53:52.205 [INFO]  [Validating] out: [INFO] Packaging webapp
+11:53:52.261 [INFO]  [Validating] out: [INFO] Assembling webapp [java-ee-servlet] in [/Users/amishra/Developer/demo-java-ee-servlet/target/DemoServlet]
+11:53:52.268 [INFO]  [Validating] out: [INFO] Processing war project
+11:53:52.268 [INFO]  [Validating] out: [INFO] Copying webapp resources [/Users/amishra/Developer/demo-java-ee-servlet/src/main/webapp]
+11:53:52.300 [INFO]  [Validating] out: [INFO] Building war: /Users/amishra/Developer/demo-java-ee-servlet/target/DemoServlet.war
+11:53:52.408 [INFO]  [Validating] out: [INFO] 
+11:53:52.408 [INFO]  [Validating] out: [INFO] --- install:3.1.2:install (default-install) @ java-ee-servlet ---
+11:53:52.472 [INFO]  [Validating] out: [INFO] Installing /Users/amishra/Developer/demo-java-ee-servlet/pom.xml to /Users/amishra/.m2/repository/com/diffblue/pov/java-ee-servlet/1.0.0/java-ee-servlet-1.0.0.pom
+11:53:52.492 [INFO]  [Validating] out: [INFO] Installing /Users/amishra/Developer/demo-java-ee-servlet/target/DemoServlet.war to /Users/amishra/.m2/repository/com/diffblue/pov/java-ee-servlet/1.0.0/java-ee-servlet-1.0.0.war
+11:53:52.565 [INFO]  [Validating] out: [INFO] ------------------------------------------------------------------------
+11:53:52.565 [INFO]  [Validating] out: [INFO] BUILD SUCCESS
+11:53:52.565 [INFO]  [Validating] out: [INFO] ------------------------------------------------------------------------
+11:53:52.566 [INFO]  [Validating] out: [INFO] Total time:  2.415 s (Wall Clock)
+11:53:52.566 [INFO]  [Validating] out: [INFO] Finished at: 2025-03-06T11:53:52Z
+11:53:52.566 [INFO]  [Validating] out: [INFO] ------------------------------------------------------------------------
+11:53:52.618 [INFO]  [Validating] This can take a couple of minutes.
+11:53:52.618 [INFO]  [Validating] Using default build rules as no custom rules found in any of [/Users/amishra/Developer/demo-java-ee-servlet]
+11:53:52.619 [INFO]  [Validating] Attempting to invoke mvnw in working directory: /Users/amishra/Developer/demo-java-ee-servlet
+11:53:52.648 [INFO]  [Validating] Attempting to invoke /opt/homebrew/bin/mvn in working directory: /Users/amishra/Developer/demo-java-ee-servlet
+11:53:52.652 [INFO]  [Validating] Started "/opt/homebrew/bin/mvn -Dmaven.ext.class.path=/usr/local/bin/diffblue/cover-buildsystem-maven-spy-jar-with-dependencies.jar -Dcom.diffblue.cover.skipTests=true --batch-mode --projects=com.diffblue.pov:java-ee-servlet clean test"
+11:53:53.676 [INFO]  [Validating] out: [INFO] Scanning for projects...
+11:53:53.719 [INFO]  [Validating] out: [INFO] 
+11:53:53.720 [INFO]  [Validating] out: [INFO] ------------------< com.diffblue.pov:java-ee-servlet >------------------
+11:53:53.720 [INFO]  [Validating] out: [INFO] Building Java EE Servlet Webapp 1.0.0
+11:53:53.720 [INFO]  [Validating] out: [INFO]   from pom.xml
+11:53:53.720 [INFO]  [Validating] out: [INFO] --------------------------------[ war ]---------------------------------
+11:53:54.111 [INFO]  [Validating] out: [INFO] 
+11:53:54.111 [INFO]  [Validating] out: [INFO] --- clean:3.4.0:clean (default-clean) @ java-ee-servlet ---
+11:53:54.184 [INFO]  [Validating] out: [INFO] Deleting /Users/amishra/Developer/demo-java-ee-servlet/target
+11:53:54.302 [INFO]  [Validating] out: [INFO] 
+11:53:54.302 [INFO]  [Validating] out: [INFO] --- resources:3.3.1:resources (default-resources) @ java-ee-servlet ---
+11:53:54.382 [INFO]  [Validating] out: [INFO] skip non existing resourceDirectory /Users/amishra/Developer/demo-java-ee-servlet/src/main/resources
+11:53:54.384 [INFO]  [Validating] out: [INFO] 
+11:53:54.384 [INFO]  [Validating] out: [INFO] --- compiler:3.13.0:compile (default-compile) @ java-ee-servlet ---
+11:53:54.493 [INFO]  [Validating] out: [INFO] Recompiling the module because of changed source code.
+11:53:54.499 [INFO]  [Validating] out: [INFO] Compiling 14 source files with javac [debug target 8] to target/classes
+11:53:55.057 [INFO]  [Validating] out: [INFO] 
+11:53:55.057 [INFO]  [Validating] out: [INFO] --- resources:3.3.1:testResources (default-testResources) @ java-ee-servlet ---
+11:53:55.059 [INFO]  [Validating] out: [INFO] skip non existing resourceDirectory /Users/amishra/Developer/demo-java-ee-servlet/src/test/resources
+11:53:55.060 [INFO]  [Validating] out: [INFO] 
+11:53:55.060 [INFO]  [Validating] out: [INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ java-ee-servlet ---
+11:53:55.070 [INFO]  [Validating] out: [INFO] Recompiling the module because of changed dependency.
+11:53:55.074 [INFO]  [Validating] out: [INFO] Compiling 14 source files with javac [debug target 8] to target/test-classes
+11:53:55.268 [INFO]  [Validating] out: [INFO] 
+11:53:55.268 [INFO]  [Validating] out: [INFO] --- surefire:3.3.0:test (default-test) @ java-ee-servlet ---
+11:53:55.399 [INFO]  [Validating] out: [INFO] Using auto detected provider org.apache.maven.surefire.junit4.JUnit4Provider
+11:53:55.468 [INFO]  [Validating] out: [INFO] 
+11:53:55.468 [INFO]  [Validating] out: [INFO] -------------------------------------------------------
+11:53:55.468 [INFO]  [Validating] out: [INFO]  T E S T S
+11:53:55.468 [INFO]  [Validating] out: [INFO] -------------------------------------------------------
+11:53:55.865 [INFO]  [Validating] out: [INFO] Running util.DBConnectionDiffblueTest
+11:53:55.908 [INFO]  [Validating] out: [WARNING] Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.034 s -- in util.DBConnectionDiffblueTest
+11:53:55.909 [INFO]  [Validating] out: [INFO] Running dao.PostDAODiffblueTest
+11:53:55.985 [INFO]  [Validating] err: Loading class `com.mysql.jdbc.Driver'. This is deprecated. The new driver class is `com.mysql.cj.jdbc.Driver'. The driver is automatically registered via the SPI and manual loading of the driver class is generally unnecessary.
+11:53:55.985 [INFO]  [Validating] err: com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+11:53:55.985 [INFO]  [Validating] err: 
+11:53:55.985 [INFO]  [Validating] err: The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+11:53:55.985 [INFO]  [Validating] err: 	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:165)
+11:53:55.985 [INFO]  [Validating] err: 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:55)
+11:53:55.985 [INFO]  [Validating] err: 	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:845)
+11:53:55.985 [INFO]  [Validating] err: 	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:420)
+11:53:55.985 [INFO]  [Validating] err: 	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:238)
+11:53:55.985 [INFO]  [Validating] err: 	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:180)
+11:53:55.985 [INFO]  [Validating] err: 	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+11:53:55.985 [INFO]  [Validating] err: 	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+11:53:55.985 [INFO]  [Validating] err: 	at util.DBConnection.<init>(DBConnection.java:18)
+11:53:55.985 [INFO]  [Validating] err: 	at util.DBConnection.getInstance(DBConnection.java:30)
+11:53:55.985 [INFO]  [Validating] err: 	at dao.PostDAO.updatePost(PostDAO.java:79)
+11:53:55.985 [INFO]  [Validating] err: 	at dao.PostDAODiffblueTest.testUpdatePost(PostDAODiffblueTest.java:136)
+11:53:55.985 [INFO]  [Validating] err: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+11:53:55.985 [INFO]  [Validating] err: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+11:53:55.985 [INFO]  [Validating] err: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+11:53:55.985 [INFO]  [Validating] err: 	at java.lang.reflect.Method.invoke(Method.java:498)
+11:53:55.985 [INFO]  [Validating] err: 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+11:53:55.985 [INFO]  [Validating] err: 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+11:53:55.985 [INFO]  [Validating] err: 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+11:53:55.985 [INFO]  [Validating] err: 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+11:53:55.985 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+11:53:55.985 [INFO]  [Validating] err: 	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+11:53:55.985 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+11:53:55.986 [INFO]  [Validating] err: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+11:53:55.986 [INFO]  [Validating] err: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+11:53:55.986 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+11:53:55.986 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+11:53:55.986 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+11:53:55.986 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+11:53:55.986 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+11:53:55.986 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+11:53:55.986 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+11:53:55.986 [INFO]  [Validating] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:316)
+11:53:55.986 [INFO]  [Validating] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:240)
+11:53:55.986 [INFO]  [Validating] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:214)
+11:53:55.986 [INFO]  [Validating] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:155)
+11:53:55.986 [INFO]  [Validating] err: 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+11:53:55.986 [INFO]  [Validating] err: 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+11:53:55.986 [INFO]  [Validating] err: 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+11:53:55.986 [INFO]  [Validating] err: 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+11:53:55.986 [INFO]  [Validating] err: Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+11:53:55.986 [INFO]  [Validating] err: 
+11:53:55.986 [INFO]  [Validating] err: The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+11:53:55.986 [INFO]  [Validating] err: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+11:53:55.986 [INFO]  [Validating] err: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+11:53:55.986 [INFO]  [Validating] err: 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+11:53:55.986 [INFO]  [Validating] err: 	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+11:53:55.986 [INFO]  [Validating] err: 	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:52)
+11:53:55.986 [INFO]  [Validating] err: 	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:95)
+11:53:55.986 [INFO]  [Validating] err: 	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:140)
+11:53:55.986 [INFO]  [Validating] err: 	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:156)
+11:53:55.986 [INFO]  [Validating] err: 	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:79)
+11:53:55.986 [INFO]  [Validating] err: 	at com.mysql.cj.NativeSession.connect(NativeSession.java:140)
+11:53:55.986 [INFO]  [Validating] err: 	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:969)
+11:53:55.986 [INFO]  [Validating] err: 	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:833)
+11:53:55.986 [INFO]  [Validating] err: 	... 37 more
+11:53:55.986 [INFO]  [Validating] err: Caused by: java.net.ConnectException: Connection refused (Connection refused)
+11:53:55.986 [INFO]  [Validating] err: 	at java.net.PlainSocketImpl.socketConnect(Native Method)
+11:53:55.986 [INFO]  [Validating] err: 	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+11:53:55.986 [INFO]  [Validating] err: 	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+11:53:55.986 [INFO]  [Validating] err: 	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+11:53:55.986 [INFO]  [Validating] err: 	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+11:53:55.986 [INFO]  [Validating] err: 	at java.net.Socket.connect(Socket.java:613)
+11:53:55.986 [INFO]  [Validating] err: 	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:144)
+11:53:55.986 [INFO]  [Validating] err: 	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:53)
+11:53:55.986 [INFO]  [Validating] err: 	... 40 more
+11:53:56.003 [INFO]  [Validating] out: [WARNING] Tests run: 7, Failures: 0, Errors: 0, Skipped: 5, Time elapsed: 0.080 s -- in dao.PostDAODiffblueTest
+11:53:56.003 [INFO]  [Validating] out: [INFO] Running dao.UserDAODiffblueTest
+11:53:56.007 [INFO]  [Validating] err: com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+11:53:56.007 [INFO]  [Validating] err: 
+11:53:56.007 [INFO]  [Validating] err: The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+11:53:56.007 [INFO]  [Validating] err: 	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:165)
+11:53:56.007 [INFO]  [Validating] err: 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:55)
+11:53:56.007 [INFO]  [Validating] err: 	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:845)
+11:53:56.007 [INFO]  [Validating] err: 	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:420)
+11:53:56.007 [INFO]  [Validating] err: 	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:238)
+11:53:56.007 [INFO]  [Validating] err: 	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:180)
+11:53:56.007 [INFO]  [Validating] err: 	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+11:53:56.007 [INFO]  [Validating] err: 	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+11:53:56.007 [INFO]  [Validating] err: 	at util.DBConnection.<init>(DBConnection.java:18)
+11:53:56.007 [INFO]  [Validating] err: 	at util.DBConnection.getInstance(DBConnection.java:30)
+11:53:56.007 [INFO]  [Validating] err: 	at dao.UserDAO.register(UserDAO.java:38)
+11:53:56.007 [INFO]  [Validating] err: 	at dao.UserDAODiffblueTest.testRegister(UserDAODiffblueTest.java:41)
+11:53:56.007 [INFO]  [Validating] err: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+11:53:56.007 [INFO]  [Validating] err: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+11:53:56.007 [INFO]  [Validating] err: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+11:53:56.007 [INFO]  [Validating] err: 	at java.lang.reflect.Method.invoke(Method.java:498)
+11:53:56.007 [INFO]  [Validating] err: 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+11:53:56.007 [INFO]  [Validating] err: 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+11:53:56.007 [INFO]  [Validating] err: 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+11:53:56.007 [INFO]  [Validating] err: 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+11:53:56.007 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+11:53:56.007 [INFO]  [Validating] err: 	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+11:53:56.007 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+11:53:56.007 [INFO]  [Validating] err: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+11:53:56.007 [INFO]  [Validating] err: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+11:53:56.007 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+11:53:56.007 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+11:53:56.007 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+11:53:56.007 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+11:53:56.007 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+11:53:56.007 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+11:53:56.007 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+11:53:56.007 [INFO]  [Validating] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:316)
+11:53:56.007 [INFO]  [Validating] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:240)
+11:53:56.007 [INFO]  [Validating] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:214)
+11:53:56.007 [INFO]  [Validating] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:155)
+11:53:56.007 [INFO]  [Validating] err: 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+11:53:56.007 [INFO]  [Validating] err: 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+11:53:56.007 [INFO]  [Validating] err: 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+11:53:56.007 [INFO]  [Validating] err: 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+11:53:56.007 [INFO]  [Validating] err: Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+11:53:56.007 [INFO]  [Validating] err: 
+11:53:56.007 [INFO]  [Validating] err: The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+11:53:56.007 [INFO]  [Validating] err: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+11:53:56.007 [INFO]  [Validating] err: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+11:53:56.007 [INFO]  [Validating] err: 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+11:53:56.008 [INFO]  [Validating] err: 	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+11:53:56.008 [INFO]  [Validating] err: 	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:52)
+11:53:56.008 [INFO]  [Validating] err: 	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:95)
+11:53:56.008 [INFO]  [Validating] err: 	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:140)
+11:53:56.008 [INFO]  [Validating] err: 	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:156)
+11:53:56.008 [INFO]  [Validating] err: 	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:79)
+11:53:56.008 [INFO]  [Validating] err: 	at com.mysql.cj.NativeSession.connect(NativeSession.java:140)
+11:53:56.008 [INFO]  [Validating] err: 	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:969)
+11:53:56.008 [INFO]  [Validating] err: 	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:833)
+11:53:56.008 [INFO]  [Validating] err: 	... 37 more
+11:53:56.008 [INFO]  [Validating] err: Caused by: java.net.ConnectException: Connection refused (Connection refused)
+11:53:56.008 [INFO]  [Validating] err: 	at java.net.PlainSocketImpl.socketConnect(Native Method)
+11:53:56.008 [INFO]  [Validating] err: 	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+11:53:56.008 [INFO]  [Validating] err: 	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+11:53:56.008 [INFO]  [Validating] err: 	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+11:53:56.008 [INFO]  [Validating] err: 	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+11:53:56.008 [INFO]  [Validating] err: 	at java.net.Socket.connect(Socket.java:613)
+11:53:56.008 [INFO]  [Validating] err: 	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:144)
+11:53:56.008 [INFO]  [Validating] err: 	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:53)
+11:53:56.008 [INFO]  [Validating] err: 	... 40 more
+11:53:56.011 [INFO]  [Validating] err: com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+11:53:56.011 [INFO]  [Validating] err: 
+11:53:56.011 [INFO]  [Validating] err: The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+11:53:56.011 [INFO]  [Validating] err: 	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:165)
+11:53:56.011 [INFO]  [Validating] err: 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:55)
+11:53:56.011 [INFO]  [Validating] err: 	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:845)
+11:53:56.011 [INFO]  [Validating] err: 	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:420)
+11:53:56.011 [INFO]  [Validating] err: 	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:238)
+11:53:56.011 [INFO]  [Validating] err: 	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:180)
+11:53:56.011 [INFO]  [Validating] err: 	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+11:53:56.011 [INFO]  [Validating] err: 	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+11:53:56.011 [INFO]  [Validating] err: 	at util.DBConnection.<init>(DBConnection.java:18)
+11:53:56.011 [INFO]  [Validating] err: 	at util.DBConnection.getInstance(DBConnection.java:30)
+11:53:56.011 [INFO]  [Validating] err: 	at dao.UserDAO.updateProfile(UserDAO.java:117)
+11:53:56.011 [INFO]  [Validating] err: 	at dao.UserDAODiffblueTest.testUpdateProfile(UserDAODiffblueTest.java:146)
+11:53:56.011 [INFO]  [Validating] err: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+11:53:56.011 [INFO]  [Validating] err: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+11:53:56.011 [INFO]  [Validating] err: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+11:53:56.011 [INFO]  [Validating] err: 	at java.lang.reflect.Method.invoke(Method.java:498)
+11:53:56.011 [INFO]  [Validating] err: 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+11:53:56.011 [INFO]  [Validating] err: 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+11:53:56.011 [INFO]  [Validating] err: 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+11:53:56.012 [INFO]  [Validating] err: 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+11:53:56.012 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+11:53:56.012 [INFO]  [Validating] err: 	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+11:53:56.012 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+11:53:56.012 [INFO]  [Validating] err: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+11:53:56.012 [INFO]  [Validating] err: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+11:53:56.012 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+11:53:56.012 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+11:53:56.012 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+11:53:56.012 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+11:53:56.012 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+11:53:56.012 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+11:53:56.012 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+11:53:56.012 [INFO]  [Validating] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:316)
+11:53:56.012 [INFO]  [Validating] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:240)
+11:53:56.012 [INFO]  [Validating] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:214)
+11:53:56.012 [INFO]  [Validating] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:155)
+11:53:56.012 [INFO]  [Validating] err: 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+11:53:56.012 [INFO]  [Validating] err: 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+11:53:56.012 [INFO]  [Validating] err: 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+11:53:56.012 [INFO]  [Validating] err: 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+11:53:56.012 [INFO]  [Validating] err: Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+11:53:56.012 [INFO]  [Validating] err: 
+11:53:56.012 [INFO]  [Validating] err: The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+11:53:56.012 [INFO]  [Validating] err: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+11:53:56.012 [INFO]  [Validating] err: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+11:53:56.012 [INFO]  [Validating] err: 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+11:53:56.012 [INFO]  [Validating] err: 	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+11:53:56.012 [INFO]  [Validating] err: 	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:52)
+11:53:56.012 [INFO]  [Validating] err: 	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:95)
+11:53:56.012 [INFO]  [Validating] err: 	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:140)
+11:53:56.012 [INFO]  [Validating] err: 	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:156)
+11:53:56.012 [INFO]  [Validating] err: 	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:79)
+11:53:56.012 [INFO]  [Validating] err: 	at com.mysql.cj.NativeSession.connect(NativeSession.java:140)
+11:53:56.012 [INFO]  [Validating] err: 	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:969)
+11:53:56.012 [INFO]  [Validating] err: 	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:833)
+11:53:56.012 [INFO]  [Validating] err: 	... 37 more
+11:53:56.012 [INFO]  [Validating] err: Caused by: java.net.ConnectException: Connection refused (Connection refused)
+11:53:56.012 [INFO]  [Validating] err: 	at java.net.PlainSocketImpl.socketConnect(Native Method)
+11:53:56.012 [INFO]  [Validating] err: 	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+11:53:56.012 [INFO]  [Validating] err: 	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+11:53:56.012 [INFO]  [Validating] err: 	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+11:53:56.012 [INFO]  [Validating] err: 	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+11:53:56.012 [INFO]  [Validating] err: 	at java.net.Socket.connect(Socket.java:613)
+11:53:56.012 [INFO]  [Validating] err: 	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:144)
+11:53:56.012 [INFO]  [Validating] err: 	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:53)
+11:53:56.012 [INFO]  [Validating] err: 	... 40 more
+11:53:56.015 [INFO]  [Validating] err: com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+11:53:56.015 [INFO]  [Validating] err: 
+11:53:56.015 [INFO]  [Validating] err: The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+11:53:56.015 [INFO]  [Validating] err: 	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:165)
+11:53:56.015 [INFO]  [Validating] err: 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:55)
+11:53:56.015 [INFO]  [Validating] err: 	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:845)
+11:53:56.015 [INFO]  [Validating] err: 	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:420)
+11:53:56.015 [INFO]  [Validating] err: 	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:238)
+11:53:56.015 [INFO]  [Validating] err: 	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:180)
+11:53:56.015 [INFO]  [Validating] err: 	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+11:53:56.015 [INFO]  [Validating] err: 	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+11:53:56.015 [INFO]  [Validating] err: 	at util.DBConnection.<init>(DBConnection.java:18)
+11:53:56.015 [INFO]  [Validating] err: 	at util.DBConnection.getInstance(DBConnection.java:30)
+11:53:56.015 [INFO]  [Validating] err: 	at dao.UserDAO.updatePassword(UserDAO.java:136)
+11:53:56.015 [INFO]  [Validating] err: 	at dao.UserDAODiffblueTest.testUpdatePassword(UserDAODiffblueTest.java:163)
+11:53:56.015 [INFO]  [Validating] err: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+11:53:56.015 [INFO]  [Validating] err: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+11:53:56.015 [INFO]  [Validating] err: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+11:53:56.015 [INFO]  [Validating] err: 	at java.lang.reflect.Method.invoke(Method.java:498)
+11:53:56.015 [INFO]  [Validating] err: 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+11:53:56.015 [INFO]  [Validating] err: 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+11:53:56.015 [INFO]  [Validating] err: 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+11:53:56.015 [INFO]  [Validating] err: 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+11:53:56.015 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+11:53:56.015 [INFO]  [Validating] err: 	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+11:53:56.015 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+11:53:56.015 [INFO]  [Validating] err: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+11:53:56.015 [INFO]  [Validating] err: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+11:53:56.015 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+11:53:56.015 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+11:53:56.015 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+11:53:56.015 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+11:53:56.015 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+11:53:56.015 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+11:53:56.015 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+11:53:56.015 [INFO]  [Validating] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:316)
+11:53:56.015 [INFO]  [Validating] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:240)
+11:53:56.015 [INFO]  [Validating] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:214)
+11:53:56.015 [INFO]  [Validating] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:155)
+11:53:56.015 [INFO]  [Validating] err: 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+11:53:56.015 [INFO]  [Validating] err: 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+11:53:56.015 [INFO]  [Validating] err: 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+11:53:56.015 [INFO]  [Validating] err: 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+11:53:56.015 [INFO]  [Validating] err: Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+11:53:56.015 [INFO]  [Validating] err: 
+11:53:56.015 [INFO]  [Validating] err: The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+11:53:56.015 [INFO]  [Validating] err: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+11:53:56.015 [INFO]  [Validating] err: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+11:53:56.015 [INFO]  [Validating] err: 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+11:53:56.015 [INFO]  [Validating] err: 	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+11:53:56.015 [INFO]  [Validating] err: 	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:52)
+11:53:56.015 [INFO]  [Validating] err: 	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:95)
+11:53:56.015 [INFO]  [Validating] err: 	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:140)
+11:53:56.015 [INFO]  [Validating] err: 	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:156)
+11:53:56.015 [INFO]  [Validating] err: 	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:79)
+11:53:56.015 [INFO]  [Validating] err: 	at com.mysql.cj.NativeSession.connect(NativeSession.java:140)
+11:53:56.015 [INFO]  [Validating] err: 	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:969)
+11:53:56.015 [INFO]  [Validating] err: 	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:833)
+11:53:56.015 [INFO]  [Validating] err: 	... 37 more
+11:53:56.015 [INFO]  [Validating] err: Caused by: java.net.ConnectException: Connection refused (Connection refused)
+11:53:56.015 [INFO]  [Validating] err: 	at java.net.PlainSocketImpl.socketConnect(Native Method)
+11:53:56.015 [INFO]  [Validating] err: 	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+11:53:56.015 [INFO]  [Validating] err: 	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+11:53:56.015 [INFO]  [Validating] err: 	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+11:53:56.015 [INFO]  [Validating] err: 	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+11:53:56.015 [INFO]  [Validating] err: 	at java.net.Socket.connect(Socket.java:613)
+11:53:56.015 [INFO]  [Validating] err: 	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:144)
+11:53:56.015 [INFO]  [Validating] err: 	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:53)
+11:53:56.016 [INFO]  [Validating] err: 	... 40 more
+11:53:56.035 [INFO]  [Validating] out: [WARNING] Tests run: 9, Failures: 0, Errors: 0, Skipped: 4, Time elapsed: 0.012 s -- in dao.UserDAODiffblueTest
+11:53:56.035 [INFO]  [Validating] out: [INFO] Running dao.MessageDAODiffblueTest
+11:53:56.039 [INFO]  [Validating] out: [WARNING] Tests run: 7, Failures: 0, Errors: 0, Skipped: 6, Time elapsed: 0.001 s -- in dao.MessageDAODiffblueTest
+11:53:56.039 [INFO]  [Validating] out: [INFO] Running controller.ProfileServletDiffblueTest
+11:53:56.044 [INFO]  [Validating] out: [WARNING] Tests run: 3, Failures: 0, Errors: 0, Skipped: 2, Time elapsed: 0.001 s -- in controller.ProfileServletDiffblueTest
+11:53:56.044 [INFO]  [Validating] out: [INFO] Running controller.MessageServletDiffblueTest
+11:53:56.047 [INFO]  [Validating] out: [WARNING] Tests run: 3, Failures: 0, Errors: 0, Skipped: 2, Time elapsed: 0 s -- in controller.MessageServletDiffblueTest
+11:53:56.048 [INFO]  [Validating] out: [INFO] Running controller.LogoutServletDiffblueTest
+11:53:56.052 [INFO]  [Validating] out: [WARNING] Tests run: 3, Failures: 0, Errors: 0, Skipped: 2, Time elapsed: 0.001 s -- in controller.LogoutServletDiffblueTest
+11:53:56.052 [INFO]  [Validating] out: [INFO] Running controller.ViewMessageServletDiffblueTest
+11:53:56.056 [INFO]  [Validating] out: [WARNING] Tests run: 3, Failures: 0, Errors: 0, Skipped: 2, Time elapsed: 0 s -- in controller.ViewMessageServletDiffblueTest
+11:53:56.056 [INFO]  [Validating] out: [INFO] Running controller.LoginServletDiffblueTest
+11:53:56.062 [INFO]  [Validating] out: [WARNING] Tests run: 3, Failures: 0, Errors: 0, Skipped: 2, Time elapsed: 0 s -- in controller.LoginServletDiffblueTest
+11:53:56.062 [INFO]  [Validating] out: [INFO] Running controller.RegisterServletDiffblueTest
+11:53:56.065 [INFO]  [Validating] out: [WARNING] Tests run: 3, Failures: 0, Errors: 0, Skipped: 2, Time elapsed: 0 s -- in controller.RegisterServletDiffblueTest
+11:53:56.065 [INFO]  [Validating] out: [INFO] Running controller.HomeServletDiffblueTest
+11:53:56.070 [INFO]  [Validating] out: [WARNING] Tests run: 3, Failures: 0, Errors: 0, Skipped: 2, Time elapsed: 0 s -- in controller.HomeServletDiffblueTest
+11:53:56.070 [INFO]  [Validating] out: [INFO] Running model.MessageDiffblueTest
+11:53:56.076 [INFO]  [Validating] out: [INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s -- in model.MessageDiffblueTest
+11:53:56.077 [INFO]  [Validating] out: [INFO] Running model.UserDiffblueTest
+11:53:56.083 [INFO]  [Validating] out: [INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s -- in model.UserDiffblueTest
+11:53:56.083 [INFO]  [Validating] out: [INFO] Running model.PostDiffblueTest
+11:53:56.087 [INFO]  [Validating] out: [INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s -- in model.PostDiffblueTest
+11:53:56.096 [INFO]  [Validating] out: [INFO] 
+11:53:56.096 [INFO]  [Validating] out: [INFO] Results:
+11:53:56.096 [INFO]  [Validating] out: [INFO] 
+11:53:56.096 [INFO]  [Validating] out: [WARNING] Tests run: 51, Failures: 0, Errors: 0, Skipped: 30
+11:53:56.096 [INFO]  [Validating] out: [INFO] 
+11:53:56.137 [INFO]  [Validating] out: [INFO] ------------------------------------------------------------------------
+11:53:56.138 [INFO]  [Validating] out: [INFO] BUILD SUCCESS
+11:53:56.138 [INFO]  [Validating] out: [INFO] ------------------------------------------------------------------------
+11:53:56.138 [INFO]  [Validating] out: [INFO] Total time:  2.476 s
+11:53:56.138 [INFO]  [Validating] out: [INFO] Finished at: 2025-03-06T11:53:56Z
+11:53:56.138 [INFO]  [Validating] out: [INFO] ------------------------------------------------------------------------
+11:53:56.322 [INFO]  [Validating] All 18 created tests were successfully validated.
+11:53:56.337 [INFO]  [Measuring] Calculating coverage from Diffblue tests.
+11:53:56.341 [INFO]  [Measuring] Using default build rules as no custom rules found in any of [/Users/amishra/Developer/demo-java-ee-servlet]
+11:53:56.341 [INFO]  [Measuring] Attempting to invoke mvnw in working directory: /Users/amishra/Developer/demo-java-ee-servlet
+11:53:56.353 [INFO]  [Measuring] Attempting to invoke /opt/homebrew/bin/mvn in working directory: /Users/amishra/Developer/demo-java-ee-servlet
+11:53:56.368 [INFO]  [Measuring] Started "/opt/homebrew/bin/mvn -Dmaven.ext.class.path=/usr/local/bin/diffblue/cover-buildsystem-maven-spy-jar-with-dependencies.jar -Dcom.diffblue.cover.skipTests=true --batch-mode --projects=com.diffblue.pov:java-ee-servlet org.jacoco:jacoco-maven-plugin:0.8.11:prepare-agent -Djacoco.skip=false test -DfailIfNoTests=false -Dsurefire.failIfNoSpecifiedTests=false -Dmaven.test.failure.ignore=True -Dtest=*DiffblueTest org.jacoco:jacoco-maven-plugin:0.8.11:report -Djacoco.skip=false"
+11:53:57.423 [INFO]  [Measuring] out: [INFO] Scanning for projects...
+11:53:57.517 [INFO]  [Measuring] out: [INFO] 
+11:53:57.517 [INFO]  [Measuring] out: [INFO] ------------------< com.diffblue.pov:java-ee-servlet >------------------
+11:53:57.517 [INFO]  [Measuring] out: [INFO] Building Java EE Servlet Webapp 1.0.0
+11:53:57.517 [INFO]  [Measuring] out: [INFO]   from pom.xml
+11:53:57.517 [INFO]  [Measuring] out: [INFO] --------------------------------[ war ]---------------------------------
+11:53:57.784 [INFO]  [Measuring] out: [INFO] 
+11:53:57.784 [INFO]  [Measuring] out: [INFO] --- jacoco:0.8.11:prepare-agent (default-cli) @ java-ee-servlet ---
+11:53:58.007 [INFO]  [Measuring] out: [INFO] argLine set to -javaagent:/Users/amishra/.m2/repository/org/jacoco/org.jacoco.agent/0.8.11/org.jacoco.agent-0.8.11-runtime.jar=destfile=/Users/amishra/Developer/demo-java-ee-servlet/target/jacoco.exec
+11:53:58.009 [INFO]  [Measuring] out: [INFO] 
+11:53:58.009 [INFO]  [Measuring] out: [INFO] --- resources:3.3.1:resources (default-resources) @ java-ee-servlet ---
+11:53:58.126 [INFO]  [Measuring] out: [INFO] skip non existing resourceDirectory /Users/amishra/Developer/demo-java-ee-servlet/src/main/resources
+11:53:58.128 [INFO]  [Measuring] out: [INFO] 
+11:53:58.128 [INFO]  [Measuring] out: [INFO] --- compiler:3.13.0:compile (default-compile) @ java-ee-servlet ---
+11:53:58.258 [INFO]  [Measuring] out: [INFO] Nothing to compile - all classes are up to date.
+11:53:58.260 [INFO]  [Measuring] out: [INFO] 
+11:53:58.260 [INFO]  [Measuring] out: [INFO] --- resources:3.3.1:testResources (default-testResources) @ java-ee-servlet ---
+11:53:58.261 [INFO]  [Measuring] out: [INFO] skip non existing resourceDirectory /Users/amishra/Developer/demo-java-ee-servlet/src/test/resources
+11:53:58.263 [INFO]  [Measuring] out: [INFO] 
+11:53:58.263 [INFO]  [Measuring] out: [INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ java-ee-servlet ---
+11:53:58.273 [INFO]  [Measuring] out: [INFO] Nothing to compile - all classes are up to date.
+11:53:58.275 [INFO]  [Measuring] out: [INFO] 
+11:53:58.275 [INFO]  [Measuring] out: [INFO] --- surefire:3.3.0:test (default-test) @ java-ee-servlet ---
+11:53:58.403 [INFO]  [Measuring] out: [INFO] Using auto detected provider org.apache.maven.surefire.junit4.JUnit4Provider
+11:53:58.467 [INFO]  [Measuring] out: [INFO] 
+11:53:58.467 [INFO]  [Measuring] out: [INFO] -------------------------------------------------------
+11:53:58.467 [INFO]  [Measuring] out: [INFO]  T E S T S
+11:53:58.467 [INFO]  [Measuring] out: [INFO] -------------------------------------------------------
+11:53:59.058 [INFO]  [Measuring] out: [INFO] Running util.DBConnectionDiffblueTest
+11:53:59.126 [INFO]  [Measuring] out: [WARNING] Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.051 s -- in util.DBConnectionDiffblueTest
+11:53:59.126 [INFO]  [Measuring] out: [INFO] Running dao.PostDAODiffblueTest
+11:53:59.197 [INFO]  [Measuring] err: Loading class `com.mysql.jdbc.Driver'. This is deprecated. The new driver class is `com.mysql.cj.jdbc.Driver'. The driver is automatically registered via the SPI and manual loading of the driver class is generally unnecessary.
+11:53:59.282 [INFO]  [Measuring] err: com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+11:53:59.282 [INFO]  [Measuring] err: 
+11:53:59.282 [INFO]  [Measuring] err: The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+11:53:59.283 [INFO]  [Measuring] err: 	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:165)
+11:53:59.283 [INFO]  [Measuring] err: 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:55)
+11:53:59.283 [INFO]  [Measuring] err: 	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:845)
+11:53:59.283 [INFO]  [Measuring] err: 	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:420)
+11:53:59.283 [INFO]  [Measuring] err: 	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:238)
+11:53:59.283 [INFO]  [Measuring] err: 	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:180)
+11:53:59.283 [INFO]  [Measuring] err: 	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+11:53:59.283 [INFO]  [Measuring] err: 	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+11:53:59.283 [INFO]  [Measuring] err: 	at util.DBConnection.<init>(DBConnection.java:18)
+11:53:59.283 [INFO]  [Measuring] err: 	at util.DBConnection.getInstance(DBConnection.java:30)
+11:53:59.283 [INFO]  [Measuring] err: 	at dao.PostDAO.updatePost(PostDAO.java:79)
+11:53:59.283 [INFO]  [Measuring] err: 	at dao.PostDAODiffblueTest.testUpdatePost(PostDAODiffblueTest.java:136)
+11:53:59.283 [INFO]  [Measuring] err: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+11:53:59.283 [INFO]  [Measuring] err: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+11:53:59.283 [INFO]  [Measuring] err: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+11:53:59.283 [INFO]  [Measuring] err: 	at java.lang.reflect.Method.invoke(Method.java:498)
+11:53:59.283 [INFO]  [Measuring] err: 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+11:53:59.283 [INFO]  [Measuring] err: 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+11:53:59.283 [INFO]  [Measuring] err: 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+11:53:59.283 [INFO]  [Measuring] err: 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+11:53:59.283 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+11:53:59.283 [INFO]  [Measuring] err: 	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+11:53:59.283 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+11:53:59.283 [INFO]  [Measuring] err: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+11:53:59.283 [INFO]  [Measuring] err: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+11:53:59.283 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+11:53:59.283 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+11:53:59.283 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+11:53:59.283 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+11:53:59.283 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+11:53:59.283 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+11:53:59.283 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+11:53:59.283 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:316)
+11:53:59.283 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:240)
+11:53:59.283 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:214)
+11:53:59.283 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:155)
+11:53:59.283 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+11:53:59.283 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+11:53:59.283 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+11:53:59.283 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+11:53:59.283 [INFO]  [Measuring] err: Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+11:53:59.283 [INFO]  [Measuring] err: 
+11:53:59.283 [INFO]  [Measuring] err: The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+11:53:59.283 [INFO]  [Measuring] err: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+11:53:59.283 [INFO]  [Measuring] err: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+11:53:59.283 [INFO]  [Measuring] err: 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+11:53:59.283 [INFO]  [Measuring] err: 	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+11:53:59.283 [INFO]  [Measuring] err: 	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:52)
+11:53:59.283 [INFO]  [Measuring] err: 	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:95)
+11:53:59.283 [INFO]  [Measuring] err: 	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:140)
+11:53:59.283 [INFO]  [Measuring] err: 	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:156)
+11:53:59.283 [INFO]  [Measuring] err: 	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:79)
+11:53:59.283 [INFO]  [Measuring] err: 	at com.mysql.cj.NativeSession.connect(NativeSession.java:140)
+11:53:59.283 [INFO]  [Measuring] err: 	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:969)
+11:53:59.283 [INFO]  [Measuring] err: 	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:833)
+11:53:59.283 [INFO]  [Measuring] err: 	... 37 more
+11:53:59.283 [INFO]  [Measuring] err: Caused by: java.net.ConnectException: Connection refused (Connection refused)
+11:53:59.283 [INFO]  [Measuring] err: 	at java.net.PlainSocketImpl.socketConnect(Native Method)
+11:53:59.283 [INFO]  [Measuring] err: 	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+11:53:59.283 [INFO]  [Measuring] err: 	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+11:53:59.283 [INFO]  [Measuring] err: 	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+11:53:59.283 [INFO]  [Measuring] err: 	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+11:53:59.283 [INFO]  [Measuring] err: 	at java.net.Socket.connect(Socket.java:613)
+11:53:59.283 [INFO]  [Measuring] err: 	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:144)
+11:53:59.283 [INFO]  [Measuring] err: 	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:53)
+11:53:59.283 [INFO]  [Measuring] err: 	... 40 more
+11:53:59.306 [INFO]  [Measuring] out: [WARNING] Tests run: 7, Failures: 0, Errors: 0, Skipped: 5, Time elapsed: 0.160 s -- in dao.PostDAODiffblueTest
+11:53:59.306 [INFO]  [Measuring] out: [INFO] Running dao.UserDAODiffblueTest
+11:53:59.310 [INFO]  [Measuring] err: com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+11:53:59.310 [INFO]  [Measuring] err: 
+11:53:59.310 [INFO]  [Measuring] err: The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+11:53:59.310 [INFO]  [Measuring] err: 	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:165)
+11:53:59.310 [INFO]  [Measuring] err: 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:55)
+11:53:59.310 [INFO]  [Measuring] err: 	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:845)
+11:53:59.310 [INFO]  [Measuring] err: 	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:420)
+11:53:59.310 [INFO]  [Measuring] err: 	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:238)
+11:53:59.310 [INFO]  [Measuring] err: 	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:180)
+11:53:59.310 [INFO]  [Measuring] err: 	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+11:53:59.310 [INFO]  [Measuring] err: 	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+11:53:59.310 [INFO]  [Measuring] err: 	at util.DBConnection.<init>(DBConnection.java:18)
+11:53:59.310 [INFO]  [Measuring] err: 	at util.DBConnection.getInstance(DBConnection.java:30)
+11:53:59.310 [INFO]  [Measuring] err: 	at dao.UserDAO.register(UserDAO.java:38)
+11:53:59.310 [INFO]  [Measuring] err: 	at dao.UserDAODiffblueTest.testRegister(UserDAODiffblueTest.java:41)
+11:53:59.310 [INFO]  [Measuring] err: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+11:53:59.310 [INFO]  [Measuring] err: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+11:53:59.310 [INFO]  [Measuring] err: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+11:53:59.310 [INFO]  [Measuring] err: 	at java.lang.reflect.Method.invoke(Method.java:498)
+11:53:59.310 [INFO]  [Measuring] err: 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+11:53:59.310 [INFO]  [Measuring] err: 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+11:53:59.310 [INFO]  [Measuring] err: 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+11:53:59.310 [INFO]  [Measuring] err: 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+11:53:59.310 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+11:53:59.310 [INFO]  [Measuring] err: 	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+11:53:59.310 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+11:53:59.310 [INFO]  [Measuring] err: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+11:53:59.310 [INFO]  [Measuring] err: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+11:53:59.310 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+11:53:59.310 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+11:53:59.310 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+11:53:59.310 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+11:53:59.310 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+11:53:59.310 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+11:53:59.310 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+11:53:59.310 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:316)
+11:53:59.310 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:240)
+11:53:59.310 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:214)
+11:53:59.310 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:155)
+11:53:59.310 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+11:53:59.310 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+11:53:59.310 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+11:53:59.310 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+11:53:59.310 [INFO]  [Measuring] err: Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+11:53:59.310 [INFO]  [Measuring] err: 
+11:53:59.310 [INFO]  [Measuring] err: The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+11:53:59.310 [INFO]  [Measuring] err: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+11:53:59.310 [INFO]  [Measuring] err: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+11:53:59.310 [INFO]  [Measuring] err: 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+11:53:59.310 [INFO]  [Measuring] err: 	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+11:53:59.310 [INFO]  [Measuring] err: 	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:52)
+11:53:59.310 [INFO]  [Measuring] err: 	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:95)
+11:53:59.310 [INFO]  [Measuring] err: 	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:140)
+11:53:59.310 [INFO]  [Measuring] err: 	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:156)
+11:53:59.310 [INFO]  [Measuring] err: 	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:79)
+11:53:59.310 [INFO]  [Measuring] err: 	at com.mysql.cj.NativeSession.connect(NativeSession.java:140)
+11:53:59.310 [INFO]  [Measuring] err: 	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:969)
+11:53:59.311 [INFO]  [Measuring] err: 	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:833)
+11:53:59.311 [INFO]  [Measuring] err: 	... 37 more
+11:53:59.311 [INFO]  [Measuring] err: Caused by: java.net.ConnectException: Connection refused (Connection refused)
+11:53:59.311 [INFO]  [Measuring] err: 	at java.net.PlainSocketImpl.socketConnect(Native Method)
+11:53:59.311 [INFO]  [Measuring] err: 	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+11:53:59.311 [INFO]  [Measuring] err: 	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+11:53:59.311 [INFO]  [Measuring] err: 	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+11:53:59.311 [INFO]  [Measuring] err: 	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+11:53:59.311 [INFO]  [Measuring] err: 	at java.net.Socket.connect(Socket.java:613)
+11:53:59.311 [INFO]  [Measuring] err: 	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:144)
+11:53:59.311 [INFO]  [Measuring] err: 	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:53)
+11:53:59.311 [INFO]  [Measuring] err: 	... 40 more
+11:53:59.313 [INFO]  [Measuring] err: com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+11:53:59.313 [INFO]  [Measuring] err: 
+11:53:59.313 [INFO]  [Measuring] err: The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+11:53:59.313 [INFO]  [Measuring] err: 	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:165)
+11:53:59.313 [INFO]  [Measuring] err: 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:55)
+11:53:59.313 [INFO]  [Measuring] err: 	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:845)
+11:53:59.314 [INFO]  [Measuring] err: 	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:420)
+11:53:59.314 [INFO]  [Measuring] err: 	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:238)
+11:53:59.314 [INFO]  [Measuring] err: 	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:180)
+11:53:59.314 [INFO]  [Measuring] err: 	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+11:53:59.314 [INFO]  [Measuring] err: 	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+11:53:59.314 [INFO]  [Measuring] err: 	at util.DBConnection.<init>(DBConnection.java:18)
+11:53:59.314 [INFO]  [Measuring] err: 	at util.DBConnection.getInstance(DBConnection.java:30)
+11:53:59.314 [INFO]  [Measuring] err: 	at dao.UserDAO.updateProfile(UserDAO.java:117)
+11:53:59.314 [INFO]  [Measuring] err: 	at dao.UserDAODiffblueTest.testUpdateProfile(UserDAODiffblueTest.java:146)
+11:53:59.314 [INFO]  [Measuring] err: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+11:53:59.314 [INFO]  [Measuring] err: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+11:53:59.314 [INFO]  [Measuring] err: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+11:53:59.314 [INFO]  [Measuring] err: 	at java.lang.reflect.Method.invoke(Method.java:498)
+11:53:59.314 [INFO]  [Measuring] err: 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+11:53:59.314 [INFO]  [Measuring] err: 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+11:53:59.314 [INFO]  [Measuring] err: 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+11:53:59.314 [INFO]  [Measuring] err: 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+11:53:59.314 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+11:53:59.314 [INFO]  [Measuring] err: 	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+11:53:59.314 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+11:53:59.314 [INFO]  [Measuring] err: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+11:53:59.314 [INFO]  [Measuring] err: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+11:53:59.314 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+11:53:59.314 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+11:53:59.314 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+11:53:59.314 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+11:53:59.314 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+11:53:59.314 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+11:53:59.314 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+11:53:59.314 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:316)
+11:53:59.314 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:240)
+11:53:59.314 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:214)
+11:53:59.314 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:155)
+11:53:59.314 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+11:53:59.314 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+11:53:59.314 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+11:53:59.314 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+11:53:59.314 [INFO]  [Measuring] err: Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+11:53:59.314 [INFO]  [Measuring] err: 
+11:53:59.314 [INFO]  [Measuring] err: The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+11:53:59.314 [INFO]  [Measuring] err: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+11:53:59.314 [INFO]  [Measuring] err: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+11:53:59.314 [INFO]  [Measuring] err: 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+11:53:59.314 [INFO]  [Measuring] err: 	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+11:53:59.314 [INFO]  [Measuring] err: 	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:52)
+11:53:59.314 [INFO]  [Measuring] err: 	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:95)
+11:53:59.314 [INFO]  [Measuring] err: 	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:140)
+11:53:59.314 [INFO]  [Measuring] err: 	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:156)
+11:53:59.314 [INFO]  [Measuring] err: 	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:79)
+11:53:59.314 [INFO]  [Measuring] err: 	at com.mysql.cj.NativeSession.connect(NativeSession.java:140)
+11:53:59.314 [INFO]  [Measuring] err: 	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:969)
+11:53:59.314 [INFO]  [Measuring] err: 	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:833)
+11:53:59.314 [INFO]  [Measuring] err: 	... 37 more
+11:53:59.314 [INFO]  [Measuring] err: Caused by: java.net.ConnectException: Connection refused (Connection refused)
+11:53:59.314 [INFO]  [Measuring] err: 	at java.net.PlainSocketImpl.socketConnect(Native Method)
+11:53:59.314 [INFO]  [Measuring] err: 	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+11:53:59.314 [INFO]  [Measuring] err: 	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+11:53:59.314 [INFO]  [Measuring] err: 	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+11:53:59.314 [INFO]  [Measuring] err: 	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+11:53:59.314 [INFO]  [Measuring] err: 	at java.net.Socket.connect(Socket.java:613)
+11:53:59.314 [INFO]  [Measuring] err: 	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:144)
+11:53:59.314 [INFO]  [Measuring] err: 	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:53)
+11:53:59.314 [INFO]  [Measuring] err: 	... 40 more
+11:53:59.318 [INFO]  [Measuring] err: com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+11:53:59.319 [INFO]  [Measuring] err: 
+11:53:59.319 [INFO]  [Measuring] err: The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+11:53:59.319 [INFO]  [Measuring] err: 	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:165)
+11:53:59.319 [INFO]  [Measuring] err: 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:55)
+11:53:59.319 [INFO]  [Measuring] err: 	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:845)
+11:53:59.319 [INFO]  [Measuring] err: 	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:420)
+11:53:59.319 [INFO]  [Measuring] err: 	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:238)
+11:53:59.319 [INFO]  [Measuring] err: 	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:180)
+11:53:59.319 [INFO]  [Measuring] err: 	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+11:53:59.319 [INFO]  [Measuring] err: 	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+11:53:59.319 [INFO]  [Measuring] err: 	at util.DBConnection.<init>(DBConnection.java:18)
+11:53:59.319 [INFO]  [Measuring] err: 	at util.DBConnection.getInstance(DBConnection.java:30)
+11:53:59.319 [INFO]  [Measuring] err: 	at dao.UserDAO.updatePassword(UserDAO.java:136)
+11:53:59.319 [INFO]  [Measuring] err: 	at dao.UserDAODiffblueTest.testUpdatePassword(UserDAODiffblueTest.java:163)
+11:53:59.319 [INFO]  [Measuring] err: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+11:53:59.319 [INFO]  [Measuring] err: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+11:53:59.319 [INFO]  [Measuring] err: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+11:53:59.319 [INFO]  [Measuring] err: 	at java.lang.reflect.Method.invoke(Method.java:498)
+11:53:59.319 [INFO]  [Measuring] err: 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+11:53:59.319 [INFO]  [Measuring] err: 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+11:53:59.319 [INFO]  [Measuring] err: 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+11:53:59.319 [INFO]  [Measuring] err: 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+11:53:59.319 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+11:53:59.319 [INFO]  [Measuring] err: 	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+11:53:59.319 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+11:53:59.319 [INFO]  [Measuring] err: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+11:53:59.319 [INFO]  [Measuring] err: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+11:53:59.319 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+11:53:59.319 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+11:53:59.319 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+11:53:59.319 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+11:53:59.319 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+11:53:59.319 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+11:53:59.319 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+11:53:59.319 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:316)
+11:53:59.319 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:240)
+11:53:59.319 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:214)
+11:53:59.319 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:155)
+11:53:59.319 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+11:53:59.319 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+11:53:59.319 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+11:53:59.319 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+11:53:59.319 [INFO]  [Measuring] err: Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+11:53:59.319 [INFO]  [Measuring] err: 
+11:53:59.319 [INFO]  [Measuring] err: The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+11:53:59.319 [INFO]  [Measuring] err: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+11:53:59.319 [INFO]  [Measuring] err: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+11:53:59.319 [INFO]  [Measuring] err: 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+11:53:59.319 [INFO]  [Measuring] err: 	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+11:53:59.319 [INFO]  [Measuring] err: 	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:52)
+11:53:59.319 [INFO]  [Measuring] err: 	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:95)
+11:53:59.319 [INFO]  [Measuring] err: 	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:140)
+11:53:59.319 [INFO]  [Measuring] err: 	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:156)
+11:53:59.319 [INFO]  [Measuring] err: 	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:79)
+11:53:59.319 [INFO]  [Measuring] err: 	at com.mysql.cj.NativeSession.connect(NativeSession.java:140)
+11:53:59.319 [INFO]  [Measuring] err: 	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:969)
+11:53:59.319 [INFO]  [Measuring] err: 	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:833)
+11:53:59.319 [INFO]  [Measuring] err: 	... 37 more
+11:53:59.319 [INFO]  [Measuring] err: Caused by: java.net.ConnectException: Connection refused (Connection refused)
+11:53:59.319 [INFO]  [Measuring] err: 	at java.net.PlainSocketImpl.socketConnect(Native Method)
+11:53:59.319 [INFO]  [Measuring] err: 	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+11:53:59.319 [INFO]  [Measuring] err: 	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+11:53:59.319 [INFO]  [Measuring] err: 	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+11:53:59.319 [INFO]  [Measuring] err: 	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+11:53:59.319 [INFO]  [Measuring] err: 	at java.net.Socket.connect(Socket.java:613)
+11:53:59.319 [INFO]  [Measuring] err: 	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:144)
+11:53:59.319 [INFO]  [Measuring] err: 	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:53)
+11:53:59.319 [INFO]  [Measuring] err: 	... 40 more
+11:53:59.340 [INFO]  [Measuring] out: [WARNING] Tests run: 9, Failures: 0, Errors: 0, Skipped: 4, Time elapsed: 0.013 s -- in dao.UserDAODiffblueTest
+11:53:59.340 [INFO]  [Measuring] out: [INFO] Running dao.MessageDAODiffblueTest
+11:53:59.352 [INFO]  [Measuring] out: [WARNING] Tests run: 7, Failures: 0, Errors: 0, Skipped: 6, Time elapsed: 0.001 s -- in dao.MessageDAODiffblueTest
+11:53:59.352 [INFO]  [Measuring] out: [INFO] Running controller.ProfileServletDiffblueTest
+11:53:59.360 [INFO]  [Measuring] out: [WARNING] Tests run: 3, Failures: 0, Errors: 0, Skipped: 2, Time elapsed: 0.001 s -- in controller.ProfileServletDiffblueTest
+11:53:59.360 [INFO]  [Measuring] out: [INFO] Running controller.MessageServletDiffblueTest
+11:53:59.369 [INFO]  [Measuring] out: [WARNING] Tests run: 3, Failures: 0, Errors: 0, Skipped: 2, Time elapsed: 0.001 s -- in controller.MessageServletDiffblueTest
+11:53:59.369 [INFO]  [Measuring] out: [INFO] Running controller.LogoutServletDiffblueTest
+11:53:59.375 [INFO]  [Measuring] out: [WARNING] Tests run: 3, Failures: 0, Errors: 0, Skipped: 2, Time elapsed: 0.001 s -- in controller.LogoutServletDiffblueTest
+11:53:59.376 [INFO]  [Measuring] out: [INFO] Running controller.ViewMessageServletDiffblueTest
+11:53:59.384 [INFO]  [Measuring] out: [WARNING] Tests run: 3, Failures: 0, Errors: 0, Skipped: 2, Time elapsed: 0.001 s -- in controller.ViewMessageServletDiffblueTest
+11:53:59.385 [INFO]  [Measuring] out: [INFO] Running controller.LoginServletDiffblueTest
+11:53:59.388 [INFO]  [Measuring] out: [WARNING] Tests run: 3, Failures: 0, Errors: 0, Skipped: 2, Time elapsed: 0.001 s -- in controller.LoginServletDiffblueTest
+11:53:59.388 [INFO]  [Measuring] out: [INFO] Running controller.RegisterServletDiffblueTest
+11:53:59.391 [INFO]  [Measuring] out: [WARNING] Tests run: 3, Failures: 0, Errors: 0, Skipped: 2, Time elapsed: 0 s -- in controller.RegisterServletDiffblueTest
+11:53:59.391 [INFO]  [Measuring] out: [INFO] Running controller.HomeServletDiffblueTest
+11:53:59.400 [INFO]  [Measuring] out: [WARNING] Tests run: 3, Failures: 0, Errors: 0, Skipped: 2, Time elapsed: 0 s -- in controller.HomeServletDiffblueTest
+11:53:59.400 [INFO]  [Measuring] out: [INFO] Running model.MessageDiffblueTest
+11:53:59.403 [INFO]  [Measuring] out: [INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s -- in model.MessageDiffblueTest
+11:53:59.403 [INFO]  [Measuring] out: [INFO] Running model.UserDiffblueTest
+11:53:59.406 [INFO]  [Measuring] out: [INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s -- in model.UserDiffblueTest
+11:53:59.407 [INFO]  [Measuring] out: [INFO] Running model.PostDiffblueTest
+11:53:59.410 [INFO]  [Measuring] out: [INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s -- in model.PostDiffblueTest
+11:53:59.439 [INFO]  [Measuring] out: [INFO] 
+11:53:59.439 [INFO]  [Measuring] out: [INFO] Results:
+11:53:59.439 [INFO]  [Measuring] out: [INFO] 
+11:53:59.439 [INFO]  [Measuring] out: [WARNING] Tests run: 51, Failures: 0, Errors: 0, Skipped: 30
+11:53:59.439 [INFO]  [Measuring] out: [INFO] 
+11:53:59.452 [INFO]  [Measuring] out: [INFO] 
+11:53:59.452 [INFO]  [Measuring] out: [INFO] --- jacoco:0.8.11:report (default-cli) @ java-ee-servlet ---
+11:53:59.456 [INFO]  [Measuring] out: [INFO] Loading execution data file /Users/amishra/Developer/demo-java-ee-servlet/target/jacoco.exec
+11:53:59.552 [INFO]  [Measuring] out: [INFO] Analyzed bundle 'Java EE Servlet Webapp' with 14 classes
+11:53:59.672 [INFO]  [Measuring] out: [INFO] ------------------------------------------------------------------------
+11:53:59.672 [INFO]  [Measuring] out: [INFO] BUILD SUCCESS
+11:53:59.672 [INFO]  [Measuring] out: [INFO] ------------------------------------------------------------------------
+11:53:59.673 [INFO]  [Measuring] out: [INFO] Total time:  2.263 s
+11:53:59.673 [INFO]  [Measuring] out: [INFO] Finished at: 2025-03-06T11:53:59Z
+11:53:59.673 [INFO]  [Measuring] out: [INFO] ------------------------------------------------------------------------
+11:53:59.752 [INFO]  [Measuring] JaCoCo report file created in /Users/amishra/Developer/demo-java-ee-servlet/.diffblue/reports/diffblue-tests-jacoco-report.xml
+11:53:59.831 [INFO]  [Measuring] Calculating coverage from manual tests.
+11:53:59.838 [INFO]  [Measuring] Using default build rules as no custom rules found in any of [/Users/amishra/Developer/demo-java-ee-servlet]
+11:53:59.838 [INFO]  [Measuring] Attempting to invoke mvnw in working directory: /Users/amishra/Developer/demo-java-ee-servlet
+11:53:59.867 [INFO]  [Measuring] Attempting to invoke /opt/homebrew/bin/mvn in working directory: /Users/amishra/Developer/demo-java-ee-servlet
+11:53:59.887 [INFO]  [Measuring] Started "/opt/homebrew/bin/mvn -Dmaven.ext.class.path=/usr/local/bin/diffblue/cover-buildsystem-maven-spy-jar-with-dependencies.jar -Dcom.diffblue.cover.skipTests=true --batch-mode --projects=com.diffblue.pov:java-ee-servlet org.jacoco:jacoco-maven-plugin:0.8.11:prepare-agent -Djacoco.skip=false test -DfailIfNoTests=false -Dsurefire.failIfNoSpecifiedTests=false -Dmaven.test.failure.ignore=True -Dtest=!*DiffblueTest,**/Test*.java,**/*Test.java,**/*Tests.java,**/*TestCase.java org.jacoco:jacoco-maven-plugin:0.8.11:report -Djacoco.skip=false"
+11:54:00.998 [INFO]  [Measuring] out: [INFO] Scanning for projects...
+11:54:01.094 [INFO]  [Measuring] out: [INFO] 
+11:54:01.094 [INFO]  [Measuring] out: [INFO] ------------------< com.diffblue.pov:java-ee-servlet >------------------
+11:54:01.094 [INFO]  [Measuring] out: [INFO] Building Java EE Servlet Webapp 1.0.0
+11:54:01.094 [INFO]  [Measuring] out: [INFO]   from pom.xml
+11:54:01.094 [INFO]  [Measuring] out: [INFO] --------------------------------[ war ]---------------------------------
+11:54:01.455 [INFO]  [Measuring] out: [INFO] 
+11:54:01.456 [INFO]  [Measuring] out: [INFO] --- jacoco:0.8.11:prepare-agent (default-cli) @ java-ee-servlet ---
+11:54:01.642 [INFO]  [Measuring] out: [INFO] argLine set to -javaagent:/Users/amishra/.m2/repository/org/jacoco/org.jacoco.agent/0.8.11/org.jacoco.agent-0.8.11-runtime.jar=destfile=/Users/amishra/Developer/demo-java-ee-servlet/target/jacoco.exec
+11:54:01.643 [INFO]  [Measuring] out: [INFO] 
+11:54:01.644 [INFO]  [Measuring] out: [INFO] --- resources:3.3.1:resources (default-resources) @ java-ee-servlet ---
+11:54:01.728 [INFO]  [Measuring] out: [INFO] skip non existing resourceDirectory /Users/amishra/Developer/demo-java-ee-servlet/src/main/resources
+11:54:01.730 [INFO]  [Measuring] out: [INFO] 
+11:54:01.730 [INFO]  [Measuring] out: [INFO] --- compiler:3.13.0:compile (default-compile) @ java-ee-servlet ---
+11:54:01.880 [INFO]  [Measuring] out: [INFO] Nothing to compile - all classes are up to date.
+11:54:01.881 [INFO]  [Measuring] out: [INFO] 
+11:54:01.881 [INFO]  [Measuring] out: [INFO] --- resources:3.3.1:testResources (default-testResources) @ java-ee-servlet ---
+11:54:01.883 [INFO]  [Measuring] out: [INFO] skip non existing resourceDirectory /Users/amishra/Developer/demo-java-ee-servlet/src/test/resources
+11:54:01.884 [INFO]  [Measuring] out: [INFO] 
+11:54:01.884 [INFO]  [Measuring] out: [INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ java-ee-servlet ---
+11:54:01.896 [INFO]  [Measuring] out: [INFO] Nothing to compile - all classes are up to date.
+11:54:01.897 [INFO]  [Measuring] out: [INFO] 
+11:54:01.897 [INFO]  [Measuring] out: [INFO] --- surefire:3.3.0:test (default-test) @ java-ee-servlet ---
+11:54:02.041 [INFO]  [Measuring] out: [INFO] 
+11:54:02.041 [INFO]  [Measuring] out: [INFO] --- jacoco:0.8.11:report (default-cli) @ java-ee-servlet ---
+11:54:02.044 [INFO]  [Measuring] out: [INFO] Loading execution data file /Users/amishra/Developer/demo-java-ee-servlet/target/jacoco.exec
+11:54:02.149 [INFO]  [Measuring] out: [INFO] Analyzed bundle 'Java EE Servlet Webapp' with 14 classes
+11:54:02.311 [INFO]  [Measuring] out: [INFO] ------------------------------------------------------------------------
+11:54:02.311 [INFO]  [Measuring] out: [INFO] BUILD SUCCESS
+11:54:02.311 [INFO]  [Measuring] out: [INFO] ------------------------------------------------------------------------
+11:54:02.311 [INFO]  [Measuring] out: [INFO] Total time:  1.332 s
+11:54:02.312 [INFO]  [Measuring] out: [INFO] Finished at: 2025-03-06T11:54:02Z
+11:54:02.312 [INFO]  [Measuring] out: [INFO] ------------------------------------------------------------------------
+11:54:02.379 [INFO]  [Measuring] JaCoCo report file created in /Users/amishra/Developer/demo-java-ee-servlet/.diffblue/reports/manual-tests-jacoco-report.xml
+11:54:02.397 [INFO]  [Measuring] 
+11:54:02.423 [INFO]  [Measuring] Diffblue tests cover 110 of 593 lines to cover (18.5%)
+11:54:02.429 [INFO]  [Measuring] Manual tests cover 0 of 593 lines to cover (0.0%)
+11:54:02.615 [INFO]  [Reporting] Writing JSON report to /Users/amishra/Developer/demo-java-ee-servlet/.diffblue/reports/report.json
+11:54:02.793 [INFO]  [Reporting] 
+11:54:02.793 [INFO]  [Reporting] Log file: /Users/amishra/Developer/demo-java-ee-servlet/.diffblue/log/user-20250306T115208.log
+11:54:02.793 [INFO]  [Reporting] Finished in 1m 46s
