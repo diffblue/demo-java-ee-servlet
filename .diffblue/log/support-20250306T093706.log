@@ -1,0 +1,292 @@
+09:37:06.248 [DEBUG] [Preparing][main][com.diffblue.cover.commons.configuration.Environment] Using properties file in the given path
+09:37:06.849 [DEBUG] [Preparing][main][com.diffblue.cover.commons.configuration.Environment] Using properties file found in user home Diffblue directory: /Users/amishra/.diffblue/telemetry.properties
+09:37:06.851 [DEBUG] [Preparing][main][com.diffblue.cover.commons.configuration.Environment] Loading properties from file: telemetry.properties
+09:37:06.851 [DEBUG] [Preparing][main][com.diffblue.cover.commons.configuration.Environment] Property telemetry.external.environment has value production
+09:37:06.852 [DEBUG] [Preparing][main][com.diffblue.cover.commons.configuration.Environment] Property telemetry.id has value 82424d65-7f68-4d9d-b815-ebe214ad4adf
+09:37:06.853 [DEBUG] [Preparing][main][com.diffblue.cover.commons.configuration.Environment] Property telemetry.id has value 82424d65-7f68-4d9d-b815-ebe214ad4adf
+09:37:06.854 [DEBUG] [Preparing][main][com.diffblue.cover.d.a] Checking connectivity of telemetry (mixpanel) to uri: https://api-eu.mixpanel.com
+09:37:07.119 [DEBUG] [Preparing][main][com.diffblue.cover.d.a] Telemetry (mixpanel) connectivity response code: 404
+09:37:07.287 [DEBUG] [Preparing][main][com.diffblue.cover.ui.controller.ag] Client heap size: 7282 MB
+09:37:07.299 [INFO]  [Preparing][main][com.diffblue.cover.ui.controller.r] Diffblue Cover 2025.02.02-08b2a5a-licensed
+09:37:07.299 [INFO]  [Preparing][main][com.diffblue.cover.ui.controller.r] Running: dcover create
+09:37:07.299 [INFO]  [Preparing][main][com.diffblue.cover.ui.controller.ai] 
+09:37:07.300 [INFO]  [Preparing][main][com.diffblue.cover.ui.controller.ai] Command: create
+09:37:07.300 [INFO]  [Preparing][main][com.diffblue.cover.ui.controller.ai] Create tests for the specified package/class/method.
+09:37:07.300 [INFO]  [Preparing][main][com.diffblue.cover.ui.controller.ai] 
+09:37:09.688 [DEBUG] [Checking][main][com.diffblue.cover.r.b.h] initializeManager for Offline
+09:37:09.867 [DEBUG] [Checking][main][com.diffblue.cover.r.b.d] Checking licence edition
+09:37:09.946 [DEBUG] [Checking][main][com.diffblue.cover.r.b.c] Licence label to match: Enterprise Edition
+09:37:09.946 [DEBUG] [Checking][main][com.diffblue.cover.r.b.h] checkLicense for Offline
+09:37:10.359 [DEBUG] [Checking][main][com.diffblue.cover.o.a.f] checking if /Users/amishra/Developer/demo-java-ee-servlet/DiffblueBuild.yaml exists...
+09:37:10.359 [DEBUG] [Checking][main][com.diffblue.cover.o.a.f] checking if /Users/amishra/Developer/demo-java-ee-servlet/DiffblueBuild.yml exists...
+09:37:10.387 [DEBUG] [Checking][main][com.diffblue.cover.o.a.d] Maven home found: /opt/homebrew/Cellar/maven/3.9.9
+09:37:10.391 [INFO]  [Checking][main][com.diffblue.cover.buildsystem.internal.d.c] Maven Using ${maven.home} of: /opt/homebrew/Cellar/maven/3.9.9.
+09:37:10.394 [INFO]  [Checking][main][com.diffblue.cover.buildsystem.internal.d.c] Maven Executing: /bin/sh -c cd /Users/amishra/Developer/demo-java-ee-servlet && /opt/homebrew/Cellar/maven/3.9.9/bin/mvn -B -version
+09:37:10.905 [INFO]  [Checking][main][com.diffblue.cover.buildsystem.internal.c.a] Standard output of build tool (Maven)
+09:37:10.905 [INFO]  [Checking][main][com.diffblue.cover.buildsystem.internal.c.a] > Apache Maven 3.9.9 (8e8579a9e76f7d015ee5ec7bfcdc97d260186937)
+09:37:10.905 [INFO]  [Checking][main][com.diffblue.cover.buildsystem.internal.c.a] > Maven home: /opt/homebrew/Cellar/maven/3.9.9/libexec
+09:37:10.906 [INFO]  [Checking][main][com.diffblue.cover.buildsystem.internal.c.a] > Java version: 1.8.0_442, vendor: Azul Systems, Inc., runtime: /Library/Java/JavaVirtualMachines/zulu-8.jdk/Contents/Home/jre
+09:37:10.906 [INFO]  [Checking][main][com.diffblue.cover.buildsystem.internal.c.a] > Default locale: en_GB, platform encoding: UTF-8
+09:37:10.906 [INFO]  [Checking][main][com.diffblue.cover.buildsystem.internal.c.a] > OS name: "mac os x", version: "15.3.1", arch: "aarch64", family: "mac"
+09:37:10.908 [INFO]  [Checking][main][com.diffblue.cover.buildsystem.f] Using CUSTOMISABLE Build System Implementation
+09:37:11.021 [DEBUG] [Checking][main][com.diffblue.cover.buildsystem.config.registry.Registry] checking if /Users/amishra/Developer/demo-java-ee-servlet/DiffblueBuild.yaml exists...
+09:37:11.021 [DEBUG] [Checking][main][com.diffblue.cover.buildsystem.config.registry.Registry] checking if /Users/amishra/Developer/demo-java-ee-servlet/DiffblueBuild.yml exists...
+09:37:11.022 [INFO]  [Checking][main][com.diffblue.cover.buildsystem.config.registry.Registry] Using default build rules as no custom rules found in any of [/Users/amishra/Developer/demo-java-ee-servlet]
+09:37:11.026 [DEBUG] [Checking][main][com.diffblue.cover.buildsystem.config.registry.Registry] Build execution request for Info Phase
+09:37:11.028 [INFO]  [Checking][main][com.diffblue.cover.buildsystem.config.a.a] Attempting to invoke mvnw in working directory: /Users/amishra/Developer/demo-java-ee-servlet
+09:37:11.042 [INFO]  [Checking][main][com.diffblue.cover.buildsystem.config.a.a] Attempting to invoke /opt/homebrew/bin/mvn in working directory: /Users/amishra/Developer/demo-java-ee-servlet
+09:37:11.056 [INFO]  [Checking][main][com.diffblue.cover.buildsystem.config.a.a] Started "/opt/homebrew/bin/mvn -Dmaven.ext.class.path=/usr/local/bin/diffblue/cover-buildsystem-maven-spy-jar-with-dependencies.jar -Dcom.diffblue.cover.skipTests=true --batch-mode install -Dmaven.compiler.failOnWarning=false --also-make -DskipTests -DskipITs --threads=1C"
+09:37:12.060 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] Scanning for projects...
+09:37:12.093 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [WARNING] 
+09:37:12.093 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [WARNING] Some problems were encountered while building the effective model for org.mdb:DemoJSP:war:0.0.1-SNAPSHOT
+09:37:12.094 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.servlet:javax.servlet-api:jar -> duplicate declaration of version 4.0.1 @ line 30, column 17
+09:37:12.094 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [WARNING] 
+09:37:12.094 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+09:37:12.094 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [WARNING] 
+09:37:12.094 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+09:37:12.094 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [WARNING] 
+09:37:12.103 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] 
+09:37:12.103 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] Using the MultiThreadedBuilder implementation with a thread count of 10
+09:37:12.105 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] 
+09:37:12.105 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] --------------------------< org.mdb:DemoJSP >---------------------------
+09:37:12.105 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] Building DemoJSP Maven Webapp 0.0.1-SNAPSHOT
+09:37:12.105 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO]   from pom.xml
+09:37:12.105 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] --------------------------------[ war ]---------------------------------
+09:37:12.524 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] 
+09:37:12.524 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] --- resources:3.3.1:resources (default-resources) @ DemoJSP ---
+09:37:12.702 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] skip non existing resourceDirectory /Users/amishra/Developer/demo-java-ee-servlet/src/main/resources
+09:37:12.704 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] 
+09:37:12.705 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] --- compiler:3.13.0:compile (default-compile) @ DemoJSP ---
+09:37:12.895 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] No sources to compile
+09:37:12.897 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] 
+09:37:12.897 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] --- resources:3.3.1:testResources (default-testResources) @ DemoJSP ---
+09:37:12.898 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] skip non existing resourceDirectory /Users/amishra/Developer/demo-java-ee-servlet/src/test/resources
+09:37:12.900 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] 
+09:37:12.900 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ DemoJSP ---
+09:37:12.902 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] No sources to compile
+09:37:12.904 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] 
+09:37:12.904 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] --- surefire:3.3.0:test (default-test) @ DemoJSP ---
+09:37:13.046 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] Tests are skipped.
+09:37:13.048 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] 
+09:37:13.048 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] --- war:3.4.0:war (default-war) @ DemoJSP ---
+09:37:13.498 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] Packaging webapp
+09:37:13.498 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] Assembling webapp [DemoJSP] in [/Users/amishra/Developer/demo-java-ee-servlet/target/DemoJSP]
+09:37:13.504 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] Processing war project
+09:37:13.527 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] Building war: /Users/amishra/Developer/demo-java-ee-servlet/target/DemoJSP.war
+09:37:13.606 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] 
+09:37:13.607 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] --- install:3.1.2:install (default-install) @ DemoJSP ---
+09:37:13.660 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] Installing /Users/amishra/Developer/demo-java-ee-servlet/pom.xml to /Users/amishra/.m2/repository/org/mdb/DemoJSP/0.0.1-SNAPSHOT/DemoJSP-0.0.1-SNAPSHOT.pom
+09:37:13.681 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] Installing /Users/amishra/Developer/demo-java-ee-servlet/target/DemoJSP.war to /Users/amishra/.m2/repository/org/mdb/DemoJSP/0.0.1-SNAPSHOT/DemoJSP-0.0.1-SNAPSHOT.war
+09:37:13.765 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] ------------------------------------------------------------------------
+09:37:13.766 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] BUILD SUCCESS
+09:37:13.766 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] ------------------------------------------------------------------------
+09:37:13.766 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] Total time:  1.704 s (Wall Clock)
+09:37:13.766 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] Finished at: 2025-03-06T09:37:13Z
+09:37:13.766 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] ------------------------------------------------------------------------
+09:37:13.802 [DEBUG] [Checking][main][com.diffblue.cover.commons.l.c] Processing rule com.diffblue.cover.o.a.d took 3418ms
+09:37:13.804 [INFO]  [Checking][main][com.diffblue.cover.o.a.ar] Operating System: Mac OS X aarch64 15.3.1
+09:37:13.804 [INFO]  [Checking][main][com.diffblue.cover.o.a.ar] Default charset: UTF-8
+09:37:13.804 [INFO]  [Checking][main][com.diffblue.cover.o.a.ar] Default locale: en_GB
+09:37:13.804 [INFO]  [Checking][main][com.diffblue.cover.o.a.ar] Default time zone: Europe/London
+09:37:13.807 [DEBUG] [Checking][main][com.diffblue.cover.o.a.w] Java home guessed from System property: /Library/Java/JavaVirtualMachines/zulu-8.jdk/Contents/Home
+09:37:13.811 [DEBUG] [Checking][main][com.diffblue.cover.commons.l.c] Inference engine finished in 3459ms
+09:37:13.812 [INFO]  [Checking][main][com.diffblue.cover.ui.controller.z] Discovered modules:
+09:37:13.812 [INFO]  [Checking][main][com.diffblue.cover.ui.controller.z] - org.mdb:DemoJSP
+09:37:13.812 [INFO]  [Checking][main][com.diffblue.cover.ui.controller.z] 
+09:37:13.816 [INFO]  [Checking][main][com.diffblue.cover.ui.controller.z] 
+09:37:13.816 [INFO]  [Checking][main][com.diffblue.cover.ui.controller.z] [1/1] Creating tests for module: org.mdb:DemoJSP
+09:37:13.816 [INFO]  [Checking][main][com.diffblue.cover.ui.controller.z] ================================================
+09:37:13.816 [INFO]  [Checking][main][com.diffblue.cover.ui.controller.z] 
+09:37:13.816 [INFO]  [Checking][main][com.diffblue.cover.ui.controller.q] Detecting environment:
+09:37:13.816 [INFO]  [Checking][main][com.diffblue.cover.ui.controller.q] ----------------------
+09:37:13.864 [INFO]  [Checking][main][com.diffblue.cover.ui.controller.q] Detected Java version 1.8.0_442
+09:37:13.865 [DEBUG] [Checking][main][com.diffblue.cover.o.a.f] checking if /Users/amishra/Developer/demo-java-ee-servlet/DiffblueBuild.yaml exists...
+09:37:13.865 [DEBUG] [Checking][main][com.diffblue.cover.o.a.f] checking if /Users/amishra/Developer/demo-java-ee-servlet/DiffblueBuild.yml exists...
+09:37:13.865 [DEBUG] [Checking][main][com.diffblue.cover.o.a.d] Maven home found: /opt/homebrew/Cellar/maven/3.9.9
+09:37:13.866 [INFO]  [Checking][main][com.diffblue.cover.buildsystem.internal.d.c] Maven Using ${maven.home} of: /opt/homebrew/Cellar/maven/3.9.9.
+09:37:13.866 [INFO]  [Checking][main][com.diffblue.cover.buildsystem.internal.d.c] Maven Executing: /bin/sh -c cd /Users/amishra/Developer/demo-java-ee-servlet && /opt/homebrew/Cellar/maven/3.9.9/bin/mvn -B -version
+09:37:14.347 [INFO]  [Checking][main][com.diffblue.cover.buildsystem.internal.c.a] Standard output of build tool (Maven)
+09:37:14.347 [INFO]  [Checking][main][com.diffblue.cover.buildsystem.internal.c.a] > Apache Maven 3.9.9 (8e8579a9e76f7d015ee5ec7bfcdc97d260186937)
+09:37:14.347 [INFO]  [Checking][main][com.diffblue.cover.buildsystem.internal.c.a] > Maven home: /opt/homebrew/Cellar/maven/3.9.9/libexec
+09:37:14.347 [INFO]  [Checking][main][com.diffblue.cover.buildsystem.internal.c.a] > Java version: 1.8.0_442, vendor: Azul Systems, Inc., runtime: /Library/Java/JavaVirtualMachines/zulu-8.jdk/Contents/Home/jre
+09:37:14.347 [INFO]  [Checking][main][com.diffblue.cover.buildsystem.internal.c.a] > Default locale: en_GB, platform encoding: UTF-8
+09:37:14.347 [INFO]  [Checking][main][com.diffblue.cover.buildsystem.internal.c.a] > OS name: "mac os x", version: "15.3.1", arch: "aarch64", family: "mac"
+09:37:14.347 [INFO]  [Checking][main][com.diffblue.cover.buildsystem.f] Using CUSTOMISABLE Build System Implementation
+09:37:14.347 [DEBUG] [Checking][main][com.diffblue.cover.buildsystem.config.registry.Registry] checking if /Users/amishra/Developer/demo-java-ee-servlet/DiffblueBuild.yaml exists...
+09:37:14.347 [DEBUG] [Checking][main][com.diffblue.cover.buildsystem.config.registry.Registry] checking if /Users/amishra/Developer/demo-java-ee-servlet/DiffblueBuild.yml exists...
+09:37:14.348 [INFO]  [Checking][main][com.diffblue.cover.buildsystem.config.registry.Registry] Using default build rules as no custom rules found in any of [/Users/amishra/Developer/demo-java-ee-servlet]
+09:37:14.348 [DEBUG] [Checking][main][com.diffblue.cover.buildsystem.config.registry.Registry] Build execution request for Info Phase
+09:37:14.349 [INFO]  [Checking][main][com.diffblue.cover.buildsystem.config.a.a] Attempting to invoke mvnw in working directory: /Users/amishra/Developer/demo-java-ee-servlet
+09:37:14.380 [INFO]  [Checking][main][com.diffblue.cover.buildsystem.config.a.a] Attempting to invoke /opt/homebrew/bin/mvn in working directory: /Users/amishra/Developer/demo-java-ee-servlet
+09:37:14.384 [INFO]  [Checking][main][com.diffblue.cover.buildsystem.config.a.a] Started "/opt/homebrew/bin/mvn -Dmaven.ext.class.path=/usr/local/bin/diffblue/cover-buildsystem-maven-spy-jar-with-dependencies.jar -Dcom.diffblue.cover.skipTests=true --batch-mode install -Dmaven.compiler.failOnWarning=false --also-make -DskipTests -DskipITs --threads=1C"
+09:37:15.434 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] Scanning for projects...
+09:37:15.470 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [WARNING] 
+09:37:15.471 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [WARNING] Some problems were encountered while building the effective model for org.mdb:DemoJSP:war:0.0.1-SNAPSHOT
+09:37:15.471 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.servlet:javax.servlet-api:jar -> duplicate declaration of version 4.0.1 @ line 30, column 17
+09:37:15.471 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [WARNING] 
+09:37:15.471 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+09:37:15.471 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [WARNING] 
+09:37:15.471 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+09:37:15.471 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [WARNING] 
+09:37:15.479 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] 
+09:37:15.480 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] Using the MultiThreadedBuilder implementation with a thread count of 10
+09:37:15.481 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] 
+09:37:15.481 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] --------------------------< org.mdb:DemoJSP >---------------------------
+09:37:15.481 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] Building DemoJSP Maven Webapp 0.0.1-SNAPSHOT
+09:37:15.481 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO]   from pom.xml
+09:37:15.481 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] --------------------------------[ war ]---------------------------------
+09:37:15.851 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] 
+09:37:15.851 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] --- resources:3.3.1:resources (default-resources) @ DemoJSP ---
+09:37:16.022 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] skip non existing resourceDirectory /Users/amishra/Developer/demo-java-ee-servlet/src/main/resources
+09:37:16.025 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] 
+09:37:16.025 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] --- compiler:3.13.0:compile (default-compile) @ DemoJSP ---
+09:37:16.192 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] No sources to compile
+09:37:16.195 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] 
+09:37:16.195 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] --- resources:3.3.1:testResources (default-testResources) @ DemoJSP ---
+09:37:16.196 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] skip non existing resourceDirectory /Users/amishra/Developer/demo-java-ee-servlet/src/test/resources
+09:37:16.198 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] 
+09:37:16.198 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ DemoJSP ---
+09:37:16.200 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] No sources to compile
+09:37:16.202 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] 
+09:37:16.202 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] --- surefire:3.3.0:test (default-test) @ DemoJSP ---
+09:37:16.339 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] Tests are skipped.
+09:37:16.341 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] 
+09:37:16.341 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] --- war:3.4.0:war (default-war) @ DemoJSP ---
+09:37:16.715 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] Packaging webapp
+09:37:16.716 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] Assembling webapp [DemoJSP] in [/Users/amishra/Developer/demo-java-ee-servlet/target/DemoJSP]
+09:37:16.721 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] Processing war project
+09:37:16.746 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] Building war: /Users/amishra/Developer/demo-java-ee-servlet/target/DemoJSP.war
+09:37:16.832 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] 
+09:37:16.832 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] --- install:3.1.2:install (default-install) @ DemoJSP ---
+09:37:16.878 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] Installing /Users/amishra/Developer/demo-java-ee-servlet/pom.xml to /Users/amishra/.m2/repository/org/mdb/DemoJSP/0.0.1-SNAPSHOT/DemoJSP-0.0.1-SNAPSHOT.pom
+09:37:16.895 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] Installing /Users/amishra/Developer/demo-java-ee-servlet/target/DemoJSP.war to /Users/amishra/.m2/repository/org/mdb/DemoJSP/0.0.1-SNAPSHOT/DemoJSP-0.0.1-SNAPSHOT.war
+09:37:16.967 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] ------------------------------------------------------------------------
+09:37:16.967 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] BUILD SUCCESS
+09:37:16.967 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] ------------------------------------------------------------------------
+09:37:16.967 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] Total time:  1.552 s (Wall Clock)
+09:37:16.967 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] Finished at: 2025-03-06T09:37:16Z
+09:37:16.967 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] ------------------------------------------------------------------------
+09:37:16.998 [INFO]  [Checking][main][com.diffblue.cover.ui.controller.q] Detected build system: Maven 3.9.9
+09:37:16.998 [DEBUG] [Checking][main][com.diffblue.cover.commons.l.c] Processing rule com.diffblue.cover.o.a.d took 3132ms
+09:37:16.998 [INFO]  [Checking][main][com.diffblue.cover.o.a.ar] Operating System: Mac OS X aarch64 15.3.1
+09:37:16.998 [INFO]  [Checking][main][com.diffblue.cover.o.a.ar] Default charset: UTF-8
+09:37:16.998 [INFO]  [Checking][main][com.diffblue.cover.o.a.ar] Default locale: en_GB
+09:37:16.998 [INFO]  [Checking][main][com.diffblue.cover.o.a.ar] Default time zone: Europe/London
+09:37:16.999 [INFO]  [Checking][main][com.diffblue.cover.ui.controller.q] Selected build system: Maven
+09:37:17.001 [INFO]  [Checking][main][com.diffblue.cover.ui.controller.q] Selected classpath from build system maven
+09:37:17.001 [INFO]  [Checking][main][com.diffblue.cover.o.c.b] Expanded classpath: 
+/Users/amishra/Developer/demo-java-ee-servlet/target/test-classes (does not exist) (test build path)
+/Users/amishra/Developer/demo-java-ee-servlet/target/classes (does not exist) (code under test)
+/Users/amishra/.m2/repository/javax/servlet/javax.servlet-api/4.0.1/javax.servlet-api-4.0.1.jar
+/Users/amishra/.m2/repository/junit/junit/4.13.1/junit-4.13.1.jar
+/Users/amishra/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar
+/Users/amishra/.m2/repository/com/mysql/mysql-connector-j/9.0.0/mysql-connector-j-9.0.0.jar
+/Users/amishra/.m2/repository/com/google/protobuf/protobuf-java/4.26.1/protobuf-java-4.26.1.jar
+/Users/amishra/.m2/repository/org/mockito/mockito-core/5.15.2/mockito-core-5.15.2.jar
+/Users/amishra/.m2/repository/net/bytebuddy/byte-buddy/1.15.11/byte-buddy-1.15.11.jar
+/Users/amishra/.m2/repository/net/bytebuddy/byte-buddy-agent/1.15.11/byte-buddy-agent-1.15.11.jar
+/Users/amishra/.m2/repository/org/objenesis/objenesis/3.3/objenesis-3.3.jar
+/Users/amishra/.m2/repository/com/diffblue/cover/cover-annotations/1.3.0/cover-annotations-1.3.0.jar
+09:37:17.031 [DEBUG] [Checking][main][com.diffblue.cover.commons.dependency.a.b] Detected JUnit version 4.13.1 (via jar:file:/Users/amishra/.m2/repository/junit/junit/4.13.1/junit-4.13.1.jar!/junit/runner/Version.class)
+09:37:17.034 [INFO]  [Checking][main][com.diffblue.cover.ui.controller.q] Detected test framework: JUnit 4.13.1
+09:37:17.164 [DEBUG] [Checking][main][com.diffblue.cover.commons.dependency.a.b] Detected Mockito version 5.15.2 (via jar:file:/Users/amishra/.m2/repository/org/mockito/mockito-core/5.15.2/mockito-core-5.15.2.jar!/org/mockito/Mockito.class)
+09:37:17.165 [INFO]  [Checking][main][com.diffblue.cover.ui.controller.q] Detected Mockito version 5.15.2
+09:37:17.175 [DEBUG] [Checking][main][com.diffblue.cover.commons.dependency.a.b] Detected Mockito version 5.15.2 (via jar:file:/Users/amishra/.m2/repository/org/mockito/mockito-core/5.15.2/mockito-core-5.15.2.jar!/org/mockito/Mockito.class)
+09:37:17.183 [DEBUG] [Checking][main][com.diffblue.cover.commons.dependency.a.b] Detected Mockito version 5.15.2 (via jar:file:/Users/amishra/.m2/repository/org/mockito/mockito-core/5.15.2/mockito-core-5.15.2.jar!/org/mockito/Mockito.class)
+09:37:17.185 [INFO]  [Checking][main][com.diffblue.cover.ui.controller.q] Indexing...
+09:37:17.523 [DEBUG] [Checking][main][com.diffblue.cover.commons.l.c] Processing rule com.diffblue.cover.o.a.bd took 339ms
+09:37:17.526 [DEBUG] [Checking][main][com.diffblue.cover.o.a.ay] the build system has test sources configured
+09:37:17.530 [INFO]  [Checking][main][com.diffblue.cover.ui.controller.q] Selected test output directory: /Users/amishra/Developer/demo-java-ee-servlet/src/test/java
+09:37:17.572 [DEBUG] [Checking][main][com.diffblue.cover.commons.dependency.a.b] Detected Hamcrest 1 version 1.3 (via jar:file:/Users/amishra/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar!/org/hamcrest/Condition.class)
+09:37:17.573 [INFO]  [Checking][main][com.diffblue.cover.ui.controller.q] Detected Hamcrest 1 version 1.3
+09:37:18.351 [DEBUG] [Checking][main][com.diffblue.cover.commons.l.c] Processing rule com.diffblue.cover.o.a.an took 765ms
+09:37:18.372 [DEBUG] [Checking][main][com.diffblue.cover.o.a.w] Java home guessed from System property: /Library/Java/JavaVirtualMachines/zulu-8.jdk/Contents/Home
+09:37:18.374 [INFO]  [Checking][main][com.diffblue.cover.ui.controller.q] Detected JVM architecture: 64-Bit
+09:37:18.545 [INFO]  [Checking][main][com.diffblue.cover.ui.controller.q] Selected Java language compliance level: 1.8
+09:37:18.551 [DEBUG] [Checking][main][com.diffblue.cover.ui.configuration.CliEntryPointsSelector] Failed to detect entry points
+com.diffblue.cover.ui.c: Package prefixes cannot be inferred. Please provide package/class/method prefixes.
+	at com.diffblue.cover.ui.b.a(SourceFile:35)
+	at com.diffblue.cover.ui.configuration.CliEntryPointsSelector.evaluateAction(SourceFile:128)
+	at com.diffblue.cover.ui.configuration.CliEntryPointsSelector.a(SourceFile:81)
+	at com.diffblue.cover.commons.l.c.a(SourceFile:2161)
+	at com.diffblue.cover.o.b.a(SourceFile:119)
+	at com.diffblue.cover.ui.controller.q.a(SourceFile:4865)
+	at com.diffblue.cover.ui.controller.z.a(SourceFile:577)
+	at com.diffblue.cover.ui.controller.z.a(SourceFile:478)
+	at com.diffblue.cover.ui.controller.q.run(SourceFile:3766)
+	at com.diffblue.cover.ui.controller.ai.call(SourceFile:80)
+	at com.diffblue.cover.ui.controller.ai.call(SourceFile:44)
+	at picocli.CommandLine.executeUserObject(SourceFile:2041)
+	at picocli.CommandLine.access$1500(SourceFile:148)
+	at picocli.CommandLine$RunLast.executeUserObjectOfLastSubcommandWithSameParent(SourceFile:2461)
+	at picocli.CommandLine$RunLast.handle(SourceFile:2453)
+	at picocli.CommandLine$RunLast.handle(SourceFile:2415)
+	at picocli.CommandLine$AbstractParseResultHandler.execute(SourceFile:2273)
+	at picocli.CommandLine$RunLast.execute(SourceFile:2417)
+	at com.diffblue.cover.ui.controller.r.execute(SourceFile:84)
+	at picocli.CommandLine.execute(SourceFile:2170)
+	at com.diffblue.cover.ui.controller.ag.a(SourceFile:207)
+	at com.diffblue.cover.ui.controller.ag.a(SourceFile:154)
+	at com.diffblue.cover.ui.Main.main(SourceFile:61)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.diffblue.cover.launcher.Launcher.invokeMainMethod(Launcher.java:118)
+	at com.diffblue.cover.launcher.Launcher.main(Launcher.java:74)
+09:37:18.554 [ERROR] [Checking][main][com.diffblue.cover.ui.controller.ai] E054: No class files found
+Diffblue Cover could not find any .class files for your project. This
+usually means that your project has not yet been compiled.
+Please run `mvn install` from the root of your project to ensure the project
+is compiled, and all tests pass.
+Depending on your project setup, additional configuration may be required.
+See https://diff.blue/E054 for further information on how to compile your
+project and configure Diffblue Cover for validating your tests.
+If this is a sub module you wish to exclude, use the `--exclude-modules`
+argument to exclude this module.
+If you have customized your build system configuration for Diffblue Cover,
+refer to the guidelines here:
+https://docs.diffblue.com/features/cover-cli/project-configuration/configuring-cover-to-work-with-your-projects-build-system/
+09:37:18.557 [WARN]  [Checking][main][com.diffblue.cover.ui.controller.ai] E066: Dependency incompatible with JDK
+The following dependencies are incompatible with
+the current JDK (JDK version: 1.8.0_442). Consider fixing this first
+before tackling any of the other warnings.
+Please change the following dependencies in your project:
+  <dependency>
+    <groupId>org.mockito</groupId>
+    <artifactId>mockito-core</artifactId>
+    <version>4.11.0</version>
+    <scope>test</scope>
+  </dependency>
+09:37:18.558 [WARN]  [Checking][main][com.diffblue.cover.ui.controller.ai] E004: No methods found to test
+Please ensure the project has been built, that any specified entry points
+exist, and that the patch (if given) is valid.
+See https://diff.blue/E004 to resolve this issue.
+09:37:18.558 [DEBUG] [Checking][main][com.diffblue.cover.commons.l.c] Inference engine finished in 4694ms
+09:37:18.569 [INFO]  [Reporting][main][com.diffblue.cover.ui.f] 
+09:37:18.569 [INFO]  [Reporting][main][com.diffblue.cover.ui.f] Environment summary for module: org.mdb:DemoJSP
+09:37:18.569 [INFO]  [Reporting][main][com.diffblue.cover.ui.f] -----------------------------------------------
+09:37:18.570 [INFO]  [Reporting][main][com.diffblue.cover.ui.f] Java version                   1.8.0_442                     SUCCESS        
+09:37:18.570 [INFO]  [Reporting][main][com.diffblue.cover.ui.f] Build system                   Maven                         SUCCESS        
+09:37:18.570 [INFO]  [Reporting][main][com.diffblue.cover.ui.f] Mocking Framework              5.15.2                        WARNING        
+09:37:18.570 [INFO]  [Reporting][main][com.diffblue.cover.ui.f] Surefire version               3.3.0                         SUCCESS        
+09:37:18.570 [INFO]  [Reporting][main][com.diffblue.cover.ui.f] JavaEE version                 Skipped                       -----          
+09:37:18.570 [INFO]  [Reporting][main][com.diffblue.cover.ui.f] Spring Core                    Not Detected                  -----          
+09:37:18.570 [INFO]  [Reporting][main][com.diffblue.cover.ui.f] JaCoCo plugin version          Skipped                       -----          
+09:37:18.570 [INFO]  [Reporting][main][com.diffblue.cover.ui.f] Quarkus                        Not Detected                  -----          
+09:37:18.570 [INFO]  [Reporting][main][com.diffblue.cover.ui.f] Spring Boot                    Skipped                       -----          
+09:37:18.570 [INFO]  [Reporting][main][com.diffblue.cover.ui.f] Spring Boot Starter Webflux    Skipped                       -----          
+09:37:18.570 [INFO]  [Reporting][main][com.diffblue.cover.ui.f] Spring Boot Test Autoconfigure Skipped                       -----          
+09:37:18.570 [INFO]  [Reporting][main][com.diffblue.cover.ui.f] Spring Boot Test               Skipped                       -----          
+09:37:18.570 [INFO]  [Reporting][main][com.diffblue.cover.ui.f] Spring Web                     Skipped                       -----          
+09:37:18.570 [INFO]  [Reporting][main][com.diffblue.cover.ui.f] Spring Security Web            Skipped                       -----          
+09:37:18.570 [INFO]  [Reporting][main][com.diffblue.cover.ui.f] Spring Test                    Skipped                       -----          
+09:37:18.570 [INFO]  [Reporting][main][com.diffblue.cover.ui.f] Class files                                                  ERROR          
+09:37:18.570 [INFO]  [Reporting][main][com.diffblue.cover.ui.f] Methods to test                                              WARNING        
+09:37:18.570 [INFO]  [Reporting][main][com.diffblue.cover.ui.f] 
+09:37:18.570 [INFO]  [Reporting][main][com.diffblue.cover.ui.f] Environment check status: ERROR
+09:37:18.586 [INFO]  [Checking][main][com.diffblue.cover.ui.controller.q] Build environment fixes have been generated - run `dcover fix-build` to apply them
+09:37:18.671 [INFO]  [Reporting][main][com.diffblue.cover.ui.controller.ag] 
+09:37:18.671 [ERROR] [Reporting][main][com.diffblue.cover.ui.controller.ag] One or more errors and warnings were logged, please review them in the log file
+09:37:18.671 [INFO]  [Reporting][main][com.diffblue.cover.ui.controller.ag] Log file: /Users/amishra/Developer/demo-java-ee-servlet/.diffblue/log/user-20250306T093706.log
+09:37:18.671 [INFO]  [Reporting][main][com.diffblue.cover.ui.controller.ag] Finished in 13s
