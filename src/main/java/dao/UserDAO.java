@@ -4,9 +4,8 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.sql.SQLIntegrityConstraintViolationException;
 import java.util.ArrayList;
-
-import com.mysql.jdbc.exceptions.MySQLIntegrityConstraintViolationException;
 
 import model.User;
 import util.DBConnection;
@@ -44,7 +43,7 @@ public class UserDAO {
 			st.setString(4, user.getPassword());
 			st.execute();
 			return "Registration Successful.";
-		} catch (MySQLIntegrityConstraintViolationException e) {
+		} catch (SQLIntegrityConstraintViolationException e) {
 			e.printStackTrace();
 			return "Email alreay used.";
 		} catch (SQLException e) {
@@ -123,7 +122,7 @@ public class UserDAO {
 			st.setInt(4, user.getUser_id());
 			st.execute();
 			return "Profile Update Successful.";
-		} catch (MySQLIntegrityConstraintViolationException e) {
+		} catch (SQLIntegrityConstraintViolationException e) {
 			e.printStackTrace();
 			return "Email alreay used.";
 		} catch (SQLException e) {
