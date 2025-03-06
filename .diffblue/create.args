@@ -1,0 +1,10 @@
+--mock-static util.DBConnection
+--mock util.DBConnection
+--mock java.sql.Connection
+--mock javax.servlet.ServletRequestWrapper
+--mock javax.servlet.http.HttpServletRequest
+--mock javax.servlet.http.HttpServletResponse
+--mock javax.servlet.http.HttpSession
+--mock javax.servlet.RequestDispatcher
+--keep-partial-tests
+--coverage-reports

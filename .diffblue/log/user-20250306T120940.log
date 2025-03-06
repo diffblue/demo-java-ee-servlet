@@ -1,0 +1,1812 @@
+12:09:41.935 [INFO]  [Preparing] Including arguments from the config file: .diffblue/create.args
+12:09:41.954 [INFO]  [Preparing] Diffblue Cover 2025.02.02-08b2a5a-licensed
+12:09:41.954 [INFO]  [Preparing] Running: dcover create @.diffblue/create.args
+12:09:41.954 [INFO]  [Preparing] 
+12:09:41.954 [INFO]  [Preparing] Command: create
+12:09:41.955 [INFO]  [Preparing] Create tests for the specified package/class/method.
+12:09:41.955 [INFO]  [Preparing] 
+12:09:45.107 [INFO]  [Checking] Maven Using ${maven.home} of: /opt/homebrew/Cellar/maven/3.9.9.
+12:09:45.110 [INFO]  [Checking] Maven Executing: /bin/sh -c cd /Users/amishra/Developer/demo-java-ee-servlet && /opt/homebrew/Cellar/maven/3.9.9/bin/mvn -B -version
+12:09:45.589 [INFO]  [Checking] Standard output of build tool (Maven)
+12:09:45.589 [INFO]  [Checking] > Apache Maven 3.9.9 (8e8579a9e76f7d015ee5ec7bfcdc97d260186937)
+12:09:45.589 [INFO]  [Checking] > Maven home: /opt/homebrew/Cellar/maven/3.9.9/libexec
+12:09:45.589 [INFO]  [Checking] > Java version: 1.8.0_442, vendor: Azul Systems, Inc., runtime: /Library/Java/JavaVirtualMachines/zulu-8.jdk/Contents/Home/jre
+12:09:45.589 [INFO]  [Checking] > Default locale: en_GB, platform encoding: UTF-8
+12:09:45.589 [INFO]  [Checking] > OS name: "mac os x", version: "15.3.1", arch: "aarch64", family: "mac"
+12:09:45.591 [INFO]  [Checking] Using CUSTOMISABLE Build System Implementation
+12:09:45.713 [INFO]  [Checking] Using default build rules as no custom rules found in any of [/Users/amishra/Developer/demo-java-ee-servlet]
+12:09:45.719 [INFO]  [Checking] Attempting to invoke mvnw in working directory: /Users/amishra/Developer/demo-java-ee-servlet
+12:09:45.734 [INFO]  [Checking] Attempting to invoke /opt/homebrew/bin/mvn in working directory: /Users/amishra/Developer/demo-java-ee-servlet
+12:09:45.745 [INFO]  [Checking] Started "/opt/homebrew/bin/mvn -Dmaven.ext.class.path=/usr/local/bin/diffblue/cover-buildsystem-maven-spy-jar-with-dependencies.jar -Dcom.diffblue.cover.skipTests=true --batch-mode install -Dmaven.compiler.failOnWarning=false --also-make -DskipTests -DskipITs --threads=1C"
+12:09:46.761 [INFO]  [Checking] out: [INFO] Scanning for projects...
+12:09:46.800 [INFO]  [Checking] out: [INFO] 
+12:09:46.800 [INFO]  [Checking] out: [INFO] Using the MultiThreadedBuilder implementation with a thread count of 10
+12:09:46.802 [INFO]  [Checking] out: [INFO] 
+12:09:46.802 [INFO]  [Checking] out: [INFO] ------------------< com.diffblue.pov:java-ee-servlet >------------------
+12:09:46.802 [INFO]  [Checking] out: [INFO] Building Java EE Servlet Webapp 1.0.0
+12:09:46.802 [INFO]  [Checking] out: [INFO]   from pom.xml
+12:09:46.802 [INFO]  [Checking] out: [INFO] --------------------------------[ war ]---------------------------------
+12:09:47.213 [INFO]  [Checking] out: [INFO] 
+12:09:47.213 [INFO]  [Checking] out: [INFO] --- resources:3.3.1:resources (default-resources) @ java-ee-servlet ---
+12:09:47.346 [INFO]  [Checking] out: [INFO] skip non existing resourceDirectory /Users/amishra/Developer/demo-java-ee-servlet/src/main/resources
+12:09:47.348 [INFO]  [Checking] out: [INFO] 
+12:09:47.348 [INFO]  [Checking] out: [INFO] --- compiler:3.13.0:compile (default-compile) @ java-ee-servlet ---
+12:09:47.529 [INFO]  [Checking] out: [INFO] Nothing to compile - all classes are up to date.
+12:09:47.531 [INFO]  [Checking] out: [INFO] 
+12:09:47.531 [INFO]  [Checking] out: [INFO] --- resources:3.3.1:testResources (default-testResources) @ java-ee-servlet ---
+12:09:47.532 [INFO]  [Checking] out: [INFO] skip non existing resourceDirectory /Users/amishra/Developer/demo-java-ee-servlet/src/test/resources
+12:09:47.534 [INFO]  [Checking] out: [INFO] 
+12:09:47.534 [INFO]  [Checking] out: [INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ java-ee-servlet ---
+12:09:47.544 [INFO]  [Checking] out: [INFO] Nothing to compile - all classes are up to date.
+12:09:47.546 [INFO]  [Checking] out: [INFO] 
+12:09:47.546 [INFO]  [Checking] out: [INFO] --- surefire:3.3.0:test (default-test) @ java-ee-servlet ---
+12:09:47.663 [INFO]  [Checking] out: [INFO] Tests are skipped.
+12:09:47.664 [INFO]  [Checking] out: [INFO] 
+12:09:47.664 [INFO]  [Checking] out: [INFO] --- war:3.4.0:war (default-war) @ java-ee-servlet ---
+12:09:48.059 [INFO]  [Checking] out: [INFO] Packaging webapp
+12:09:48.059 [INFO]  [Checking] out: [INFO] Assembling webapp [java-ee-servlet] in [/Users/amishra/Developer/demo-java-ee-servlet/target/DemoServlet]
+12:09:48.066 [INFO]  [Checking] out: [INFO] Processing war project
+12:09:48.066 [INFO]  [Checking] out: [INFO] Copying webapp resources [/Users/amishra/Developer/demo-java-ee-servlet/src/main/webapp]
+12:09:48.096 [INFO]  [Checking] out: [INFO] Building war: /Users/amishra/Developer/demo-java-ee-servlet/target/DemoServlet.war
+12:09:48.203 [INFO]  [Checking] out: [INFO] 
+12:09:48.203 [INFO]  [Checking] out: [INFO] --- install:3.1.2:install (default-install) @ java-ee-servlet ---
+12:09:48.263 [INFO]  [Checking] out: [INFO] Installing /Users/amishra/Developer/demo-java-ee-servlet/pom.xml to /Users/amishra/.m2/repository/com/diffblue/pov/java-ee-servlet/1.0.0/java-ee-servlet-1.0.0.pom
+12:09:48.284 [INFO]  [Checking] out: [INFO] Installing /Users/amishra/Developer/demo-java-ee-servlet/target/DemoServlet.war to /Users/amishra/.m2/repository/com/diffblue/pov/java-ee-servlet/1.0.0/java-ee-servlet-1.0.0.war
+12:09:48.367 [INFO]  [Checking] out: [INFO] ------------------------------------------------------------------------
+12:09:48.367 [INFO]  [Checking] out: [INFO] BUILD SUCCESS
+12:09:48.367 [INFO]  [Checking] out: [INFO] ------------------------------------------------------------------------
+12:09:48.367 [INFO]  [Checking] out: [INFO] Total time:  1.603 s (Wall Clock)
+12:09:48.367 [INFO]  [Checking] out: [INFO] Finished at: 2025-03-06T12:09:48Z
+12:09:48.367 [INFO]  [Checking] out: [INFO] ------------------------------------------------------------------------
+12:09:48.778 [INFO]  [Checking] Operating System: Mac OS X aarch64 15.3.1
+12:09:48.778 [INFO]  [Checking] Default charset: UTF-8
+12:09:48.779 [INFO]  [Checking] Default locale: en_GB
+12:09:48.779 [INFO]  [Checking] Default time zone: Europe/London
+12:09:48.792 [INFO]  [Checking] Discovered modules:
+12:09:48.792 [INFO]  [Checking] - com.diffblue.pov:java-ee-servlet
+12:09:48.792 [INFO]  [Checking] 
+12:09:48.797 [INFO]  [Checking] 
+12:09:48.797 [INFO]  [Checking] [1/1] Creating tests for module: com.diffblue.pov:java-ee-servlet
+12:09:48.797 [INFO]  [Checking] =================================================================
+12:09:48.797 [INFO]  [Checking] 
+12:09:48.797 [INFO]  [Checking] Detecting environment:
+12:09:48.797 [INFO]  [Checking] ----------------------
+12:09:48.842 [INFO]  [Checking] Detected Java version 1.8.0_442
+12:09:48.843 [INFO]  [Checking] Maven Using ${maven.home} of: /opt/homebrew/Cellar/maven/3.9.9.
+12:09:48.843 [INFO]  [Checking] Maven Executing: /bin/sh -c cd /Users/amishra/Developer/demo-java-ee-servlet && /opt/homebrew/Cellar/maven/3.9.9/bin/mvn -B -version
+12:09:49.329 [INFO]  [Checking] Standard output of build tool (Maven)
+12:09:49.329 [INFO]  [Checking] > Apache Maven 3.9.9 (8e8579a9e76f7d015ee5ec7bfcdc97d260186937)
+12:09:49.329 [INFO]  [Checking] > Maven home: /opt/homebrew/Cellar/maven/3.9.9/libexec
+12:09:49.329 [INFO]  [Checking] > Java version: 1.8.0_442, vendor: Azul Systems, Inc., runtime: /Library/Java/JavaVirtualMachines/zulu-8.jdk/Contents/Home/jre
+12:09:49.329 [INFO]  [Checking] > Default locale: en_GB, platform encoding: UTF-8
+12:09:49.329 [INFO]  [Checking] > OS name: "mac os x", version: "15.3.1", arch: "aarch64", family: "mac"
+12:09:49.330 [INFO]  [Checking] Using CUSTOMISABLE Build System Implementation
+12:09:49.330 [INFO]  [Checking] Using default build rules as no custom rules found in any of [/Users/amishra/Developer/demo-java-ee-servlet]
+12:09:49.331 [INFO]  [Checking] Attempting to invoke mvnw in working directory: /Users/amishra/Developer/demo-java-ee-servlet
+12:09:49.360 [INFO]  [Checking] Attempting to invoke /opt/homebrew/bin/mvn in working directory: /Users/amishra/Developer/demo-java-ee-servlet
+12:09:49.364 [INFO]  [Checking] Started "/opt/homebrew/bin/mvn -Dmaven.ext.class.path=/usr/local/bin/diffblue/cover-buildsystem-maven-spy-jar-with-dependencies.jar -Dcom.diffblue.cover.skipTests=true --batch-mode install -Dmaven.compiler.failOnWarning=false --also-make -DskipTests -DskipITs --threads=1C"
+12:09:50.350 [INFO]  [Checking] out: [INFO] Scanning for projects...
+12:09:50.390 [INFO]  [Checking] out: [INFO] 
+12:09:50.391 [INFO]  [Checking] out: [INFO] Using the MultiThreadedBuilder implementation with a thread count of 10
+12:09:50.392 [INFO]  [Checking] out: [INFO] 
+12:09:50.392 [INFO]  [Checking] out: [INFO] ------------------< com.diffblue.pov:java-ee-servlet >------------------
+12:09:50.392 [INFO]  [Checking] out: [INFO] Building Java EE Servlet Webapp 1.0.0
+12:09:50.393 [INFO]  [Checking] out: [INFO]   from pom.xml
+12:09:50.393 [INFO]  [Checking] out: [INFO] --------------------------------[ war ]---------------------------------
+12:09:50.787 [INFO]  [Checking] out: [INFO] 
+12:09:50.787 [INFO]  [Checking] out: [INFO] --- resources:3.3.1:resources (default-resources) @ java-ee-servlet ---
+12:09:50.978 [INFO]  [Checking] out: [INFO] skip non existing resourceDirectory /Users/amishra/Developer/demo-java-ee-servlet/src/main/resources
+12:09:50.980 [INFO]  [Checking] out: [INFO] 
+12:09:50.980 [INFO]  [Checking] out: [INFO] --- compiler:3.13.0:compile (default-compile) @ java-ee-servlet ---
+12:09:51.162 [INFO]  [Checking] out: [INFO] Nothing to compile - all classes are up to date.
+12:09:51.164 [INFO]  [Checking] out: [INFO] 
+12:09:51.164 [INFO]  [Checking] out: [INFO] --- resources:3.3.1:testResources (default-testResources) @ java-ee-servlet ---
+12:09:51.165 [INFO]  [Checking] out: [INFO] skip non existing resourceDirectory /Users/amishra/Developer/demo-java-ee-servlet/src/test/resources
+12:09:51.167 [INFO]  [Checking] out: [INFO] 
+12:09:51.167 [INFO]  [Checking] out: [INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ java-ee-servlet ---
+12:09:51.183 [INFO]  [Checking] out: [INFO] Nothing to compile - all classes are up to date.
+12:09:51.184 [INFO]  [Checking] out: [INFO] 
+12:09:51.184 [INFO]  [Checking] out: [INFO] --- surefire:3.3.0:test (default-test) @ java-ee-servlet ---
+12:09:51.319 [INFO]  [Checking] out: [INFO] Tests are skipped.
+12:09:51.321 [INFO]  [Checking] out: [INFO] 
+12:09:51.321 [INFO]  [Checking] out: [INFO] --- war:3.4.0:war (default-war) @ java-ee-servlet ---
+12:09:51.729 [INFO]  [Checking] out: [INFO] Packaging webapp
+12:09:51.730 [INFO]  [Checking] out: [INFO] Assembling webapp [java-ee-servlet] in [/Users/amishra/Developer/demo-java-ee-servlet/target/DemoServlet]
+12:09:51.736 [INFO]  [Checking] out: [INFO] Processing war project
+12:09:51.736 [INFO]  [Checking] out: [INFO] Copying webapp resources [/Users/amishra/Developer/demo-java-ee-servlet/src/main/webapp]
+12:09:51.766 [INFO]  [Checking] out: [INFO] Building war: /Users/amishra/Developer/demo-java-ee-servlet/target/DemoServlet.war
+12:09:51.874 [INFO]  [Checking] out: [INFO] 
+12:09:51.874 [INFO]  [Checking] out: [INFO] --- install:3.1.2:install (default-install) @ java-ee-servlet ---
+12:09:51.929 [INFO]  [Checking] out: [INFO] Installing /Users/amishra/Developer/demo-java-ee-servlet/pom.xml to /Users/amishra/.m2/repository/com/diffblue/pov/java-ee-servlet/1.0.0/java-ee-servlet-1.0.0.pom
+12:09:51.946 [INFO]  [Checking] out: [INFO] Installing /Users/amishra/Developer/demo-java-ee-servlet/target/DemoServlet.war to /Users/amishra/.m2/repository/com/diffblue/pov/java-ee-servlet/1.0.0/java-ee-servlet-1.0.0.war
+12:09:52.009 [INFO]  [Checking] out: [INFO] ------------------------------------------------------------------------
+12:09:52.009 [INFO]  [Checking] out: [INFO] BUILD SUCCESS
+12:09:52.009 [INFO]  [Checking] out: [INFO] ------------------------------------------------------------------------
+12:09:52.014 [INFO]  [Checking] out: [INFO] Total time:  1.675 s (Wall Clock)
+12:09:52.014 [INFO]  [Checking] out: [INFO] Finished at: 2025-03-06T12:09:52Z
+12:09:52.014 [INFO]  [Checking] out: [INFO] ------------------------------------------------------------------------
+12:09:52.032 [INFO]  [Checking] Detected build system: Maven 3.9.9
+12:09:52.032 [INFO]  [Checking] Operating System: Mac OS X aarch64 15.3.1
+12:09:52.032 [INFO]  [Checking] Default charset: UTF-8
+12:09:52.032 [INFO]  [Checking] Default locale: en_GB
+12:09:52.032 [INFO]  [Checking] Default time zone: Europe/London
+12:09:52.033 [INFO]  [Checking] Selected build system: Maven
+12:09:52.034 [INFO]  [Checking] Selected classpath from build system maven
+12:09:52.035 [INFO]  [Checking] Expanded classpath: 
+/Users/amishra/Developer/demo-java-ee-servlet/target/test-classes (test build path)
+/Users/amishra/Developer/demo-java-ee-servlet/target/classes (code under test)
+/Users/amishra/.m2/repository/javax/servlet/javax.servlet-api/4.0.1/javax.servlet-api-4.0.1.jar
+/Users/amishra/.m2/repository/junit/junit/4.13.1/junit-4.13.1.jar
+/Users/amishra/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar
+/Users/amishra/.m2/repository/com/mysql/mysql-connector-j/9.0.0/mysql-connector-j-9.0.0.jar
+/Users/amishra/.m2/repository/com/google/protobuf/protobuf-java/4.26.1/protobuf-java-4.26.1.jar
+/Users/amishra/.m2/repository/org/mockito/mockito-inline/4.11.0/mockito-inline-4.11.0.jar
+/Users/amishra/.m2/repository/org/mockito/mockito-core/4.11.0/mockito-core-4.11.0.jar
+/Users/amishra/.m2/repository/net/bytebuddy/byte-buddy/1.12.19/byte-buddy-1.12.19.jar
+/Users/amishra/.m2/repository/net/bytebuddy/byte-buddy-agent/1.12.19/byte-buddy-agent-1.12.19.jar
+/Users/amishra/.m2/repository/org/objenesis/objenesis/3.3/objenesis-3.3.jar
+/Users/amishra/.m2/repository/com/diffblue/cover/cover-annotations/1.3.0/cover-annotations-1.3.0.jar
+12:09:52.078 [INFO]  [Checking] Detected test framework: JUnit 4.13.1
+12:09:52.209 [INFO]  [Checking] Detected Mockito version 4.11.0
+12:09:52.711 [INFO]  [Checking] Indexing...
+12:09:52.898 [INFO]  [Checking] Selected test output directory: /Users/amishra/Developer/demo-java-ee-servlet/src/test/java
+12:09:52.909 [INFO]  [Checking] Using default build rules as no custom rules found in any of [/Users/amishra/Developer/demo-java-ee-servlet]
+12:09:52.911 [INFO]  [Checking] Attempting to invoke mvnw in working directory: /Users/amishra/Developer/demo-java-ee-servlet
+12:09:52.922 [INFO]  [Checking] Attempting to invoke /opt/homebrew/bin/mvn in working directory: /Users/amishra/Developer/demo-java-ee-servlet
+12:09:52.925 [INFO]  [Checking] Started "/opt/homebrew/bin/mvn -Dmaven.ext.class.path=/usr/local/bin/diffblue/cover-buildsystem-maven-spy-jar-with-dependencies.jar -Dcom.diffblue.cover.skipTests=true --batch-mode --projects=com.diffblue.pov:java-ee-servlet test -DfailIfNoTests=false -Dsurefire.failIfNoSpecifiedTests=false -Dmaven.test.failure.ignore=True -Dtest=DummyJunitDiffblueTest"
+12:09:53.993 [INFO]  [Checking] out: [INFO] Scanning for projects...
+12:09:54.033 [INFO]  [Checking] out: [INFO] 
+12:09:54.033 [INFO]  [Checking] out: [INFO] ------------------< com.diffblue.pov:java-ee-servlet >------------------
+12:09:54.033 [INFO]  [Checking] out: [INFO] Building Java EE Servlet Webapp 1.0.0
+12:09:54.033 [INFO]  [Checking] out: [INFO]   from pom.xml
+12:09:54.033 [INFO]  [Checking] out: [INFO] --------------------------------[ war ]---------------------------------
+12:09:54.317 [INFO]  [Checking] out: [INFO] 
+12:09:54.317 [INFO]  [Checking] out: [INFO] --- resources:3.3.1:resources (default-resources) @ java-ee-servlet ---
+12:09:54.466 [INFO]  [Checking] out: [INFO] skip non existing resourceDirectory /Users/amishra/Developer/demo-java-ee-servlet/src/main/resources
+12:09:54.469 [INFO]  [Checking] out: [INFO] 
+12:09:54.469 [INFO]  [Checking] out: [INFO] --- compiler:3.13.0:compile (default-compile) @ java-ee-servlet ---
+12:09:54.581 [INFO]  [Checking] out: [INFO] Nothing to compile - all classes are up to date.
+12:09:54.583 [INFO]  [Checking] out: [INFO] 
+12:09:54.583 [INFO]  [Checking] out: [INFO] --- resources:3.3.1:testResources (default-testResources) @ java-ee-servlet ---
+12:09:54.584 [INFO]  [Checking] out: [INFO] skip non existing resourceDirectory /Users/amishra/Developer/demo-java-ee-servlet/src/test/resources
+12:09:54.586 [INFO]  [Checking] out: [INFO] 
+12:09:54.586 [INFO]  [Checking] out: [INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ java-ee-servlet ---
+12:09:54.599 [INFO]  [Checking] out: [INFO] Recompiling the module because of changed source code.
+12:09:54.613 [INFO]  [Checking] out: [INFO] Compiling 15 source files with javac [debug target 8] to target/test-classes
+12:09:55.134 [INFO]  [Checking] out: [INFO] 
+12:09:55.134 [INFO]  [Checking] out: [INFO] --- surefire:3.3.0:test (default-test) @ java-ee-servlet ---
+12:09:55.264 [INFO]  [Checking] out: [INFO] Using auto detected provider org.apache.maven.surefire.junit4.JUnit4Provider
+12:09:55.329 [INFO]  [Checking] out: [INFO] 
+12:09:55.329 [INFO]  [Checking] out: [INFO] -------------------------------------------------------
+12:09:55.329 [INFO]  [Checking] out: [INFO]  T E S T S
+12:09:55.329 [INFO]  [Checking] out: [INFO] -------------------------------------------------------
+12:09:55.680 [INFO]  [Checking] out: [INFO] Running DummyJunitDiffblueTest
+12:09:55.695 [INFO]  [Checking] out: [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.060 s -- in DummyJunitDiffblueTest
+12:09:55.705 [INFO]  [Checking] out: [INFO] 
+12:09:55.705 [INFO]  [Checking] out: [INFO] Results:
+12:09:55.705 [INFO]  [Checking] out: [INFO] 
+12:09:55.705 [INFO]  [Checking] out: [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+12:09:55.705 [INFO]  [Checking] out: [INFO] 
+12:09:55.749 [INFO]  [Checking] out: [INFO] ------------------------------------------------------------------------
+12:09:55.749 [INFO]  [Checking] out: [INFO] BUILD SUCCESS
+12:09:55.749 [INFO]  [Checking] out: [INFO] ------------------------------------------------------------------------
+12:09:55.750 [INFO]  [Checking] out: [INFO] Total time:  1.771 s
+12:09:55.750 [INFO]  [Checking] out: [INFO] Finished at: 2025-03-06T12:09:55Z
+12:09:55.750 [INFO]  [Checking] out: [INFO] ------------------------------------------------------------------------
+12:09:55.816 [INFO]  [Checking] Selected test framework: JUnit
+12:09:55.828 [INFO]  [Checking] Detected Hamcrest 1 version 1.3
+12:09:56.703 [INFO]  [Checking] Detected JVM architecture: 64-Bit
+12:09:56.860 [INFO]  [Checking] Selected Java language compliance level: 1.8
+12:09:56.860 [INFO]  [Checking] Selected test validation: enabled
+12:09:56.863 [INFO]  [Checking] Prefixes for classes to mock detected: util.DBConnection, java.sql.Connection, javax.servlet.ServletRequestWrapper, javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse, javax.servlet.http.HttpSession, javax.servlet.RequestDispatcher
+12:09:56.864 [INFO]  [Checking] Class names for static mocking detected: util.DBConnection
+12:09:56.919 [INFO]  [Checking] Prefixes for filtering classes/methods:
+12:09:56.919 [INFO]  [Checking] - controller
+12:09:56.919 [INFO]  [Checking] - dao
+12:09:56.919 [INFO]  [Checking] - model
+12:09:56.919 [INFO]  [Checking] - util
+12:09:56.920 [INFO]  [Checking] Gathering methods to test...
+12:09:57.654 [INFO]  [Reporting] 
+12:09:57.654 [INFO]  [Reporting] Environment summary for module: com.diffblue.pov:java-ee-servlet
+12:09:57.654 [INFO]  [Reporting] ----------------------------------------------------------------
+12:09:57.654 [INFO]  [Reporting] Java version                   1.8.0_442                     SUCCESS        
+12:09:57.655 [INFO]  [Reporting] Build system                   Maven                         SUCCESS        
+12:09:57.655 [INFO]  [Reporting] Mocking Framework              Mockito 4.11.0                SUCCESS        
+12:09:57.655 [INFO]  [Reporting] Surefire version               3.3.0                         SUCCESS        
+12:09:57.655 [INFO]  [Reporting] Testing framework              JUnit 4.13                    SUCCESS        
+12:09:57.655 [INFO]  [Reporting] JavaEE version                 Skipped                       -----          
+12:09:57.655 [INFO]  [Reporting] Spring Core                    Not Detected                  -----          
+12:09:57.655 [INFO]  [Reporting] JaCoCo plugin version          0.8.11                        SUCCESS        
+12:09:57.655 [INFO]  [Reporting] Launcher                       JUnit 4, TestNG, or unknown   SUCCESS        
+12:09:57.655 [INFO]  [Reporting] Quarkus                        Not Detected                  -----          
+12:09:57.655 [INFO]  [Reporting] Test validation                Enabled                       SUCCESS        
+12:09:57.655 [INFO]  [Reporting] Hamcrest                       Hamcrest 1 1.3                SUCCESS        
+12:09:57.655 [INFO]  [Reporting] Spring Boot                    Skipped                       -----          
+12:09:57.655 [INFO]  [Reporting] Spring Boot Starter Webflux    Skipped                       -----          
+12:09:57.655 [INFO]  [Reporting] Spring Boot Test Autoconfigure Skipped                       -----          
+12:09:57.655 [INFO]  [Reporting] Spring Boot Test               Skipped                       -----          
+12:09:57.655 [INFO]  [Reporting] Spring Web                     Skipped                       -----          
+12:09:57.655 [INFO]  [Reporting] Spring Security Web            Skipped                       -----          
+12:09:57.655 [INFO]  [Reporting] Spring Test                    Skipped                       -----          
+12:09:57.655 [INFO]  [Reporting] Cover Annotations              Not Detected                  -----          
+12:09:57.655 [INFO]  [Reporting] 
+12:09:57.655 [INFO]  [Reporting] Environment check status: SUCCESS
+12:09:57.878 [INFO]  [Creating] Found 82 callable methods in 14 classes
+12:09:57.879 [INFO]  [Creating] 
+12:09:57.879 [INFO]  [Creating] Creating tests:
+12:09:57.879 [INFO]  [Creating] ---------------
+12:09:57.883 [INFO]  [Creating] 
+================================================================================
+= Starting analysis for class 'controller.HomeServlet'
+================================================================================
+12:09:57.883 [INFO]  [Creating] Filtering out non-testable methods...
+12:09:59.956 [INFO]  [Creating] Filtering of methods complete. Creating analysis request
+12:09:59.957 [INFO]  [Creating] Attempting to get service client, retry 1.
+12:09:59.973 [INFO]  [Creating] Starting monitoring server.
+12:10:00.112 [INFO]  [Creating] Monitoring server listening on localhost/127.0.0.1:50182
+12:10:00.218 [INFO]  [Creating] Starting analyzer server process...
+12:10:00.218 [INFO]  [Creating] Server command-line: /Library/Java/JavaVirtualMachines/zulu-8.jdk/Contents/Home/jre/bin/java -XX:+IgnoreUnrecognizedVMOptions -Djdk.attach.allowAttachSelf=true -Djdk.jar.maxSignatureFileSize=100000000 -ea -javaagent:/usr/local/bin/diffblue/launcher-shared-jar.jar -Dlogback.configurationFile=/var/folders/p2/qfsg813s0h9b5mhb_8typkwm0000gp/T/diffblue/config/logback-remote-service.xml -Dcom.diffblue.springIsolationJar=/usr/local/bin/diffblue/cover-isolation-layer.jar -Dcover.jar.path=/usr/local/bin/diffblue/cover-service-analyzer.jar -Dcom.diffblue.assertionSuggestionJar=/usr/local/bin/diffblue/cover-service-analyzer.jar -Dcover.main.class=com.diffblue.cover.service.analyzer.Main -jar /usr/local/bin/diffblue/launcher-shared-jar.jar --service-lifespan 120 --monitoring-service-port 50182 --index-service-port 50182 --debug-log
+12:10:00.239 [INFO]  [Creating] Server started. Waiting up to 300 seconds for a connection to be established...
+12:10:01.089 [INFO]  [Creating] Starting new remote monitor client
+12:10:01.396 [INFO]  [Creating] Attempting to start remote server.
+12:10:01.875 [INFO]  [Creating] Expect analyzer service to be listening on port 50184.
+12:10:01.872 [INFO]  [Creating] Server started, listening on localhost/127.0.0.1:50184
+12:10:02.358 [INFO]  [Creating] Started analyzer service and client retrieved.
+12:10:33.922 [INFO]  [Creating]      [1/82] controller.HomeServlet.<init>
+12:10:33.923 [INFO]  [Creating]      [1/82]   Tests created: 1
+12:10:38.052 [INFO]  [Creating]      [2/82] controller.HomeServlet.doGet
+12:10:38.052 [INFO]  [Creating]      [2/82]   Tests created: 2
+12:10:39.132 [INFO]  [Creating]      [3/82] controller.HomeServlet.doPost
+12:10:39.132 [INFO]  [Creating]      [3/82]   Tests created: 5
+12:10:39.136 [INFO]  [Creating]  [1/14] controller.HomeServlet
+12:10:39.136 [INFO]  [Creating]  [1/14]   Tests created: 8
+12:10:39.136 [INFO]  [Creating] 
+================================================================================
+= Starting analysis for class 'controller.LoginServlet'
+================================================================================
+12:10:39.136 [INFO]  [Creating] Filtering out non-testable methods...
+12:10:39.136 [INFO]  [Creating] Filtering of methods complete. Creating analysis request
+12:10:39.136 [INFO]  [Creating] Attempting to get service client, retry 1.
+12:10:40.301 [INFO]  [Creating]      [4/82] controller.LoginServlet.<init>
+12:10:40.301 [INFO]  [Creating]      [4/82]   Tests created: 1
+12:10:42.314 [INFO]  [Creating]      [5/82] controller.LoginServlet.doGet
+12:10:42.314 [INFO]  [Creating]      [5/82]   Tests created: 3
+12:10:43.365 [INFO]  [Creating]      [6/82] controller.LoginServlet.doPost
+12:10:43.365 [INFO]  [Creating]      [6/82]   Tests created: 7
+12:10:43.366 [INFO]  [Creating]  [2/14] controller.LoginServlet
+12:10:43.366 [INFO]  [Creating]  [2/14]   Tests created: 11
+12:10:43.367 [INFO]  [Creating] 
+================================================================================
+= Starting analysis for class 'controller.LogoutServlet'
+================================================================================
+12:10:43.367 [INFO]  [Creating] Filtering out non-testable methods...
+12:10:43.367 [INFO]  [Creating] Filtering of methods complete. Creating analysis request
+12:10:43.367 [INFO]  [Creating] Attempting to get service client, retry 1.
+12:10:44.403 [INFO]  [Creating]      [7/82] controller.LogoutServlet.<init>
+12:10:44.403 [INFO]  [Creating]      [7/82]   Tests created: 1
+12:10:45.547 [INFO]  [Creating]      [8/82] controller.LogoutServlet.doGet
+12:10:45.547 [INFO]  [Creating]      [8/82]   Tests created: 4
+12:10:45.960 [INFO]  [Creating]      [9/82] controller.LogoutServlet.doPost
+12:10:45.960 [INFO]  [Creating]      [9/82]   Tests created: 4
+12:10:45.962 [INFO]  [Creating]  [3/14] controller.LogoutServlet
+12:10:45.962 [INFO]  [Creating]  [3/14]   Tests created: 9
+12:10:45.962 [INFO]  [Creating] 
+================================================================================
+= Starting analysis for class 'controller.MessageServlet'
+================================================================================
+12:10:45.962 [INFO]  [Creating] Filtering out non-testable methods...
+12:10:45.962 [INFO]  [Creating] Filtering of methods complete. Creating analysis request
+12:10:45.962 [INFO]  [Creating] Attempting to get service client, retry 1.
+12:11:07.083 [INFO]  [Creating]     [10/82] controller.MessageServlet.<init>
+12:11:07.084 [INFO]  [Creating]     [10/82]   Tests created: 1
+12:11:28.690 [INFO]  [Creating]     [11/82] controller.MessageServlet.doGet
+12:11:28.691 [INFO]  [Creating]     [11/82]   Tests created: 4
+12:11:29.250 [INFO]  [Creating]     [12/82] controller.MessageServlet.doPost
+12:11:29.250 [INFO]  [Creating]     [12/82]   Tests created: 4
+12:11:29.251 [INFO]  [Creating]  [4/14] controller.MessageServlet
+12:11:29.251 [INFO]  [Creating]  [4/14]   Tests created: 9
+12:11:29.251 [INFO]  [Creating] 
+================================================================================
+= Starting analysis for class 'controller.ProfileServlet'
+================================================================================
+12:11:29.251 [INFO]  [Creating] Filtering out non-testable methods...
+12:11:29.251 [INFO]  [Creating] Filtering of methods complete. Creating analysis request
+12:11:29.251 [INFO]  [Creating] Attempting to get service client, retry 1.
+12:11:50.566 [INFO]  [Creating]     [13/82] controller.ProfileServlet.<init>
+12:11:50.567 [INFO]  [Creating]     [13/82]   Tests created: 1
+12:11:51.876 [INFO]  [Creating]     [14/82] controller.ProfileServlet.doGet
+12:11:51.876 [INFO]  [Creating]     [14/82]   Tests created: 5
+12:11:52.182 [INFO]  [Creating]     [15/82] controller.ProfileServlet.doPost
+12:11:52.182 [INFO]  [Creating]     [15/82]   Tests created: 3
+12:11:52.183 [INFO]  [Creating]  [5/14] controller.ProfileServlet
+12:11:52.183 [INFO]  [Creating]  [5/14]   Tests created: 9
+12:11:52.183 [INFO]  [Creating] 
+================================================================================
+= Starting analysis for class 'controller.RegisterServlet'
+================================================================================
+12:11:52.183 [INFO]  [Creating] Filtering out non-testable methods...
+12:11:52.183 [INFO]  [Creating] Filtering of methods complete. Creating analysis request
+12:11:52.183 [INFO]  [Creating] Attempting to get service client, retry 1.
+12:11:52.956 [INFO]  [Creating]     [16/82] controller.RegisterServlet.<init>
+12:11:52.956 [INFO]  [Creating]     [16/82]   Tests created: 1
+12:11:54.128 [INFO]  [Creating]     [17/82] controller.RegisterServlet.doGet
+12:11:54.128 [INFO]  [Creating]     [17/82]   Tests created: 3
+12:11:54.506 [INFO]  [Creating]     [18/82] controller.RegisterServlet.doPost
+12:11:54.506 [INFO]  [Creating]     [18/82]   Tests created: 4
+12:11:54.507 [INFO]  [Creating]  [6/14] controller.RegisterServlet
+12:11:54.507 [INFO]  [Creating]  [6/14]   Tests created: 8
+12:11:54.507 [INFO]  [Creating] 
+================================================================================
+= Starting analysis for class 'controller.ViewMessageServlet'
+================================================================================
+12:11:54.508 [INFO]  [Creating] Filtering out non-testable methods...
+12:11:54.508 [INFO]  [Creating] Filtering of methods complete. Creating analysis request
+12:11:54.508 [INFO]  [Creating] Attempting to get service client, retry 1.
+12:12:15.105 [INFO]  [Creating]     [19/82] controller.ViewMessageServlet.<init>
+12:12:15.106 [INFO]  [Creating]     [19/82]   Tests created: 1
+12:12:16.514 [INFO]  [Creating]     [20/82] controller.ViewMessageServlet.doGet
+12:12:16.514 [INFO]  [Creating]     [20/82]   Tests created: 2
+12:12:17.207 [INFO]  [Creating]     [21/82] controller.ViewMessageServlet.doPost
+12:12:17.207 [INFO]  [Creating]     [21/82]   Tests created: 8
+12:12:17.208 [INFO]  [Creating]  [7/14] controller.ViewMessageServlet
+12:12:17.208 [INFO]  [Creating]  [7/14]   Tests created: 11
+12:12:17.208 [INFO]  [Creating] 
+================================================================================
+= Starting analysis for class 'dao.MessageDAO'
+================================================================================
+12:12:17.208 [INFO]  [Creating] Filtering out non-testable methods...
+12:12:17.208 [INFO]  [Creating] Filtering of methods complete. Creating analysis request
+12:12:17.208 [INFO]  [Creating] Attempting to get service client, retry 1.
+12:12:18.882 [INFO]  [Creating]     [22/82] dao.MessageDAO.<init>
+12:12:18.882 [INFO]  [Creating]     [22/82]   Partial tests created: 1
+12:12:18.882 [INFO]  [Creating]     [22/82]   Reasons for partial tests:
+12:12:18.882 [INFO]  [Creating]     [22/82]   R002: Missing observers
+12:12:18.882 [INFO]  [Creating]     [22/82]     Diffblue Cover was unable to create an assertion.
+12:12:18.882 [INFO]  [Creating]     [22/82]     There are no fields that could be asserted on.
+12:12:19.578 [INFO]  [Creating]     [23/82] dao.MessageDAO.deleteAllMessage
+12:12:19.578 [INFO]  [Creating]     [23/82]   Tests created: 2
+12:12:31.922 [INFO]  [Creating]     [24/82] dao.MessageDAO.deleteMessage
+12:12:31.922 [INFO]  [Creating]     [24/82]   Tests created: 2
+12:12:48.877 [INFO]  [Creating]     [25/82] dao.MessageDAO.getAllMessage
+12:12:48.878 [INFO]  [Creating]     [25/82]   Tests created: 2
+12:12:49.982 [INFO]  [Creating]     [26/82] dao.MessageDAO.getMessage
+12:12:49.982 [INFO]  [Creating]     [26/82]   Tests created: 2
+12:12:55.852 [INFO]  [Creating]     [27/82] dao.MessageDAO.insertMessage
+12:12:55.852 [INFO]  [Creating]     [27/82]   Tests created: 2
+12:12:56.390 [INFO]  [Creating]     [28/82] dao.MessageDAO.messageCount
+12:12:56.390 [INFO]  [Creating]     [28/82]   Tests created: 5
+12:12:56.392 [INFO]  [Creating]  [8/14] dao.MessageDAO
+12:12:56.392 [INFO]  [Creating]  [8/14]   Tests created: 15
+12:12:56.392 [INFO]  [Creating]  [8/14]   Partial tests created: 1
+12:12:56.392 [INFO]  [Creating] 
+================================================================================
+= Starting analysis for class 'dao.PostDAO'
+================================================================================
+12:12:56.392 [INFO]  [Creating] Filtering out non-testable methods...
+12:12:56.392 [INFO]  [Creating] Filtering of methods complete. Creating analysis request
+12:12:56.392 [INFO]  [Creating] Attempting to get service client, retry 1.
+12:12:57.159 [INFO]  [Creating]     [29/82] dao.PostDAO.<init>
+12:12:57.160 [INFO]  [Creating]     [29/82]   Partial tests created: 1
+12:12:57.160 [INFO]  [Creating]     [29/82]   Reasons for partial tests:
+12:12:57.160 [INFO]  [Creating]     [29/82]   R002: Missing observers
+12:12:57.160 [INFO]  [Creating]     [29/82]     Diffblue Cover was unable to create an assertion.
+12:12:57.160 [INFO]  [Creating]     [29/82]     There are no fields that could be asserted on.
+12:13:05.876 [INFO]  [Creating]     [30/82] dao.PostDAO.deletePost
+12:13:05.876 [INFO]  [Creating]     [30/82]   Tests created: 2
+12:13:06.975 [INFO]  [Creating]     [31/82] dao.PostDAO.getAllPost
+12:13:06.976 [INFO]  [Creating]     [31/82]   Tests created: 2
+12:13:20.682 [INFO]  [Creating]     [32/82] dao.PostDAO.getPost
+12:13:20.682 [INFO]  [Creating]     [32/82]   Tests created: 3
+12:13:21.667 [INFO]  [Creating]     [33/82] dao.PostDAO.getUserPost
+12:13:21.667 [INFO]  [Creating]     [33/82]   Tests created: 2
+12:13:23.009 [INFO]  [Creating]     [34/82] dao.PostDAO.insertPost
+12:13:23.009 [INFO]  [Creating]     [34/82]   Tests created: 2
+12:13:23.186 [INFO]  [Creating]     [35/82] dao.PostDAO.updatePost
+12:13:23.186 [INFO]  [Creating]     [35/82]   Tests created: 2
+12:13:23.187 [INFO]  [Creating]  [9/14] dao.PostDAO
+12:13:23.187 [INFO]  [Creating]  [9/14]   Tests created: 13
+12:13:23.187 [INFO]  [Creating]  [9/14]   Partial tests created: 1
+12:13:23.187 [INFO]  [Creating] 
+================================================================================
+= Starting analysis for class 'dao.UserDAO'
+================================================================================
+12:13:23.187 [INFO]  [Creating] Filtering out non-testable methods...
+12:13:23.187 [INFO]  [Creating] Filtering of methods complete. Creating analysis request
+12:13:23.187 [INFO]  [Creating] Attempting to get service client, retry 1.
+12:13:23.877 [INFO]  [Creating]     [36/82] dao.UserDAO.<init>
+12:13:23.877 [INFO]  [Creating]     [36/82]   Partial tests created: 1
+12:13:23.877 [INFO]  [Creating]     [36/82]   Reasons for partial tests:
+12:13:23.877 [INFO]  [Creating]     [36/82]   R002: Missing observers
+12:13:23.878 [INFO]  [Creating]     [36/82]     Diffblue Cover was unable to create an assertion.
+12:13:23.878 [INFO]  [Creating]     [36/82]     There are no fields that could be asserted on.
+12:13:24.894 [INFO]  [Creating]     [37/82] dao.UserDAO.deleteUser
+12:13:24.894 [INFO]  [Creating]     [37/82]   Tests created: 2
+12:13:26.021 [INFO]  [Creating]     [38/82] dao.UserDAO.getUserByEmail
+12:13:26.021 [INFO]  [Creating]     [38/82]   Tests created: 3
+12:13:33.253 [INFO]  [Creating]     [39/82] dao.UserDAO.getUserById
+12:13:33.253 [INFO]  [Creating]     [39/82]   Tests created: 3
+12:13:34.640 [INFO]  [Creating]     [40/82] dao.UserDAO.getUsersForChat
+12:13:34.640 [INFO]  [Creating]     [40/82]   Tests created: 2
+12:13:36.209 [INFO]  [Creating]     [41/82] dao.UserDAO.login
+12:13:36.209 [INFO]  [Creating]     [41/82]   Tests created: 5
+12:13:37.583 [INFO]  [Creating]     [42/82] dao.UserDAO.register
+12:13:37.583 [INFO]  [Creating]     [42/82]   Tests created: 2
+12:13:38.946 [INFO]  [Creating]     [43/82] dao.UserDAO.updatePassword
+12:13:38.946 [INFO]  [Creating]     [43/82]   Tests created: 2
+12:13:39.116 [INFO]  [Creating]     [44/82] dao.UserDAO.updateProfile
+12:13:39.116 [INFO]  [Creating]     [44/82]   Tests created: 2
+12:13:39.117 [INFO]  [Creating] [10/14] dao.UserDAO
+12:13:39.117 [INFO]  [Creating] [10/14]   Tests created: 21
+12:13:39.117 [INFO]  [Creating] [10/14]   Partial tests created: 1
+12:13:39.117 [INFO]  [Creating] 
+================================================================================
+= Starting analysis for class 'model.Message'
+================================================================================
+12:13:39.117 [INFO]  [Creating] Filtering out non-testable methods...
+12:13:39.118 [INFO]  [Creating] Filtering of methods complete. Creating analysis request
+12:13:39.118 [INFO]  [Creating] Attempting to get service client, retry 1.
+12:13:39.584 [INFO]  [Creating]     [45/82] model.Message.<init>
+12:13:39.584 [INFO]  [Creating]     [46/82] model.Message.<init>
+12:13:39.584 [INFO]  [Creating]     [47/82] model.Message.getChat_id
+12:13:39.584 [INFO]  [Creating]     [48/82] model.Message.getChat_time
+12:13:39.584 [INFO]  [Creating]     [49/82] model.Message.getFrom_user
+12:13:39.584 [INFO]  [Creating]     [50/82] model.Message.getMessage
+12:13:39.584 [INFO]  [Creating]     [51/82] model.Message.getTo_user
+12:13:39.584 [INFO]  [Creating]     [52/82] model.Message.setChat_id
+12:13:39.584 [INFO]  [Creating]     [53/82] model.Message.setChat_time
+12:13:39.584 [INFO]  [Creating]     [54/82] model.Message.setFrom_user
+12:13:39.584 [INFO]  [Creating]     [55/82] model.Message.setMessage
+12:13:39.584 [INFO]  [Creating]     [56/82] model.Message.setTo_user
+12:13:39.584 [INFO]  [Creating]     [56/82]   Tests created: 2
+12:13:39.615 [INFO]  [Creating] [11/14] model.Message
+12:13:39.615 [INFO]  [Creating] [11/14]   Tests created: 2
+12:13:39.615 [INFO]  [Creating] 
+================================================================================
+= Starting analysis for class 'model.Post'
+================================================================================
+12:13:39.615 [INFO]  [Creating] Filtering out non-testable methods...
+12:13:39.616 [INFO]  [Creating] Filtering of methods complete. Creating analysis request
+12:13:39.616 [INFO]  [Creating] Attempting to get service client, retry 1.
+12:13:39.935 [INFO]  [Creating]     [57/82] model.Post.<init>
+12:13:39.935 [INFO]  [Creating]     [58/82] model.Post.<init>
+12:13:39.935 [INFO]  [Creating]     [59/82] model.Post.getBody
+12:13:39.935 [INFO]  [Creating]     [60/82] model.Post.getPost_id
+12:13:39.935 [INFO]  [Creating]     [61/82] model.Post.getPost_time
+12:13:39.935 [INFO]  [Creating]     [62/82] model.Post.getUser_id
+12:13:39.935 [INFO]  [Creating]     [63/82] model.Post.setBody
+12:13:39.935 [INFO]  [Creating]     [64/82] model.Post.setPost_id
+12:13:39.935 [INFO]  [Creating]     [65/82] model.Post.setPost_time
+12:13:39.935 [INFO]  [Creating]     [66/82] model.Post.setUser_id
+12:13:39.935 [INFO]  [Creating]     [66/82]   Tests created: 2
+12:13:39.936 [INFO]  [Creating] [12/14] model.Post
+12:13:39.936 [INFO]  [Creating] [12/14]   Tests created: 2
+12:13:39.936 [INFO]  [Creating] 
+================================================================================
+= Starting analysis for class 'model.User'
+================================================================================
+12:13:39.936 [INFO]  [Creating] Filtering out non-testable methods...
+12:13:39.937 [INFO]  [Creating] Filtering of methods complete. Creating analysis request
+12:13:39.937 [INFO]  [Creating] Attempting to get service client, retry 1.
+12:13:40.397 [INFO]  [Creating]     [67/82] model.User.<init>
+12:13:40.397 [INFO]  [Creating]     [68/82] model.User.<init>
+12:13:40.397 [INFO]  [Creating]     [69/82] model.User.getEmail
+12:13:40.397 [INFO]  [Creating]     [70/82] model.User.getFirst_name
+12:13:40.397 [INFO]  [Creating]     [71/82] model.User.getImage
+12:13:40.398 [INFO]  [Creating]     [72/82] model.User.getLast_name
+12:13:40.398 [INFO]  [Creating]     [73/82] model.User.getPassword
+12:13:40.398 [INFO]  [Creating]     [74/82] model.User.getUser_id
+12:13:40.398 [INFO]  [Creating]     [75/82] model.User.setEmail
+12:13:40.398 [INFO]  [Creating]     [76/82] model.User.setFirst_name
+12:13:40.398 [INFO]  [Creating]     [77/82] model.User.setImage
+12:13:40.398 [INFO]  [Creating]     [78/82] model.User.setLast_name
+12:13:40.398 [INFO]  [Creating]     [79/82] model.User.setPassword
+12:13:40.398 [INFO]  [Creating]     [80/82] model.User.setUser_id
+12:13:40.398 [INFO]  [Creating]     [80/82]   Tests created: 2
+12:13:40.399 [INFO]  [Creating] [13/14] model.User
+12:13:40.399 [INFO]  [Creating] [13/14]   Tests created: 2
+12:13:40.399 [INFO]  [Creating] 
+================================================================================
+= Starting analysis for class 'util.DBConnection'
+================================================================================
+12:13:40.399 [INFO]  [Creating] Filtering out non-testable methods...
+12:13:40.399 [INFO]  [Creating] Filtering of methods complete. Creating analysis request
+12:13:40.399 [INFO]  [Creating] Attempting to get service client, retry 1.
+12:13:40.458 [INFO]  [Creating]     [81/82] util.DBConnection.getConnection
+12:13:40.458 [INFO]  [Creating]     [81/82]   R081: Exception in arrange section
+12:13:40.458 [INFO]  [Creating]     [81/82]     Diffblue Cover was unable to construct an instance of the class under test using
+12:13:40.458 [INFO]  [Creating]     [81/82]     util.DBConnection.getConnection().
+12:13:40.458 [INFO]  [Creating]     [81/82]     The arrange section threw
+12:13:40.458 [INFO]  [Creating]     [81/82]     java.sql.SQLNonTransientConnectionException: Could not create connection to database server.
+12:13:40.458 [INFO]  [Creating]     [81/82]         at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:102)
+12:13:40.458 [INFO]  [Creating]     [81/82]         at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+12:13:40.458 [INFO]  [Creating]     [81/82]         at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:81)
+12:13:40.458 [INFO]  [Creating]     [81/82]         at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:55)
+12:13:40.458 [INFO]  [Creating]     [81/82]         at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:1025)
+12:13:40.458 [INFO]  [Creating]     [81/82]         at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:833)
+12:13:40.458 [INFO]  [Creating]     [81/82]         at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:420)
+12:13:40.458 [INFO]  [Creating]     [81/82]         at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:238)
+12:13:40.458 [INFO]  [Creating]     [81/82]         at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:180)
+12:13:40.458 [INFO]  [Creating]     [81/82]         at java.sql.DriverManager.getConnection(DriverManager.java:664)
+12:13:40.458 [INFO]  [Creating]     [81/82]         at java.sql.DriverManager.getConnection(DriverManager.java:247)
+12:13:40.458 [INFO]  [Creating]     [81/82]         at util.DBConnection.<init>(DBConnection.java:18)
+12:13:40.458 [INFO]  [Creating]     [81/82]         at util.DBConnection.getInstance(DBConnection.java:30)
+12:13:40.458 [INFO]  [Creating]     [81/82]     More information about the exception is provided in the support log.
+12:13:40.458 [INFO]  [Creating]     [81/82]     See https://diff.blue/R081 for further troubleshooting of this issue.
+12:13:40.626 [INFO]  [Creating]     [82/82] util.DBConnection.getInstance
+12:13:40.626 [INFO]  [Creating]     [82/82]   Partial tests created: 1
+12:13:40.626 [INFO]  [Creating]     [82/82]   Reasons for partial tests:
+12:13:40.626 [INFO]  [Creating]     [82/82]   R011: Sandboxing policy violation
+12:13:40.626 [INFO]  [Creating]     [82/82]     Diffblue Cover ran code in your project that tried
+12:13:40.626 [INFO]  [Creating]     [82/82]       to access the network.
+12:13:40.626 [INFO]  [Creating]     [82/82]     Diffblue Cover's default sandboxing policy disallows this in order to prevent
+12:13:40.626 [INFO]  [Creating]     [82/82]     your code from damaging your system environment.
+12:13:40.626 [INFO]  [Creating]     [82/82]     See https://diff.blue/R011 to resolve this issue.
+12:13:40.627 [INFO]  [Creating] [14/14] util.DBConnection
+12:13:40.627 [INFO]  [Creating] [14/14]   Tests created: 0
+12:13:40.627 [INFO]  [Creating] [14/14]   Partial tests created: 1
+12:13:40.638 [INFO]  [Reporting] 
+12:13:40.638 [INFO]  [Reporting] Test creation summary for module: com.diffblue.pov:java-ee-servlet
+12:13:40.638 [INFO]  [Reporting] ------------------------------------------------------------------
+12:13:40.638 [INFO]  [Reporting] Total:                                              82 methods
+12:13:40.638 [INFO]  [Reporting] 120 tests created for:                              77 methods
+12:13:40.638 [INFO]  [Reporting] 4 partial tests created for:                         4 methods
+12:13:40.638 [INFO]  [Reporting] 
+12:13:40.638 [INFO]  [Reporting] No tests created for:                                5 methods
+12:13:40.638 [INFO]  [Reporting]     3 R002: Missing observers
+12:13:40.638 [INFO]  [Reporting]     1 R011: Sandboxing policy violation
+12:13:40.638 [INFO]  [Reporting]     1 R081: Exception in arrange section
+12:13:40.695 [INFO]  [Validating] 
+12:13:40.695 [INFO]  [Validating] Running validation command.
+12:13:40.695 [INFO]  [Validating] Using default build rules as no custom rules found in any of [/Users/amishra/Developer/demo-java-ee-servlet]
+12:13:40.697 [INFO]  [Validating] Attempting to invoke mvnw in working directory: /Users/amishra/Developer/demo-java-ee-servlet
+12:13:40.725 [INFO]  [Validating] Attempting to invoke /opt/homebrew/bin/mvn in working directory: /Users/amishra/Developer/demo-java-ee-servlet
+12:13:40.729 [INFO]  [Validating] Started "/opt/homebrew/bin/mvn -Dmaven.ext.class.path=/usr/local/bin/diffblue/cover-buildsystem-maven-spy-jar-with-dependencies.jar -Dcom.diffblue.cover.skipTests=true --batch-mode --projects=com.diffblue.pov:java-ee-servlet install -Dmaven.compiler.failOnWarning=false --also-make -DskipTests -DskipITs --threads=1C"
+12:13:41.807 [INFO]  [Validating] out: [INFO] Scanning for projects...
+12:13:41.850 [INFO]  [Validating] out: [INFO] 
+12:13:41.850 [INFO]  [Validating] out: [INFO] Using the MultiThreadedBuilder implementation with a thread count of 10
+12:13:41.852 [INFO]  [Validating] out: [INFO] 
+12:13:41.852 [INFO]  [Validating] out: [INFO] ------------------< com.diffblue.pov:java-ee-servlet >------------------
+12:13:41.852 [INFO]  [Validating] out: [INFO] Building Java EE Servlet Webapp 1.0.0
+12:13:41.852 [INFO]  [Validating] out: [INFO]   from pom.xml
+12:13:41.852 [INFO]  [Validating] out: [INFO] --------------------------------[ war ]---------------------------------
+12:13:42.264 [INFO]  [Validating] out: [INFO] 
+12:13:42.264 [INFO]  [Validating] out: [INFO] --- resources:3.3.1:resources (default-resources) @ java-ee-servlet ---
+12:13:42.415 [INFO]  [Validating] out: [INFO] skip non existing resourceDirectory /Users/amishra/Developer/demo-java-ee-servlet/src/main/resources
+12:13:42.417 [INFO]  [Validating] out: [INFO] 
+12:13:42.418 [INFO]  [Validating] out: [INFO] --- compiler:3.13.0:compile (default-compile) @ java-ee-servlet ---
+12:13:42.627 [INFO]  [Validating] out: [INFO] Nothing to compile - all classes are up to date.
+12:13:42.628 [INFO]  [Validating] out: [INFO] 
+12:13:42.629 [INFO]  [Validating] out: [INFO] --- resources:3.3.1:testResources (default-testResources) @ java-ee-servlet ---
+12:13:42.630 [INFO]  [Validating] out: [INFO] skip non existing resourceDirectory /Users/amishra/Developer/demo-java-ee-servlet/src/test/resources
+12:13:42.632 [INFO]  [Validating] out: [INFO] 
+12:13:42.632 [INFO]  [Validating] out: [INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ java-ee-servlet ---
+12:13:42.649 [INFO]  [Validating] out: [INFO] Recompiling the module because of changed source code.
+12:13:42.704 [INFO]  [Validating] out: [INFO] Compiling 14 source files with javac [debug target 8] to target/test-classes
+12:13:43.785 [INFO]  [Validating] out: [INFO] 
+12:13:43.785 [INFO]  [Validating] out: [INFO] --- surefire:3.3.0:test (default-test) @ java-ee-servlet ---
+12:13:43.922 [INFO]  [Validating] out: [INFO] Tests are skipped.
+12:13:43.924 [INFO]  [Validating] out: [INFO] 
+12:13:43.924 [INFO]  [Validating] out: [INFO] --- war:3.4.0:war (default-war) @ java-ee-servlet ---
+12:13:44.453 [INFO]  [Validating] out: [INFO] Packaging webapp
+12:13:44.454 [INFO]  [Validating] out: [INFO] Assembling webapp [java-ee-servlet] in [/Users/amishra/Developer/demo-java-ee-servlet/target/DemoServlet]
+12:13:44.460 [INFO]  [Validating] out: [INFO] Processing war project
+12:13:44.461 [INFO]  [Validating] out: [INFO] Copying webapp resources [/Users/amishra/Developer/demo-java-ee-servlet/src/main/webapp]
+12:13:44.490 [INFO]  [Validating] out: [INFO] Building war: /Users/amishra/Developer/demo-java-ee-servlet/target/DemoServlet.war
+12:13:44.603 [INFO]  [Validating] out: [INFO] 
+12:13:44.603 [INFO]  [Validating] out: [INFO] --- install:3.1.2:install (default-install) @ java-ee-servlet ---
+12:13:44.662 [INFO]  [Validating] out: [INFO] Installing /Users/amishra/Developer/demo-java-ee-servlet/pom.xml to /Users/amishra/.m2/repository/com/diffblue/pov/java-ee-servlet/1.0.0/java-ee-servlet-1.0.0.pom
+12:13:44.680 [INFO]  [Validating] out: [INFO] Installing /Users/amishra/Developer/demo-java-ee-servlet/target/DemoServlet.war to /Users/amishra/.m2/repository/com/diffblue/pov/java-ee-servlet/1.0.0/java-ee-servlet-1.0.0.war
+12:13:44.747 [INFO]  [Validating] out: [INFO] ------------------------------------------------------------------------
+12:13:44.747 [INFO]  [Validating] out: [INFO] BUILD SUCCESS
+12:13:44.747 [INFO]  [Validating] out: [INFO] ------------------------------------------------------------------------
+12:13:44.747 [INFO]  [Validating] out: [INFO] Total time:  2.960 s (Wall Clock)
+12:13:44.747 [INFO]  [Validating] out: [INFO] Finished at: 2025-03-06T12:13:44Z
+12:13:44.747 [INFO]  [Validating] out: [INFO] ------------------------------------------------------------------------
+12:13:44.778 [INFO]  [Validating] This can take a couple of minutes.
+12:13:44.779 [INFO]  [Validating] Using default build rules as no custom rules found in any of [/Users/amishra/Developer/demo-java-ee-servlet]
+12:13:44.780 [INFO]  [Validating] Attempting to invoke mvnw in working directory: /Users/amishra/Developer/demo-java-ee-servlet
+12:13:44.806 [INFO]  [Validating] Attempting to invoke /opt/homebrew/bin/mvn in working directory: /Users/amishra/Developer/demo-java-ee-servlet
+12:13:44.810 [INFO]  [Validating] Started "/opt/homebrew/bin/mvn -Dmaven.ext.class.path=/usr/local/bin/diffblue/cover-buildsystem-maven-spy-jar-with-dependencies.jar -Dcom.diffblue.cover.skipTests=true --batch-mode --projects=com.diffblue.pov:java-ee-servlet clean test"
+12:13:45.833 [INFO]  [Validating] out: [INFO] Scanning for projects...
+12:13:45.872 [INFO]  [Validating] out: [INFO] 
+12:13:45.872 [INFO]  [Validating] out: [INFO] ------------------< com.diffblue.pov:java-ee-servlet >------------------
+12:13:45.872 [INFO]  [Validating] out: [INFO] Building Java EE Servlet Webapp 1.0.0
+12:13:45.872 [INFO]  [Validating] out: [INFO]   from pom.xml
+12:13:45.872 [INFO]  [Validating] out: [INFO] --------------------------------[ war ]---------------------------------
+12:13:46.266 [INFO]  [Validating] out: [INFO] 
+12:13:46.266 [INFO]  [Validating] out: [INFO] --- clean:3.4.0:clean (default-clean) @ java-ee-servlet ---
+12:13:46.334 [INFO]  [Validating] out: [INFO] Deleting /Users/amishra/Developer/demo-java-ee-servlet/target
+12:13:46.454 [INFO]  [Validating] out: [INFO] 
+12:13:46.454 [INFO]  [Validating] out: [INFO] --- resources:3.3.1:resources (default-resources) @ java-ee-servlet ---
+12:13:46.531 [INFO]  [Validating] out: [INFO] skip non existing resourceDirectory /Users/amishra/Developer/demo-java-ee-servlet/src/main/resources
+12:13:46.534 [INFO]  [Validating] out: [INFO] 
+12:13:46.534 [INFO]  [Validating] out: [INFO] --- compiler:3.13.0:compile (default-compile) @ java-ee-servlet ---
+12:13:46.638 [INFO]  [Validating] out: [INFO] Recompiling the module because of changed source code.
+12:13:46.644 [INFO]  [Validating] out: [INFO] Compiling 14 source files with javac [debug target 8] to target/classes
+12:13:47.216 [INFO]  [Validating] out: [INFO] 
+12:13:47.216 [INFO]  [Validating] out: [INFO] --- resources:3.3.1:testResources (default-testResources) @ java-ee-servlet ---
+12:13:47.217 [INFO]  [Validating] out: [INFO] skip non existing resourceDirectory /Users/amishra/Developer/demo-java-ee-servlet/src/test/resources
+12:13:47.219 [INFO]  [Validating] out: [INFO] 
+12:13:47.219 [INFO]  [Validating] out: [INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ java-ee-servlet ---
+12:13:47.228 [INFO]  [Validating] out: [INFO] Recompiling the module because of changed dependency.
+12:13:47.231 [INFO]  [Validating] out: [INFO] Compiling 14 source files with javac [debug target 8] to target/test-classes
+12:13:47.940 [INFO]  [Validating] out: [INFO] 
+12:13:47.940 [INFO]  [Validating] out: [INFO] --- surefire:3.3.0:test (default-test) @ java-ee-servlet ---
+12:13:48.084 [INFO]  [Validating] out: [INFO] Using auto detected provider org.apache.maven.surefire.junit4.JUnit4Provider
+12:13:48.223 [INFO]  [Validating] out: [INFO] 
+12:13:48.223 [INFO]  [Validating] out: [INFO] -------------------------------------------------------
+12:13:48.223 [INFO]  [Validating] out: [INFO]  T E S T S
+12:13:48.223 [INFO]  [Validating] out: [INFO] -------------------------------------------------------
+12:13:48.581 [INFO]  [Validating] out: [INFO] Running util.DBConnectionDiffblueTest
+12:13:48.627 [INFO]  [Validating] out: [WARNING] Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.036 s -- in util.DBConnectionDiffblueTest
+12:13:48.627 [INFO]  [Validating] out: [INFO] Running dao.PostDAODiffblueTest
+12:13:49.350 [INFO]  [Validating] err: java.sql.SQLException
+12:13:49.350 [INFO]  [Validating] err: 	at dao.PostDAO.updatePost(PostDAO.java:81)
+12:13:49.350 [INFO]  [Validating] err: 	at dao.PostDAODiffblueTest.testUpdatePost_thenReturnPostUpdateFailed(PostDAODiffblueTest.java:511)
+12:13:49.350 [INFO]  [Validating] err: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+12:13:49.350 [INFO]  [Validating] err: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+12:13:49.350 [INFO]  [Validating] err: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+12:13:49.350 [INFO]  [Validating] err: 	at java.lang.reflect.Method.invoke(Method.java:498)
+12:13:49.350 [INFO]  [Validating] err: 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+12:13:49.350 [INFO]  [Validating] err: 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+12:13:49.350 [INFO]  [Validating] err: 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+12:13:49.350 [INFO]  [Validating] err: 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+12:13:49.350 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+12:13:49.350 [INFO]  [Validating] err: 	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+12:13:49.350 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+12:13:49.350 [INFO]  [Validating] err: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+12:13:49.350 [INFO]  [Validating] err: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+12:13:49.350 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+12:13:49.350 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+12:13:49.350 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+12:13:49.350 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+12:13:49.350 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+12:13:49.350 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+12:13:49.350 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+12:13:49.350 [INFO]  [Validating] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:316)
+12:13:49.350 [INFO]  [Validating] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:240)
+12:13:49.350 [INFO]  [Validating] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:214)
+12:13:49.350 [INFO]  [Validating] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:155)
+12:13:49.350 [INFO]  [Validating] err: 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+12:13:49.350 [INFO]  [Validating] err: 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+12:13:49.350 [INFO]  [Validating] err: 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+12:13:49.350 [INFO]  [Validating] err: 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+12:13:49.480 [INFO]  [Validating] out: [INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.841 s -- in dao.PostDAODiffblueTest
+12:13:49.480 [INFO]  [Validating] out: [INFO] Running dao.UserDAODiffblueTest
+12:13:49.487 [INFO]  [Validating] err: java.sql.SQLIntegrityConstraintViolationException: UPDATE user SET password = ? WHERE user_id = ?;
+12:13:49.487 [INFO]  [Validating] err: 	at dao.UserDAO.updatePassword(UserDAO.java:138)
+12:13:49.487 [INFO]  [Validating] err: 	at dao.UserDAODiffblueTest.testUpdatePassword_thenReturnPasswordUpdateFailed(UserDAODiffblueTest.java:881)
+12:13:49.487 [INFO]  [Validating] err: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+12:13:49.487 [INFO]  [Validating] err: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+12:13:49.487 [INFO]  [Validating] err: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+12:13:49.487 [INFO]  [Validating] err: 	at java.lang.reflect.Method.invoke(Method.java:498)
+12:13:49.487 [INFO]  [Validating] err: 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+12:13:49.487 [INFO]  [Validating] err: 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+12:13:49.487 [INFO]  [Validating] err: 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+12:13:49.487 [INFO]  [Validating] err: 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+12:13:49.487 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+12:13:49.487 [INFO]  [Validating] err: 	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+12:13:49.487 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+12:13:49.487 [INFO]  [Validating] err: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+12:13:49.487 [INFO]  [Validating] err: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+12:13:49.487 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+12:13:49.487 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+12:13:49.487 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+12:13:49.487 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+12:13:49.487 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+12:13:49.487 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+12:13:49.487 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+12:13:49.487 [INFO]  [Validating] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:316)
+12:13:49.487 [INFO]  [Validating] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:240)
+12:13:49.487 [INFO]  [Validating] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:214)
+12:13:49.487 [INFO]  [Validating] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:155)
+12:13:49.487 [INFO]  [Validating] err: 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+12:13:49.487 [INFO]  [Validating] err: 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+12:13:49.487 [INFO]  [Validating] err: 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+12:13:49.487 [INFO]  [Validating] err: 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+12:13:49.497 [INFO]  [Validating] err: java.sql.SQLIntegrityConstraintViolationException: UPDATE user SET first_name = ?, last_name = ?, email = ? WHERE user_id = ?;
+12:13:49.497 [INFO]  [Validating] err: 	at dao.UserDAO.updateProfile(UserDAO.java:119)
+12:13:49.497 [INFO]  [Validating] err: 	at dao.UserDAODiffblueTest.testUpdateProfile_thenReturnEmailAlreayUsed(UserDAODiffblueTest.java:799)
+12:13:49.497 [INFO]  [Validating] err: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+12:13:49.497 [INFO]  [Validating] err: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+12:13:49.497 [INFO]  [Validating] err: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+12:13:49.497 [INFO]  [Validating] err: 	at java.lang.reflect.Method.invoke(Method.java:498)
+12:13:49.497 [INFO]  [Validating] err: 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+12:13:49.497 [INFO]  [Validating] err: 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+12:13:49.497 [INFO]  [Validating] err: 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+12:13:49.497 [INFO]  [Validating] err: 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+12:13:49.497 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+12:13:49.497 [INFO]  [Validating] err: 	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+12:13:49.497 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+12:13:49.497 [INFO]  [Validating] err: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+12:13:49.497 [INFO]  [Validating] err: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+12:13:49.497 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+12:13:49.497 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+12:13:49.497 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+12:13:49.497 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+12:13:49.498 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+12:13:49.498 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+12:13:49.498 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+12:13:49.498 [INFO]  [Validating] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:316)
+12:13:49.498 [INFO]  [Validating] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:240)
+12:13:49.498 [INFO]  [Validating] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:214)
+12:13:49.498 [INFO]  [Validating] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:155)
+12:13:49.498 [INFO]  [Validating] err: 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+12:13:49.498 [INFO]  [Validating] err: 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+12:13:49.498 [INFO]  [Validating] err: 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+12:13:49.498 [INFO]  [Validating] err: 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+12:13:49.504 [INFO]  [Validating] err: java.sql.SQLIntegrityConstraintViolationException: INSERT INTO user(first_name, last_name, email, password) VALUES (?, ?, ?, ?);
+12:13:49.504 [INFO]  [Validating] err: 	at dao.UserDAO.register(UserDAO.java:40)
+12:13:49.504 [INFO]  [Validating] err: 	at dao.UserDAODiffblueTest.testRegister_thenReturnEmailAlreayUsed(UserDAODiffblueTest.java:277)
+12:13:49.504 [INFO]  [Validating] err: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+12:13:49.504 [INFO]  [Validating] err: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+12:13:49.504 [INFO]  [Validating] err: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+12:13:49.504 [INFO]  [Validating] err: 	at java.lang.reflect.Method.invoke(Method.java:498)
+12:13:49.504 [INFO]  [Validating] err: 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+12:13:49.504 [INFO]  [Validating] err: 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+12:13:49.504 [INFO]  [Validating] err: 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+12:13:49.504 [INFO]  [Validating] err: 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+12:13:49.504 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+12:13:49.504 [INFO]  [Validating] err: 	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+12:13:49.504 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+12:13:49.504 [INFO]  [Validating] err: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+12:13:49.504 [INFO]  [Validating] err: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+12:13:49.504 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+12:13:49.504 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+12:13:49.504 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+12:13:49.504 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+12:13:49.504 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+12:13:49.504 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+12:13:49.504 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+12:13:49.504 [INFO]  [Validating] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:316)
+12:13:49.504 [INFO]  [Validating] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:240)
+12:13:49.504 [INFO]  [Validating] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:214)
+12:13:49.504 [INFO]  [Validating] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:155)
+12:13:49.504 [INFO]  [Validating] err: 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+12:13:49.504 [INFO]  [Validating] err: 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+12:13:49.504 [INFO]  [Validating] err: 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+12:13:49.504 [INFO]  [Validating] err: 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+12:13:49.527 [INFO]  [Validating] out: [INFO] Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 s -- in dao.UserDAODiffblueTest
+12:13:49.527 [INFO]  [Validating] out: [INFO] Running dao.MessageDAODiffblueTest
+12:13:49.532 [INFO]  [Validating] out: [INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s -- in dao.MessageDAODiffblueTest
+12:13:49.532 [INFO]  [Validating] out: [INFO] Running controller.ProfileServletDiffblueTest
+12:13:49.696 [INFO]  [Validating] err: java.lang.ClassCastException: java.lang.String cannot be cast to java.lang.Integer
+12:13:49.696 [INFO]  [Validating] err: 	at controller.ProfileServlet.doGet(ProfileServlet.java:72)
+12:13:49.696 [INFO]  [Validating] err: 	at controller.ProfileServletDiffblueTest.testDoGet_givenNull_whenHttpServletRequestGetParameterReturnNull(ProfileServletDiffblueTest.java:110)
+12:13:49.696 [INFO]  [Validating] err: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+12:13:49.696 [INFO]  [Validating] err: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+12:13:49.696 [INFO]  [Validating] err: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+12:13:49.696 [INFO]  [Validating] err: 	at java.lang.reflect.Method.invoke(Method.java:498)
+12:13:49.696 [INFO]  [Validating] err: 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+12:13:49.696 [INFO]  [Validating] err: 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+12:13:49.696 [INFO]  [Validating] err: 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+12:13:49.696 [INFO]  [Validating] err: 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+12:13:49.696 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+12:13:49.696 [INFO]  [Validating] err: 	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+12:13:49.696 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+12:13:49.696 [INFO]  [Validating] err: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+12:13:49.696 [INFO]  [Validating] err: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+12:13:49.696 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+12:13:49.696 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+12:13:49.696 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+12:13:49.696 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+12:13:49.696 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+12:13:49.696 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+12:13:49.696 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+12:13:49.696 [INFO]  [Validating] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:316)
+12:13:49.696 [INFO]  [Validating] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:240)
+12:13:49.696 [INFO]  [Validating] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:214)
+12:13:49.696 [INFO]  [Validating] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:155)
+12:13:49.696 [INFO]  [Validating] err: 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+12:13:49.696 [INFO]  [Validating] err: 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+12:13:49.696 [INFO]  [Validating] err: 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+12:13:49.696 [INFO]  [Validating] err: 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+12:13:49.713 [INFO]  [Validating] out: [INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.165 s -- in controller.ProfileServletDiffblueTest
+12:13:49.713 [INFO]  [Validating] out: [INFO] Running controller.MessageServletDiffblueTest
+12:13:49.720 [INFO]  [Validating] err: java.lang.NumberFormatException: For input string: "Parameter"
+12:13:49.720 [INFO]  [Validating] err: 	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+12:13:49.720 [INFO]  [Validating] err: 	at java.lang.Integer.parseInt(Integer.java:580)
+12:13:49.720 [INFO]  [Validating] err: 	at java.lang.Integer.parseInt(Integer.java:615)
+12:13:49.720 [INFO]  [Validating] err: 	at controller.MessageServlet.doGet(MessageServlet.java:49)
+12:13:49.720 [INFO]  [Validating] err: 	at controller.MessageServlet.doPost(MessageServlet.java:73)
+12:13:49.720 [INFO]  [Validating] err: 	at controller.MessageServletDiffblueTest.testDoPost_givenResultSetNextReturnTrue_thenCallsPrepareStatement(MessageServletDiffblueTest.java:446)
+12:13:49.720 [INFO]  [Validating] err: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+12:13:49.720 [INFO]  [Validating] err: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+12:13:49.720 [INFO]  [Validating] err: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+12:13:49.720 [INFO]  [Validating] err: 	at java.lang.reflect.Method.invoke(Method.java:498)
+12:13:49.720 [INFO]  [Validating] err: 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+12:13:49.720 [INFO]  [Validating] err: 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+12:13:49.720 [INFO]  [Validating] err: 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+12:13:49.720 [INFO]  [Validating] err: 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+12:13:49.720 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+12:13:49.720 [INFO]  [Validating] err: 	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+12:13:49.720 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+12:13:49.720 [INFO]  [Validating] err: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+12:13:49.720 [INFO]  [Validating] err: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+12:13:49.720 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+12:13:49.720 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+12:13:49.720 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+12:13:49.720 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+12:13:49.720 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+12:13:49.720 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+12:13:49.720 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+12:13:49.720 [INFO]  [Validating] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:316)
+12:13:49.720 [INFO]  [Validating] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:240)
+12:13:49.720 [INFO]  [Validating] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:214)
+12:13:49.720 [INFO]  [Validating] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:155)
+12:13:49.720 [INFO]  [Validating] err: 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+12:13:49.720 [INFO]  [Validating] err: 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+12:13:49.720 [INFO]  [Validating] err: 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+12:13:49.720 [INFO]  [Validating] err: 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+12:13:49.724 [INFO]  [Validating] err: java.lang.NumberFormatException: For input string: "Parameter"
+12:13:49.724 [INFO]  [Validating] err: 	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+12:13:49.724 [INFO]  [Validating] err: 	at java.lang.Integer.parseInt(Integer.java:580)
+12:13:49.724 [INFO]  [Validating] err: 	at java.lang.Integer.parseInt(Integer.java:615)
+12:13:49.724 [INFO]  [Validating] err: 	at controller.MessageServlet.doGet(MessageServlet.java:49)
+12:13:49.724 [INFO]  [Validating] err: 	at controller.MessageServletDiffblueTest.testDoGet_givenResultSetNextReturnTrue_thenCallsPrepareStatement(MessageServletDiffblueTest.java:238)
+12:13:49.724 [INFO]  [Validating] err: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+12:13:49.724 [INFO]  [Validating] err: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+12:13:49.724 [INFO]  [Validating] err: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+12:13:49.724 [INFO]  [Validating] err: 	at java.lang.reflect.Method.invoke(Method.java:498)
+12:13:49.724 [INFO]  [Validating] err: 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+12:13:49.724 [INFO]  [Validating] err: 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+12:13:49.724 [INFO]  [Validating] err: 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+12:13:49.724 [INFO]  [Validating] err: 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+12:13:49.724 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+12:13:49.724 [INFO]  [Validating] err: 	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+12:13:49.724 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+12:13:49.724 [INFO]  [Validating] err: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+12:13:49.724 [INFO]  [Validating] err: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+12:13:49.724 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+12:13:49.725 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+12:13:49.725 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+12:13:49.725 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+12:13:49.725 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+12:13:49.725 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+12:13:49.725 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+12:13:49.725 [INFO]  [Validating] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:316)
+12:13:49.725 [INFO]  [Validating] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:240)
+12:13:49.725 [INFO]  [Validating] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:214)
+12:13:49.725 [INFO]  [Validating] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:155)
+12:13:49.725 [INFO]  [Validating] err: 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+12:13:49.725 [INFO]  [Validating] err: 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+12:13:49.725 [INFO]  [Validating] err: 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+12:13:49.725 [INFO]  [Validating] err: 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+12:13:49.728 [INFO]  [Validating] err: java.lang.NumberFormatException: For input string: "Parameter"
+12:13:49.728 [INFO]  [Validating] err: 	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+12:13:49.728 [INFO]  [Validating] err: 	at java.lang.Integer.parseInt(Integer.java:580)
+12:13:49.728 [INFO]  [Validating] err: 	at java.lang.Integer.parseInt(Integer.java:615)
+12:13:49.728 [INFO]  [Validating] err: 	at controller.MessageServlet.doGet(MessageServlet.java:49)
+12:13:49.728 [INFO]  [Validating] err: 	at controller.MessageServletDiffblueTest.lambda$testDoGet_givenRequestDispatcherForwardThrowNumberFormatExceptionWithUserId$1(MessageServletDiffblueTest.java:118)
+12:13:49.728 [INFO]  [Validating] err: 	at org.junit.Assert.assertThrows(Assert.java:1001)
+12:13:49.728 [INFO]  [Validating] err: 	at org.junit.Assert.assertThrows(Assert.java:981)
+12:13:49.728 [INFO]  [Validating] err: 	at controller.MessageServletDiffblueTest.testDoGet_givenRequestDispatcherForwardThrowNumberFormatExceptionWithUserId(MessageServletDiffblueTest.java:118)
+12:13:49.728 [INFO]  [Validating] err: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+12:13:49.728 [INFO]  [Validating] err: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+12:13:49.728 [INFO]  [Validating] err: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+12:13:49.728 [INFO]  [Validating] err: 	at java.lang.reflect.Method.invoke(Method.java:498)
+12:13:49.728 [INFO]  [Validating] err: 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+12:13:49.728 [INFO]  [Validating] err: 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+12:13:49.728 [INFO]  [Validating] err: 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+12:13:49.728 [INFO]  [Validating] err: 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+12:13:49.728 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+12:13:49.728 [INFO]  [Validating] err: 	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+12:13:49.728 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+12:13:49.728 [INFO]  [Validating] err: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+12:13:49.728 [INFO]  [Validating] err: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+12:13:49.728 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+12:13:49.728 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+12:13:49.728 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+12:13:49.728 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+12:13:49.728 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+12:13:49.728 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+12:13:49.728 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+12:13:49.728 [INFO]  [Validating] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:316)
+12:13:49.728 [INFO]  [Validating] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:240)
+12:13:49.728 [INFO]  [Validating] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:214)
+12:13:49.728 [INFO]  [Validating] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:155)
+12:13:49.728 [INFO]  [Validating] err: 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+12:13:49.728 [INFO]  [Validating] err: 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+12:13:49.728 [INFO]  [Validating] err: 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+12:13:49.728 [INFO]  [Validating] err: 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+12:13:49.730 [INFO]  [Validating] err: java.lang.NumberFormatException: For input string: "Parameter"
+12:13:49.730 [INFO]  [Validating] err: 	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+12:13:49.730 [INFO]  [Validating] err: 	at java.lang.Integer.parseInt(Integer.java:580)
+12:13:49.730 [INFO]  [Validating] err: 	at java.lang.Integer.parseInt(Integer.java:615)
+12:13:49.730 [INFO]  [Validating] err: 	at controller.MessageServlet.doGet(MessageServlet.java:49)
+12:13:49.730 [INFO]  [Validating] err: 	at controller.MessageServletDiffblueTest.testDoGet_givenResultSetNextReturnFalse_thenCallsPrepareStatement(MessageServletDiffblueTest.java:177)
+12:13:49.730 [INFO]  [Validating] err: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+12:13:49.730 [INFO]  [Validating] err: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+12:13:49.730 [INFO]  [Validating] err: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+12:13:49.730 [INFO]  [Validating] err: 	at java.lang.reflect.Method.invoke(Method.java:498)
+12:13:49.730 [INFO]  [Validating] err: 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+12:13:49.730 [INFO]  [Validating] err: 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+12:13:49.730 [INFO]  [Validating] err: 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+12:13:49.730 [INFO]  [Validating] err: 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+12:13:49.730 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+12:13:49.730 [INFO]  [Validating] err: 	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+12:13:49.730 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+12:13:49.730 [INFO]  [Validating] err: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+12:13:49.730 [INFO]  [Validating] err: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+12:13:49.730 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+12:13:49.730 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+12:13:49.730 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+12:13:49.730 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+12:13:49.730 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+12:13:49.730 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+12:13:49.730 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+12:13:49.730 [INFO]  [Validating] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:316)
+12:13:49.730 [INFO]  [Validating] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:240)
+12:13:49.730 [INFO]  [Validating] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:214)
+12:13:49.730 [INFO]  [Validating] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:155)
+12:13:49.730 [INFO]  [Validating] err: 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+12:13:49.730 [INFO]  [Validating] err: 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+12:13:49.730 [INFO]  [Validating] err: 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+12:13:49.730 [INFO]  [Validating] err: 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+12:13:49.732 [INFO]  [Validating] err: java.lang.NumberFormatException: For input string: "Parameter"
+12:13:49.732 [INFO]  [Validating] err: 	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+12:13:49.732 [INFO]  [Validating] err: 	at java.lang.Integer.parseInt(Integer.java:580)
+12:13:49.732 [INFO]  [Validating] err: 	at java.lang.Integer.parseInt(Integer.java:615)
+12:13:49.732 [INFO]  [Validating] err: 	at controller.MessageServlet.doGet(MessageServlet.java:49)
+12:13:49.732 [INFO]  [Validating] err: 	at controller.MessageServlet.doPost(MessageServlet.java:73)
+12:13:49.732 [INFO]  [Validating] err: 	at controller.MessageServletDiffblueTest.lambda$testDoPost_givenRequestDispatcherForwardThrowNumberFormatExceptionWithUserId$3(MessageServletDiffblueTest.java:326)
+12:13:49.732 [INFO]  [Validating] err: 	at org.junit.Assert.assertThrows(Assert.java:1001)
+12:13:49.732 [INFO]  [Validating] err: 	at org.junit.Assert.assertThrows(Assert.java:981)
+12:13:49.732 [INFO]  [Validating] err: 	at controller.MessageServletDiffblueTest.testDoPost_givenRequestDispatcherForwardThrowNumberFormatExceptionWithUserId(MessageServletDiffblueTest.java:326)
+12:13:49.732 [INFO]  [Validating] err: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+12:13:49.732 [INFO]  [Validating] err: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+12:13:49.732 [INFO]  [Validating] err: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+12:13:49.732 [INFO]  [Validating] err: 	at java.lang.reflect.Method.invoke(Method.java:498)
+12:13:49.732 [INFO]  [Validating] err: 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+12:13:49.732 [INFO]  [Validating] err: 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+12:13:49.732 [INFO]  [Validating] err: 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+12:13:49.732 [INFO]  [Validating] err: 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+12:13:49.732 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+12:13:49.732 [INFO]  [Validating] err: 	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+12:13:49.732 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+12:13:49.732 [INFO]  [Validating] err: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+12:13:49.732 [INFO]  [Validating] err: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+12:13:49.732 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+12:13:49.732 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+12:13:49.732 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+12:13:49.732 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+12:13:49.732 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+12:13:49.732 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+12:13:49.732 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+12:13:49.732 [INFO]  [Validating] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:316)
+12:13:49.732 [INFO]  [Validating] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:240)
+12:13:49.732 [INFO]  [Validating] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:214)
+12:13:49.732 [INFO]  [Validating] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:155)
+12:13:49.732 [INFO]  [Validating] err: 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+12:13:49.732 [INFO]  [Validating] err: 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+12:13:49.732 [INFO]  [Validating] err: 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+12:13:49.732 [INFO]  [Validating] err: 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+12:13:49.734 [INFO]  [Validating] err: java.lang.NumberFormatException: For input string: "Parameter"
+12:13:49.734 [INFO]  [Validating] err: 	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+12:13:49.734 [INFO]  [Validating] err: 	at java.lang.Integer.parseInt(Integer.java:580)
+12:13:49.734 [INFO]  [Validating] err: 	at java.lang.Integer.parseInt(Integer.java:615)
+12:13:49.734 [INFO]  [Validating] err: 	at controller.MessageServlet.doGet(MessageServlet.java:49)
+12:13:49.734 [INFO]  [Validating] err: 	at controller.MessageServlet.doPost(MessageServlet.java:73)
+12:13:49.734 [INFO]  [Validating] err: 	at controller.MessageServletDiffblueTest.testDoPost_givenResultSetNextReturnFalse_thenCallsPrepareStatement(MessageServletDiffblueTest.java:385)
+12:13:49.734 [INFO]  [Validating] err: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+12:13:49.734 [INFO]  [Validating] err: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+12:13:49.734 [INFO]  [Validating] err: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+12:13:49.734 [INFO]  [Validating] err: 	at java.lang.reflect.Method.invoke(Method.java:498)
+12:13:49.734 [INFO]  [Validating] err: 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+12:13:49.734 [INFO]  [Validating] err: 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+12:13:49.734 [INFO]  [Validating] err: 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+12:13:49.735 [INFO]  [Validating] err: 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+12:13:49.735 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+12:13:49.735 [INFO]  [Validating] err: 	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+12:13:49.735 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+12:13:49.735 [INFO]  [Validating] err: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+12:13:49.735 [INFO]  [Validating] err: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+12:13:49.735 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+12:13:49.735 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+12:13:49.735 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+12:13:49.735 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+12:13:49.735 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+12:13:49.735 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+12:13:49.735 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+12:13:49.735 [INFO]  [Validating] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:316)
+12:13:49.735 [INFO]  [Validating] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:240)
+12:13:49.735 [INFO]  [Validating] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:214)
+12:13:49.735 [INFO]  [Validating] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:155)
+12:13:49.735 [INFO]  [Validating] err: 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+12:13:49.735 [INFO]  [Validating] err: 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+12:13:49.735 [INFO]  [Validating] err: 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+12:13:49.735 [INFO]  [Validating] err: 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+12:13:49.789 [INFO]  [Validating] out: [INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 s -- in controller.MessageServletDiffblueTest
+12:13:49.789 [INFO]  [Validating] out: [INFO] Running controller.LogoutServletDiffblueTest
+12:13:49.802 [INFO]  [Validating] out: [INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s -- in controller.LogoutServletDiffblueTest
+12:13:49.802 [INFO]  [Validating] out: [INFO] Running controller.ViewMessageServletDiffblueTest
+12:13:49.803 [INFO]  [Validating] err: java.lang.NumberFormatException: For input string: "Parameter"
+12:13:49.804 [INFO]  [Validating] err: 	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+12:13:49.804 [INFO]  [Validating] err: 	at java.lang.Integer.parseInt(Integer.java:580)
+12:13:49.804 [INFO]  [Validating] err: 	at java.lang.Integer.parseInt(Integer.java:615)
+12:13:49.804 [INFO]  [Validating] err: 	at controller.ViewMessageServlet.doPost(ViewMessageServlet.java:80)
+12:13:49.804 [INFO]  [Validating] err: 	at controller.ViewMessageServletDiffblueTest.testDoPost_givenHttpSessionGetAttributeReturn42(ViewMessageServletDiffblueTest.java:230)
+12:13:49.804 [INFO]  [Validating] err: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+12:13:49.804 [INFO]  [Validating] err: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+12:13:49.804 [INFO]  [Validating] err: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+12:13:49.804 [INFO]  [Validating] err: 	at java.lang.reflect.Method.invoke(Method.java:498)
+12:13:49.804 [INFO]  [Validating] err: 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+12:13:49.804 [INFO]  [Validating] err: 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+12:13:49.804 [INFO]  [Validating] err: 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+12:13:49.804 [INFO]  [Validating] err: 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+12:13:49.804 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+12:13:49.804 [INFO]  [Validating] err: 	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+12:13:49.804 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+12:13:49.804 [INFO]  [Validating] err: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+12:13:49.804 [INFO]  [Validating] err: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+12:13:49.804 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+12:13:49.804 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+12:13:49.804 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+12:13:49.804 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+12:13:49.804 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+12:13:49.804 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+12:13:49.804 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+12:13:49.804 [INFO]  [Validating] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:316)
+12:13:49.804 [INFO]  [Validating] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:240)
+12:13:49.804 [INFO]  [Validating] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:214)
+12:13:49.804 [INFO]  [Validating] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:155)
+12:13:49.804 [INFO]  [Validating] err: 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+12:13:49.804 [INFO]  [Validating] err: 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+12:13:49.804 [INFO]  [Validating] err: 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+12:13:49.804 [INFO]  [Validating] err: 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+12:13:49.805 [INFO]  [Validating] err: java.lang.NumberFormatException: For input string: "Attribute"
+12:13:49.805 [INFO]  [Validating] err: 	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+12:13:49.805 [INFO]  [Validating] err: 	at java.lang.Integer.parseInt(Integer.java:580)
+12:13:49.805 [INFO]  [Validating] err: 	at java.lang.Integer.parseInt(Integer.java:615)
+12:13:49.805 [INFO]  [Validating] err: 	at controller.ViewMessageServlet.doPost(ViewMessageServlet.java:80)
+12:13:49.805 [INFO]  [Validating] err: 	at controller.ViewMessageServletDiffblueTest.testDoPost_givenParameter_whenHttpServletRequestGetParameterReturnParameter(ViewMessageServletDiffblueTest.java:355)
+12:13:49.805 [INFO]  [Validating] err: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+12:13:49.805 [INFO]  [Validating] err: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+12:13:49.805 [INFO]  [Validating] err: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+12:13:49.805 [INFO]  [Validating] err: 	at java.lang.reflect.Method.invoke(Method.java:498)
+12:13:49.805 [INFO]  [Validating] err: 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+12:13:49.805 [INFO]  [Validating] err: 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+12:13:49.805 [INFO]  [Validating] err: 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+12:13:49.805 [INFO]  [Validating] err: 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+12:13:49.805 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+12:13:49.805 [INFO]  [Validating] err: 	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+12:13:49.805 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+12:13:49.805 [INFO]  [Validating] err: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+12:13:49.805 [INFO]  [Validating] err: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+12:13:49.805 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+12:13:49.805 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+12:13:49.805 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+12:13:49.805 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+12:13:49.805 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+12:13:49.805 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+12:13:49.805 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+12:13:49.805 [INFO]  [Validating] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:316)
+12:13:49.805 [INFO]  [Validating] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:240)
+12:13:49.805 [INFO]  [Validating] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:214)
+12:13:49.805 [INFO]  [Validating] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:155)
+12:13:49.805 [INFO]  [Validating] err: 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+12:13:49.805 [INFO]  [Validating] err: 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+12:13:49.805 [INFO]  [Validating] err: 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+12:13:49.805 [INFO]  [Validating] err: 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+12:13:49.806 [INFO]  [Validating] err: java.lang.NumberFormatException: For input string: "Attribute"
+12:13:49.806 [INFO]  [Validating] err: 	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+12:13:49.806 [INFO]  [Validating] err: 	at java.lang.Integer.parseInt(Integer.java:580)
+12:13:49.806 [INFO]  [Validating] err: 	at java.lang.Integer.parseInt(Integer.java:615)
+12:13:49.806 [INFO]  [Validating] err: 	at controller.ViewMessageServlet.doPost(ViewMessageServlet.java:80)
+12:13:49.806 [INFO]  [Validating] err: 	at controller.ViewMessageServletDiffblueTest.lambda$testDoPost_givenIOExceptionWithLogin_thenThrowIOException$2(ViewMessageServletDiffblueTest.java:323)
+12:13:49.806 [INFO]  [Validating] err: 	at org.junit.Assert.assertThrows(Assert.java:1001)
+12:13:49.806 [INFO]  [Validating] err: 	at org.junit.Assert.assertThrows(Assert.java:981)
+12:13:49.806 [INFO]  [Validating] err: 	at controller.ViewMessageServletDiffblueTest.testDoPost_givenIOExceptionWithLogin_thenThrowIOException(ViewMessageServletDiffblueTest.java:323)
+12:13:49.806 [INFO]  [Validating] err: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+12:13:49.806 [INFO]  [Validating] err: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+12:13:49.806 [INFO]  [Validating] err: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+12:13:49.806 [INFO]  [Validating] err: 	at java.lang.reflect.Method.invoke(Method.java:498)
+12:13:49.806 [INFO]  [Validating] err: 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+12:13:49.806 [INFO]  [Validating] err: 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+12:13:49.806 [INFO]  [Validating] err: 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+12:13:49.806 [INFO]  [Validating] err: 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+12:13:49.806 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+12:13:49.806 [INFO]  [Validating] err: 	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+12:13:49.806 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+12:13:49.806 [INFO]  [Validating] err: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+12:13:49.806 [INFO]  [Validating] err: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+12:13:49.806 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+12:13:49.806 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+12:13:49.806 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+12:13:49.806 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+12:13:49.806 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+12:13:49.806 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+12:13:49.806 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+12:13:49.806 [INFO]  [Validating] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:316)
+12:13:49.806 [INFO]  [Validating] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:240)
+12:13:49.806 [INFO]  [Validating] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:214)
+12:13:49.806 [INFO]  [Validating] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:155)
+12:13:49.806 [INFO]  [Validating] err: 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+12:13:49.806 [INFO]  [Validating] err: 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+12:13:49.806 [INFO]  [Validating] err: 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+12:13:49.806 [INFO]  [Validating] err: 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+12:13:49.807 [INFO]  [Validating] err: java.sql.SQLException
+12:13:49.807 [INFO]  [Validating] err: 	at dao.MessageDAO.insertMessage(MessageDAO.java:66)
+12:13:49.807 [INFO]  [Validating] err: 	at controller.ViewMessageServlet.doPost(ViewMessageServlet.java:80)
+12:13:49.807 [INFO]  [Validating] err: 	at controller.ViewMessageServletDiffblueTest.testDoPost_givenPreparedStatementSetIntThrowSQLException(ViewMessageServletDiffblueTest.java:449)
+12:13:49.807 [INFO]  [Validating] err: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+12:13:49.807 [INFO]  [Validating] err: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+12:13:49.807 [INFO]  [Validating] err: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+12:13:49.807 [INFO]  [Validating] err: 	at java.lang.reflect.Method.invoke(Method.java:498)
+12:13:49.807 [INFO]  [Validating] err: 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+12:13:49.807 [INFO]  [Validating] err: 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+12:13:49.807 [INFO]  [Validating] err: 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+12:13:49.807 [INFO]  [Validating] err: 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+12:13:49.807 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+12:13:49.807 [INFO]  [Validating] err: 	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+12:13:49.807 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+12:13:49.807 [INFO]  [Validating] err: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+12:13:49.807 [INFO]  [Validating] err: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+12:13:49.807 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+12:13:49.807 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+12:13:49.807 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+12:13:49.807 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+12:13:49.807 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+12:13:49.807 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+12:13:49.807 [INFO]  [Validating] err: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+12:13:49.807 [INFO]  [Validating] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:316)
+12:13:49.807 [INFO]  [Validating] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:240)
+12:13:49.807 [INFO]  [Validating] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:214)
+12:13:49.807 [INFO]  [Validating] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:155)
+12:13:49.807 [INFO]  [Validating] err: 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+12:13:49.807 [INFO]  [Validating] err: 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+12:13:49.807 [INFO]  [Validating] err: 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+12:13:49.807 [INFO]  [Validating] err: 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+12:13:49.824 [INFO]  [Validating] out: [INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s -- in controller.ViewMessageServletDiffblueTest
+12:13:49.824 [INFO]  [Validating] out: [INFO] Running controller.LoginServletDiffblueTest
+12:13:49.827 [INFO]  [Validating] out: [INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s -- in controller.LoginServletDiffblueTest
+12:13:49.828 [INFO]  [Validating] out: [INFO] Running controller.RegisterServletDiffblueTest
+12:13:49.830 [INFO]  [Validating] out: [INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s -- in controller.RegisterServletDiffblueTest
+12:13:49.830 [INFO]  [Validating] out: [INFO] Running controller.HomeServletDiffblueTest
+12:13:49.832 [INFO]  [Validating] out: [INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s -- in controller.HomeServletDiffblueTest
+12:13:49.832 [INFO]  [Validating] out: [INFO] Running model.MessageDiffblueTest
+12:13:49.834 [INFO]  [Validating] out: [INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s -- in model.MessageDiffblueTest
+12:13:49.834 [INFO]  [Validating] out: [INFO] Running model.UserDiffblueTest
+12:13:49.836 [INFO]  [Validating] out: [INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s -- in model.UserDiffblueTest
+12:13:49.836 [INFO]  [Validating] out: [INFO] Running model.PostDiffblueTest
+12:13:49.838 [INFO]  [Validating] out: [INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s -- in model.PostDiffblueTest
+12:13:49.845 [INFO]  [Validating] out: [INFO] 
+12:13:49.845 [INFO]  [Validating] out: [INFO] Results:
+12:13:49.845 [INFO]  [Validating] out: [INFO] 
+12:13:49.845 [INFO]  [Validating] out: [WARNING] Tests run: 124, Failures: 0, Errors: 0, Skipped: 1
+12:13:49.845 [INFO]  [Validating] out: [INFO] 
+12:13:49.893 [INFO]  [Validating] out: [INFO] ------------------------------------------------------------------------
+12:13:49.893 [INFO]  [Validating] out: [INFO] BUILD SUCCESS
+12:13:49.893 [INFO]  [Validating] out: [INFO] ------------------------------------------------------------------------
+12:13:49.894 [INFO]  [Validating] out: [INFO] Total time:  4.074 s
+12:13:49.894 [INFO]  [Validating] out: [INFO] Finished at: 2025-03-06T12:13:49Z
+12:13:49.894 [INFO]  [Validating] out: [INFO] ------------------------------------------------------------------------
+12:13:50.373 [INFO]  [Validating] All 120 created tests were successfully validated.
+12:13:50.396 [INFO]  [Measuring] Calculating coverage from Diffblue tests.
+12:13:50.403 [INFO]  [Measuring] Using default build rules as no custom rules found in any of [/Users/amishra/Developer/demo-java-ee-servlet]
+12:13:50.404 [INFO]  [Measuring] Attempting to invoke mvnw in working directory: /Users/amishra/Developer/demo-java-ee-servlet
+12:13:50.428 [INFO]  [Measuring] Attempting to invoke /opt/homebrew/bin/mvn in working directory: /Users/amishra/Developer/demo-java-ee-servlet
+12:13:50.437 [INFO]  [Measuring] Started "/opt/homebrew/bin/mvn -Dmaven.ext.class.path=/usr/local/bin/diffblue/cover-buildsystem-maven-spy-jar-with-dependencies.jar -Dcom.diffblue.cover.skipTests=true --batch-mode --projects=com.diffblue.pov:java-ee-servlet org.jacoco:jacoco-maven-plugin:0.8.11:prepare-agent -Djacoco.skip=false test -DfailIfNoTests=false -Dsurefire.failIfNoSpecifiedTests=false -Dmaven.test.failure.ignore=True -Dtest=*DiffblueTest org.jacoco:jacoco-maven-plugin:0.8.11:report -Djacoco.skip=false"
+12:13:51.512 [INFO]  [Measuring] out: [INFO] Scanning for projects...
+12:13:51.619 [INFO]  [Measuring] out: [INFO] 
+12:13:51.619 [INFO]  [Measuring] out: [INFO] ------------------< com.diffblue.pov:java-ee-servlet >------------------
+12:13:51.619 [INFO]  [Measuring] out: [INFO] Building Java EE Servlet Webapp 1.0.0
+12:13:51.619 [INFO]  [Measuring] out: [INFO]   from pom.xml
+12:13:51.619 [INFO]  [Measuring] out: [INFO] --------------------------------[ war ]---------------------------------
+12:13:51.872 [INFO]  [Measuring] out: [INFO] 
+12:13:51.872 [INFO]  [Measuring] out: [INFO] --- jacoco:0.8.11:prepare-agent (default-cli) @ java-ee-servlet ---
+12:13:52.062 [INFO]  [Measuring] out: [INFO] argLine set to -javaagent:/Users/amishra/.m2/repository/org/jacoco/org.jacoco.agent/0.8.11/org.jacoco.agent-0.8.11-runtime.jar=destfile=/Users/amishra/Developer/demo-java-ee-servlet/target/jacoco.exec
+12:13:52.064 [INFO]  [Measuring] out: [INFO] 
+12:13:52.064 [INFO]  [Measuring] out: [INFO] --- resources:3.3.1:resources (default-resources) @ java-ee-servlet ---
+12:13:52.143 [INFO]  [Measuring] out: [INFO] skip non existing resourceDirectory /Users/amishra/Developer/demo-java-ee-servlet/src/main/resources
+12:13:52.145 [INFO]  [Measuring] out: [INFO] 
+12:13:52.145 [INFO]  [Measuring] out: [INFO] --- compiler:3.13.0:compile (default-compile) @ java-ee-servlet ---
+12:13:52.297 [INFO]  [Measuring] out: [INFO] Nothing to compile - all classes are up to date.
+12:13:52.299 [INFO]  [Measuring] out: [INFO] 
+12:13:52.299 [INFO]  [Measuring] out: [INFO] --- resources:3.3.1:testResources (default-testResources) @ java-ee-servlet ---
+12:13:52.301 [INFO]  [Measuring] out: [INFO] skip non existing resourceDirectory /Users/amishra/Developer/demo-java-ee-servlet/src/test/resources
+12:13:52.302 [INFO]  [Measuring] out: [INFO] 
+12:13:52.302 [INFO]  [Measuring] out: [INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ java-ee-servlet ---
+12:13:52.315 [INFO]  [Measuring] out: [INFO] Nothing to compile - all classes are up to date.
+12:13:52.316 [INFO]  [Measuring] out: [INFO] 
+12:13:52.316 [INFO]  [Measuring] out: [INFO] --- surefire:3.3.0:test (default-test) @ java-ee-servlet ---
+12:13:52.468 [INFO]  [Measuring] out: [INFO] Using auto detected provider org.apache.maven.surefire.junit4.JUnit4Provider
+12:13:52.536 [INFO]  [Measuring] out: [INFO] 
+12:13:52.536 [INFO]  [Measuring] out: [INFO] -------------------------------------------------------
+12:13:52.536 [INFO]  [Measuring] out: [INFO]  T E S T S
+12:13:52.536 [INFO]  [Measuring] out: [INFO] -------------------------------------------------------
+12:13:53.176 [INFO]  [Measuring] out: [INFO] Running util.DBConnectionDiffblueTest
+12:13:53.227 [INFO]  [Measuring] out: [WARNING] Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.039 s -- in util.DBConnectionDiffblueTest
+12:13:53.228 [INFO]  [Measuring] out: [INFO] Running dao.PostDAODiffblueTest
+12:13:54.321 [INFO]  [Measuring] err: java.sql.SQLException
+12:13:54.321 [INFO]  [Measuring] err: 	at dao.PostDAO.updatePost(PostDAO.java:81)
+12:13:54.321 [INFO]  [Measuring] err: 	at dao.PostDAODiffblueTest.testUpdatePost_thenReturnPostUpdateFailed(PostDAODiffblueTest.java:511)
+12:13:54.321 [INFO]  [Measuring] err: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+12:13:54.321 [INFO]  [Measuring] err: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+12:13:54.321 [INFO]  [Measuring] err: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+12:13:54.321 [INFO]  [Measuring] err: 	at java.lang.reflect.Method.invoke(Method.java:498)
+12:13:54.321 [INFO]  [Measuring] err: 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+12:13:54.321 [INFO]  [Measuring] err: 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+12:13:54.321 [INFO]  [Measuring] err: 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+12:13:54.321 [INFO]  [Measuring] err: 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+12:13:54.321 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+12:13:54.321 [INFO]  [Measuring] err: 	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+12:13:54.322 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+12:13:54.322 [INFO]  [Measuring] err: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+12:13:54.322 [INFO]  [Measuring] err: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+12:13:54.322 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+12:13:54.322 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+12:13:54.322 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+12:13:54.322 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+12:13:54.322 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+12:13:54.322 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+12:13:54.322 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+12:13:54.322 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:316)
+12:13:54.322 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:240)
+12:13:54.322 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:214)
+12:13:54.322 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:155)
+12:13:54.322 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+12:13:54.322 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+12:13:54.322 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+12:13:54.322 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+12:13:54.496 [INFO]  [Measuring] out: [INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.255 s -- in dao.PostDAODiffblueTest
+12:13:54.496 [INFO]  [Measuring] out: [INFO] Running dao.UserDAODiffblueTest
+12:13:54.503 [INFO]  [Measuring] err: java.sql.SQLIntegrityConstraintViolationException: UPDATE user SET password = ? WHERE user_id = ?;
+12:13:54.503 [INFO]  [Measuring] err: 	at dao.UserDAO.updatePassword(UserDAO.java:138)
+12:13:54.503 [INFO]  [Measuring] err: 	at dao.UserDAODiffblueTest.testUpdatePassword_thenReturnPasswordUpdateFailed(UserDAODiffblueTest.java:881)
+12:13:54.503 [INFO]  [Measuring] err: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+12:13:54.503 [INFO]  [Measuring] err: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+12:13:54.503 [INFO]  [Measuring] err: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+12:13:54.503 [INFO]  [Measuring] err: 	at java.lang.reflect.Method.invoke(Method.java:498)
+12:13:54.503 [INFO]  [Measuring] err: 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+12:13:54.503 [INFO]  [Measuring] err: 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+12:13:54.503 [INFO]  [Measuring] err: 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+12:13:54.503 [INFO]  [Measuring] err: 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+12:13:54.503 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+12:13:54.503 [INFO]  [Measuring] err: 	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+12:13:54.503 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+12:13:54.503 [INFO]  [Measuring] err: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+12:13:54.503 [INFO]  [Measuring] err: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+12:13:54.503 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+12:13:54.503 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+12:13:54.503 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+12:13:54.503 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+12:13:54.503 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+12:13:54.503 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+12:13:54.503 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+12:13:54.503 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:316)
+12:13:54.503 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:240)
+12:13:54.503 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:214)
+12:13:54.503 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:155)
+12:13:54.503 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+12:13:54.503 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+12:13:54.503 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+12:13:54.503 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+12:13:54.523 [INFO]  [Measuring] err: java.sql.SQLIntegrityConstraintViolationException: UPDATE user SET first_name = ?, last_name = ?, email = ? WHERE user_id = ?;
+12:13:54.523 [INFO]  [Measuring] err: 	at dao.UserDAO.updateProfile(UserDAO.java:119)
+12:13:54.523 [INFO]  [Measuring] err: 	at dao.UserDAODiffblueTest.testUpdateProfile_thenReturnEmailAlreayUsed(UserDAODiffblueTest.java:799)
+12:13:54.523 [INFO]  [Measuring] err: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+12:13:54.523 [INFO]  [Measuring] err: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+12:13:54.523 [INFO]  [Measuring] err: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+12:13:54.523 [INFO]  [Measuring] err: 	at java.lang.reflect.Method.invoke(Method.java:498)
+12:13:54.523 [INFO]  [Measuring] err: 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+12:13:54.523 [INFO]  [Measuring] err: 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+12:13:54.523 [INFO]  [Measuring] err: 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+12:13:54.523 [INFO]  [Measuring] err: 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+12:13:54.523 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+12:13:54.523 [INFO]  [Measuring] err: 	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+12:13:54.523 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+12:13:54.523 [INFO]  [Measuring] err: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+12:13:54.523 [INFO]  [Measuring] err: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+12:13:54.523 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+12:13:54.523 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+12:13:54.523 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+12:13:54.523 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+12:13:54.523 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+12:13:54.523 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+12:13:54.523 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+12:13:54.523 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:316)
+12:13:54.523 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:240)
+12:13:54.523 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:214)
+12:13:54.523 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:155)
+12:13:54.523 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+12:13:54.523 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+12:13:54.523 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+12:13:54.523 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+12:13:54.540 [INFO]  [Measuring] err: java.sql.SQLIntegrityConstraintViolationException: INSERT INTO user(first_name, last_name, email, password) VALUES (?, ?, ?, ?);
+12:13:54.540 [INFO]  [Measuring] err: 	at dao.UserDAO.register(UserDAO.java:40)
+12:13:54.540 [INFO]  [Measuring] err: 	at dao.UserDAODiffblueTest.testRegister_thenReturnEmailAlreayUsed(UserDAODiffblueTest.java:277)
+12:13:54.540 [INFO]  [Measuring] err: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+12:13:54.540 [INFO]  [Measuring] err: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+12:13:54.540 [INFO]  [Measuring] err: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+12:13:54.540 [INFO]  [Measuring] err: 	at java.lang.reflect.Method.invoke(Method.java:498)
+12:13:54.540 [INFO]  [Measuring] err: 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+12:13:54.540 [INFO]  [Measuring] err: 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+12:13:54.540 [INFO]  [Measuring] err: 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+12:13:54.540 [INFO]  [Measuring] err: 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+12:13:54.540 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+12:13:54.540 [INFO]  [Measuring] err: 	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+12:13:54.540 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+12:13:54.540 [INFO]  [Measuring] err: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+12:13:54.540 [INFO]  [Measuring] err: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+12:13:54.540 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+12:13:54.540 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+12:13:54.540 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+12:13:54.540 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+12:13:54.540 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+12:13:54.540 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+12:13:54.540 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+12:13:54.540 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:316)
+12:13:54.540 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:240)
+12:13:54.540 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:214)
+12:13:54.540 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:155)
+12:13:54.540 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+12:13:54.540 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+12:13:54.540 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+12:13:54.540 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+12:13:54.589 [INFO]  [Measuring] out: [INFO] Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.045 s -- in dao.UserDAODiffblueTest
+12:13:54.589 [INFO]  [Measuring] out: [INFO] Running dao.MessageDAODiffblueTest
+12:13:54.600 [INFO]  [Measuring] out: [INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s -- in dao.MessageDAODiffblueTest
+12:13:54.601 [INFO]  [Measuring] out: [INFO] Running controller.ProfileServletDiffblueTest
+12:13:54.810 [INFO]  [Measuring] err: java.lang.ClassCastException: java.lang.String cannot be cast to java.lang.Integer
+12:13:54.810 [INFO]  [Measuring] err: 	at controller.ProfileServlet.doGet(ProfileServlet.java:72)
+12:13:54.810 [INFO]  [Measuring] err: 	at controller.ProfileServletDiffblueTest.testDoGet_givenNull_whenHttpServletRequestGetParameterReturnNull(ProfileServletDiffblueTest.java:110)
+12:13:54.810 [INFO]  [Measuring] err: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+12:13:54.810 [INFO]  [Measuring] err: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+12:13:54.810 [INFO]  [Measuring] err: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+12:13:54.810 [INFO]  [Measuring] err: 	at java.lang.reflect.Method.invoke(Method.java:498)
+12:13:54.810 [INFO]  [Measuring] err: 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+12:13:54.810 [INFO]  [Measuring] err: 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+12:13:54.810 [INFO]  [Measuring] err: 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+12:13:54.810 [INFO]  [Measuring] err: 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+12:13:54.810 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+12:13:54.810 [INFO]  [Measuring] err: 	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+12:13:54.810 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+12:13:54.810 [INFO]  [Measuring] err: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+12:13:54.810 [INFO]  [Measuring] err: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+12:13:54.810 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+12:13:54.810 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+12:13:54.810 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+12:13:54.810 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+12:13:54.810 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+12:13:54.810 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+12:13:54.810 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+12:13:54.810 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:316)
+12:13:54.810 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:240)
+12:13:54.810 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:214)
+12:13:54.810 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:155)
+12:13:54.810 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+12:13:54.810 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+12:13:54.810 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+12:13:54.810 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+12:13:54.828 [INFO]  [Measuring] out: [INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.211 s -- in controller.ProfileServletDiffblueTest
+12:13:54.828 [INFO]  [Measuring] out: [INFO] Running controller.MessageServletDiffblueTest
+12:13:54.831 [INFO]  [Measuring] err: java.lang.NumberFormatException: For input string: "Parameter"
+12:13:54.831 [INFO]  [Measuring] err: 	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+12:13:54.831 [INFO]  [Measuring] err: 	at java.lang.Integer.parseInt(Integer.java:580)
+12:13:54.831 [INFO]  [Measuring] err: 	at java.lang.Integer.parseInt(Integer.java:615)
+12:13:54.831 [INFO]  [Measuring] err: 	at controller.MessageServlet.doGet(MessageServlet.java:49)
+12:13:54.831 [INFO]  [Measuring] err: 	at controller.MessageServlet.doPost(MessageServlet.java:73)
+12:13:54.831 [INFO]  [Measuring] err: 	at controller.MessageServletDiffblueTest.testDoPost_givenResultSetNextReturnTrue_thenCallsPrepareStatement(MessageServletDiffblueTest.java:446)
+12:13:54.831 [INFO]  [Measuring] err: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+12:13:54.831 [INFO]  [Measuring] err: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+12:13:54.831 [INFO]  [Measuring] err: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+12:13:54.831 [INFO]  [Measuring] err: 	at java.lang.reflect.Method.invoke(Method.java:498)
+12:13:54.831 [INFO]  [Measuring] err: 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+12:13:54.831 [INFO]  [Measuring] err: 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+12:13:54.831 [INFO]  [Measuring] err: 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+12:13:54.831 [INFO]  [Measuring] err: 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+12:13:54.831 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+12:13:54.831 [INFO]  [Measuring] err: 	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+12:13:54.831 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+12:13:54.831 [INFO]  [Measuring] err: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+12:13:54.831 [INFO]  [Measuring] err: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+12:13:54.831 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+12:13:54.831 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+12:13:54.831 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+12:13:54.831 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+12:13:54.831 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+12:13:54.831 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+12:13:54.831 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+12:13:54.831 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:316)
+12:13:54.831 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:240)
+12:13:54.831 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:214)
+12:13:54.831 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:155)
+12:13:54.831 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+12:13:54.831 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+12:13:54.831 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+12:13:54.831 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+12:13:54.836 [INFO]  [Measuring] err: java.lang.NumberFormatException: For input string: "Parameter"
+12:13:54.837 [INFO]  [Measuring] err: 	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+12:13:54.837 [INFO]  [Measuring] err: 	at java.lang.Integer.parseInt(Integer.java:580)
+12:13:54.837 [INFO]  [Measuring] err: 	at java.lang.Integer.parseInt(Integer.java:615)
+12:13:54.837 [INFO]  [Measuring] err: 	at controller.MessageServlet.doGet(MessageServlet.java:49)
+12:13:54.837 [INFO]  [Measuring] err: 	at controller.MessageServletDiffblueTest.testDoGet_givenResultSetNextReturnTrue_thenCallsPrepareStatement(MessageServletDiffblueTest.java:238)
+12:13:54.837 [INFO]  [Measuring] err: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+12:13:54.837 [INFO]  [Measuring] err: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+12:13:54.837 [INFO]  [Measuring] err: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+12:13:54.837 [INFO]  [Measuring] err: 	at java.lang.reflect.Method.invoke(Method.java:498)
+12:13:54.837 [INFO]  [Measuring] err: 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+12:13:54.837 [INFO]  [Measuring] err: 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+12:13:54.837 [INFO]  [Measuring] err: 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+12:13:54.837 [INFO]  [Measuring] err: 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+12:13:54.837 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+12:13:54.837 [INFO]  [Measuring] err: 	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+12:13:54.837 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+12:13:54.837 [INFO]  [Measuring] err: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+12:13:54.837 [INFO]  [Measuring] err: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+12:13:54.837 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+12:13:54.837 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+12:13:54.837 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+12:13:54.837 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+12:13:54.837 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+12:13:54.837 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+12:13:54.837 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+12:13:54.837 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:316)
+12:13:54.837 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:240)
+12:13:54.837 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:214)
+12:13:54.837 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:155)
+12:13:54.837 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+12:13:54.837 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+12:13:54.837 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+12:13:54.837 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+12:13:54.839 [INFO]  [Measuring] err: java.lang.NumberFormatException: For input string: "Parameter"
+12:13:54.839 [INFO]  [Measuring] err: 	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+12:13:54.839 [INFO]  [Measuring] err: 	at java.lang.Integer.parseInt(Integer.java:580)
+12:13:54.839 [INFO]  [Measuring] err: 	at java.lang.Integer.parseInt(Integer.java:615)
+12:13:54.839 [INFO]  [Measuring] err: 	at controller.MessageServlet.doGet(MessageServlet.java:49)
+12:13:54.839 [INFO]  [Measuring] err: 	at controller.MessageServletDiffblueTest.lambda$testDoGet_givenRequestDispatcherForwardThrowNumberFormatExceptionWithUserId$1(MessageServletDiffblueTest.java:118)
+12:13:54.839 [INFO]  [Measuring] err: 	at org.junit.Assert.assertThrows(Assert.java:1001)
+12:13:54.839 [INFO]  [Measuring] err: 	at org.junit.Assert.assertThrows(Assert.java:981)
+12:13:54.839 [INFO]  [Measuring] err: 	at controller.MessageServletDiffblueTest.testDoGet_givenRequestDispatcherForwardThrowNumberFormatExceptionWithUserId(MessageServletDiffblueTest.java:118)
+12:13:54.839 [INFO]  [Measuring] err: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+12:13:54.839 [INFO]  [Measuring] err: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+12:13:54.839 [INFO]  [Measuring] err: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+12:13:54.839 [INFO]  [Measuring] err: 	at java.lang.reflect.Method.invoke(Method.java:498)
+12:13:54.839 [INFO]  [Measuring] err: 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+12:13:54.839 [INFO]  [Measuring] err: 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+12:13:54.839 [INFO]  [Measuring] err: 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+12:13:54.839 [INFO]  [Measuring] err: 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+12:13:54.839 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+12:13:54.839 [INFO]  [Measuring] err: 	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+12:13:54.840 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+12:13:54.840 [INFO]  [Measuring] err: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+12:13:54.840 [INFO]  [Measuring] err: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+12:13:54.840 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+12:13:54.840 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+12:13:54.840 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+12:13:54.840 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+12:13:54.840 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+12:13:54.840 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+12:13:54.840 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+12:13:54.840 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:316)
+12:13:54.840 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:240)
+12:13:54.840 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:214)
+12:13:54.840 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:155)
+12:13:54.840 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+12:13:54.840 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+12:13:54.840 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+12:13:54.840 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+12:13:54.842 [INFO]  [Measuring] err: java.lang.NumberFormatException: For input string: "Parameter"
+12:13:54.842 [INFO]  [Measuring] err: 	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+12:13:54.842 [INFO]  [Measuring] err: 	at java.lang.Integer.parseInt(Integer.java:580)
+12:13:54.842 [INFO]  [Measuring] err: 	at java.lang.Integer.parseInt(Integer.java:615)
+12:13:54.842 [INFO]  [Measuring] err: 	at controller.MessageServlet.doGet(MessageServlet.java:49)
+12:13:54.842 [INFO]  [Measuring] err: 	at controller.MessageServletDiffblueTest.testDoGet_givenResultSetNextReturnFalse_thenCallsPrepareStatement(MessageServletDiffblueTest.java:177)
+12:13:54.842 [INFO]  [Measuring] err: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+12:13:54.842 [INFO]  [Measuring] err: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+12:13:54.842 [INFO]  [Measuring] err: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+12:13:54.842 [INFO]  [Measuring] err: 	at java.lang.reflect.Method.invoke(Method.java:498)
+12:13:54.842 [INFO]  [Measuring] err: 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+12:13:54.842 [INFO]  [Measuring] err: 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+12:13:54.842 [INFO]  [Measuring] err: 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+12:13:54.842 [INFO]  [Measuring] err: 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+12:13:54.842 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+12:13:54.842 [INFO]  [Measuring] err: 	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+12:13:54.842 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+12:13:54.842 [INFO]  [Measuring] err: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+12:13:54.842 [INFO]  [Measuring] err: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+12:13:54.842 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+12:13:54.842 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+12:13:54.842 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+12:13:54.842 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+12:13:54.842 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+12:13:54.842 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+12:13:54.842 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+12:13:54.842 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:316)
+12:13:54.842 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:240)
+12:13:54.842 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:214)
+12:13:54.842 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:155)
+12:13:54.842 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+12:13:54.842 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+12:13:54.842 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+12:13:54.842 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+12:13:54.845 [INFO]  [Measuring] err: java.lang.NumberFormatException: For input string: "Parameter"
+12:13:54.845 [INFO]  [Measuring] err: 	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+12:13:54.845 [INFO]  [Measuring] err: 	at java.lang.Integer.parseInt(Integer.java:580)
+12:13:54.845 [INFO]  [Measuring] err: 	at java.lang.Integer.parseInt(Integer.java:615)
+12:13:54.845 [INFO]  [Measuring] err: 	at controller.MessageServlet.doGet(MessageServlet.java:49)
+12:13:54.845 [INFO]  [Measuring] err: 	at controller.MessageServlet.doPost(MessageServlet.java:73)
+12:13:54.845 [INFO]  [Measuring] err: 	at controller.MessageServletDiffblueTest.lambda$testDoPost_givenRequestDispatcherForwardThrowNumberFormatExceptionWithUserId$3(MessageServletDiffblueTest.java:326)
+12:13:54.845 [INFO]  [Measuring] err: 	at org.junit.Assert.assertThrows(Assert.java:1001)
+12:13:54.845 [INFO]  [Measuring] err: 	at org.junit.Assert.assertThrows(Assert.java:981)
+12:13:54.845 [INFO]  [Measuring] err: 	at controller.MessageServletDiffblueTest.testDoPost_givenRequestDispatcherForwardThrowNumberFormatExceptionWithUserId(MessageServletDiffblueTest.java:326)
+12:13:54.845 [INFO]  [Measuring] err: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+12:13:54.845 [INFO]  [Measuring] err: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+12:13:54.845 [INFO]  [Measuring] err: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+12:13:54.845 [INFO]  [Measuring] err: 	at java.lang.reflect.Method.invoke(Method.java:498)
+12:13:54.845 [INFO]  [Measuring] err: 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+12:13:54.845 [INFO]  [Measuring] err: 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+12:13:54.845 [INFO]  [Measuring] err: 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+12:13:54.845 [INFO]  [Measuring] err: 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+12:13:54.845 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+12:13:54.845 [INFO]  [Measuring] err: 	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+12:13:54.845 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+12:13:54.845 [INFO]  [Measuring] err: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+12:13:54.845 [INFO]  [Measuring] err: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+12:13:54.845 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+12:13:54.845 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+12:13:54.845 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+12:13:54.845 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+12:13:54.845 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+12:13:54.845 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+12:13:54.845 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+12:13:54.845 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:316)
+12:13:54.845 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:240)
+12:13:54.845 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:214)
+12:13:54.845 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:155)
+12:13:54.845 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+12:13:54.845 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+12:13:54.845 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+12:13:54.845 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+12:13:54.847 [INFO]  [Measuring] err: java.lang.NumberFormatException: For input string: "Parameter"
+12:13:54.847 [INFO]  [Measuring] err: 	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+12:13:54.847 [INFO]  [Measuring] err: 	at java.lang.Integer.parseInt(Integer.java:580)
+12:13:54.847 [INFO]  [Measuring] err: 	at java.lang.Integer.parseInt(Integer.java:615)
+12:13:54.847 [INFO]  [Measuring] err: 	at controller.MessageServlet.doGet(MessageServlet.java:49)
+12:13:54.847 [INFO]  [Measuring] err: 	at controller.MessageServlet.doPost(MessageServlet.java:73)
+12:13:54.847 [INFO]  [Measuring] err: 	at controller.MessageServletDiffblueTest.testDoPost_givenResultSetNextReturnFalse_thenCallsPrepareStatement(MessageServletDiffblueTest.java:385)
+12:13:54.847 [INFO]  [Measuring] err: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+12:13:54.847 [INFO]  [Measuring] err: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+12:13:54.847 [INFO]  [Measuring] err: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+12:13:54.847 [INFO]  [Measuring] err: 	at java.lang.reflect.Method.invoke(Method.java:498)
+12:13:54.847 [INFO]  [Measuring] err: 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+12:13:54.847 [INFO]  [Measuring] err: 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+12:13:54.847 [INFO]  [Measuring] err: 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+12:13:54.847 [INFO]  [Measuring] err: 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+12:13:54.847 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+12:13:54.847 [INFO]  [Measuring] err: 	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+12:13:54.847 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+12:13:54.847 [INFO]  [Measuring] err: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+12:13:54.847 [INFO]  [Measuring] err: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+12:13:54.847 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+12:13:54.847 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+12:13:54.847 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+12:13:54.847 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+12:13:54.847 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+12:13:54.847 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+12:13:54.847 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+12:13:54.847 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:316)
+12:13:54.847 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:240)
+12:13:54.847 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:214)
+12:13:54.847 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:155)
+12:13:54.847 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+12:13:54.847 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+12:13:54.847 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+12:13:54.847 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+12:13:54.889 [INFO]  [Measuring] out: [INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 s -- in controller.MessageServletDiffblueTest
+12:13:54.889 [INFO]  [Measuring] out: [INFO] Running controller.LogoutServletDiffblueTest
+12:13:54.899 [INFO]  [Measuring] out: [INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s -- in controller.LogoutServletDiffblueTest
+12:13:54.899 [INFO]  [Measuring] out: [INFO] Running controller.ViewMessageServletDiffblueTest
+12:13:54.906 [INFO]  [Measuring] err: java.lang.NumberFormatException: For input string: "Parameter"
+12:13:54.906 [INFO]  [Measuring] err: 	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+12:13:54.906 [INFO]  [Measuring] err: 	at java.lang.Integer.parseInt(Integer.java:580)
+12:13:54.906 [INFO]  [Measuring] err: 	at java.lang.Integer.parseInt(Integer.java:615)
+12:13:54.906 [INFO]  [Measuring] err: 	at controller.ViewMessageServlet.doPost(ViewMessageServlet.java:80)
+12:13:54.906 [INFO]  [Measuring] err: 	at controller.ViewMessageServletDiffblueTest.testDoPost_givenHttpSessionGetAttributeReturn42(ViewMessageServletDiffblueTest.java:230)
+12:13:54.906 [INFO]  [Measuring] err: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+12:13:54.906 [INFO]  [Measuring] err: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+12:13:54.906 [INFO]  [Measuring] err: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+12:13:54.906 [INFO]  [Measuring] err: 	at java.lang.reflect.Method.invoke(Method.java:498)
+12:13:54.906 [INFO]  [Measuring] err: 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+12:13:54.906 [INFO]  [Measuring] err: 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+12:13:54.906 [INFO]  [Measuring] err: 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+12:13:54.906 [INFO]  [Measuring] err: 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+12:13:54.906 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+12:13:54.906 [INFO]  [Measuring] err: 	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+12:13:54.906 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+12:13:54.906 [INFO]  [Measuring] err: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+12:13:54.906 [INFO]  [Measuring] err: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+12:13:54.906 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+12:13:54.906 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+12:13:54.906 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+12:13:54.906 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+12:13:54.906 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+12:13:54.906 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+12:13:54.906 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+12:13:54.906 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:316)
+12:13:54.906 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:240)
+12:13:54.906 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:214)
+12:13:54.906 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:155)
+12:13:54.906 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+12:13:54.906 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+12:13:54.906 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+12:13:54.906 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+12:13:54.912 [INFO]  [Measuring] err: java.lang.NumberFormatException: For input string: "Attribute"
+12:13:54.912 [INFO]  [Measuring] err: 	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+12:13:54.912 [INFO]  [Measuring] err: 	at java.lang.Integer.parseInt(Integer.java:580)
+12:13:54.912 [INFO]  [Measuring] err: 	at java.lang.Integer.parseInt(Integer.java:615)
+12:13:54.912 [INFO]  [Measuring] err: 	at controller.ViewMessageServlet.doPost(ViewMessageServlet.java:80)
+12:13:54.912 [INFO]  [Measuring] err: 	at controller.ViewMessageServletDiffblueTest.testDoPost_givenParameter_whenHttpServletRequestGetParameterReturnParameter(ViewMessageServletDiffblueTest.java:355)
+12:13:54.912 [INFO]  [Measuring] err: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+12:13:54.912 [INFO]  [Measuring] err: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+12:13:54.912 [INFO]  [Measuring] err: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+12:13:54.912 [INFO]  [Measuring] err: 	at java.lang.reflect.Method.invoke(Method.java:498)
+12:13:54.912 [INFO]  [Measuring] err: 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+12:13:54.912 [INFO]  [Measuring] err: 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+12:13:54.912 [INFO]  [Measuring] err: 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+12:13:54.912 [INFO]  [Measuring] err: 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+12:13:54.912 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+12:13:54.912 [INFO]  [Measuring] err: 	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+12:13:54.912 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+12:13:54.912 [INFO]  [Measuring] err: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+12:13:54.912 [INFO]  [Measuring] err: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+12:13:54.912 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+12:13:54.912 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+12:13:54.912 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+12:13:54.912 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+12:13:54.912 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+12:13:54.912 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+12:13:54.912 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+12:13:54.912 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:316)
+12:13:54.912 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:240)
+12:13:54.912 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:214)
+12:13:54.912 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:155)
+12:13:54.912 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+12:13:54.912 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+12:13:54.912 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+12:13:54.912 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+12:13:54.916 [INFO]  [Measuring] err: java.lang.NumberFormatException: For input string: "Attribute"
+12:13:54.916 [INFO]  [Measuring] err: 	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+12:13:54.916 [INFO]  [Measuring] err: 	at java.lang.Integer.parseInt(Integer.java:580)
+12:13:54.916 [INFO]  [Measuring] err: 	at java.lang.Integer.parseInt(Integer.java:615)
+12:13:54.916 [INFO]  [Measuring] err: 	at controller.ViewMessageServlet.doPost(ViewMessageServlet.java:80)
+12:13:54.916 [INFO]  [Measuring] err: 	at controller.ViewMessageServletDiffblueTest.lambda$testDoPost_givenIOExceptionWithLogin_thenThrowIOException$2(ViewMessageServletDiffblueTest.java:323)
+12:13:54.916 [INFO]  [Measuring] err: 	at org.junit.Assert.assertThrows(Assert.java:1001)
+12:13:54.916 [INFO]  [Measuring] err: 	at org.junit.Assert.assertThrows(Assert.java:981)
+12:13:54.916 [INFO]  [Measuring] err: 	at controller.ViewMessageServletDiffblueTest.testDoPost_givenIOExceptionWithLogin_thenThrowIOException(ViewMessageServletDiffblueTest.java:323)
+12:13:54.916 [INFO]  [Measuring] err: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+12:13:54.916 [INFO]  [Measuring] err: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+12:13:54.916 [INFO]  [Measuring] err: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+12:13:54.916 [INFO]  [Measuring] err: 	at java.lang.reflect.Method.invoke(Method.java:498)
+12:13:54.916 [INFO]  [Measuring] err: 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+12:13:54.916 [INFO]  [Measuring] err: 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+12:13:54.916 [INFO]  [Measuring] err: 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+12:13:54.916 [INFO]  [Measuring] err: 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+12:13:54.916 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+12:13:54.916 [INFO]  [Measuring] err: 	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+12:13:54.916 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+12:13:54.916 [INFO]  [Measuring] err: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+12:13:54.916 [INFO]  [Measuring] err: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+12:13:54.916 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+12:13:54.916 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+12:13:54.916 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+12:13:54.916 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+12:13:54.916 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+12:13:54.916 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+12:13:54.916 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+12:13:54.916 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:316)
+12:13:54.916 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:240)
+12:13:54.916 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:214)
+12:13:54.916 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:155)
+12:13:54.916 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+12:13:54.916 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+12:13:54.916 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+12:13:54.916 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+12:13:54.919 [INFO]  [Measuring] err: java.sql.SQLException
+12:13:54.919 [INFO]  [Measuring] err: 	at dao.MessageDAO.insertMessage(MessageDAO.java:66)
+12:13:54.919 [INFO]  [Measuring] err: 	at controller.ViewMessageServlet.doPost(ViewMessageServlet.java:80)
+12:13:54.919 [INFO]  [Measuring] err: 	at controller.ViewMessageServletDiffblueTest.testDoPost_givenPreparedStatementSetIntThrowSQLException(ViewMessageServletDiffblueTest.java:449)
+12:13:54.919 [INFO]  [Measuring] err: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+12:13:54.919 [INFO]  [Measuring] err: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+12:13:54.920 [INFO]  [Measuring] err: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+12:13:54.920 [INFO]  [Measuring] err: 	at java.lang.reflect.Method.invoke(Method.java:498)
+12:13:54.920 [INFO]  [Measuring] err: 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+12:13:54.920 [INFO]  [Measuring] err: 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+12:13:54.920 [INFO]  [Measuring] err: 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+12:13:54.920 [INFO]  [Measuring] err: 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+12:13:54.920 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+12:13:54.920 [INFO]  [Measuring] err: 	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+12:13:54.920 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+12:13:54.920 [INFO]  [Measuring] err: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+12:13:54.920 [INFO]  [Measuring] err: 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+12:13:54.920 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+12:13:54.920 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+12:13:54.920 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+12:13:54.920 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+12:13:54.920 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+12:13:54.920 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+12:13:54.920 [INFO]  [Measuring] err: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+12:13:54.920 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:316)
+12:13:54.920 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:240)
+12:13:54.920 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:214)
+12:13:54.920 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:155)
+12:13:54.920 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+12:13:54.920 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+12:13:54.920 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+12:13:54.920 [INFO]  [Measuring] err: 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+12:13:54.948 [INFO]  [Measuring] out: [INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 s -- in controller.ViewMessageServletDiffblueTest
+12:13:54.948 [INFO]  [Measuring] out: [INFO] Running controller.LoginServletDiffblueTest
+12:13:54.955 [INFO]  [Measuring] out: [INFO] Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s -- in controller.LoginServletDiffblueTest
+12:13:54.955 [INFO]  [Measuring] out: [INFO] Running controller.RegisterServletDiffblueTest
+12:13:54.963 [INFO]  [Measuring] out: [INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s -- in controller.RegisterServletDiffblueTest
+12:13:54.963 [INFO]  [Measuring] out: [INFO] Running controller.HomeServletDiffblueTest
+12:13:54.969 [INFO]  [Measuring] out: [INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s -- in controller.HomeServletDiffblueTest
+12:13:54.969 [INFO]  [Measuring] out: [INFO] Running model.MessageDiffblueTest
+12:13:54.978 [INFO]  [Measuring] out: [INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s -- in model.MessageDiffblueTest
+12:13:54.978 [INFO]  [Measuring] out: [INFO] Running model.UserDiffblueTest
+12:13:54.984 [INFO]  [Measuring] out: [INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s -- in model.UserDiffblueTest
+12:13:54.984 [INFO]  [Measuring] out: [INFO] Running model.PostDiffblueTest
+12:13:54.991 [INFO]  [Measuring] out: [INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s -- in model.PostDiffblueTest
+12:13:55.026 [INFO]  [Measuring] out: [INFO] 
+12:13:55.026 [INFO]  [Measuring] out: [INFO] Results:
+12:13:55.026 [INFO]  [Measuring] out: [INFO] 
+12:13:55.026 [INFO]  [Measuring] out: [WARNING] Tests run: 124, Failures: 0, Errors: 0, Skipped: 1
+12:13:55.026 [INFO]  [Measuring] out: [INFO] 
+12:13:55.050 [INFO]  [Measuring] out: [INFO] 
+12:13:55.050 [INFO]  [Measuring] out: [INFO] --- jacoco:0.8.11:report (default-cli) @ java-ee-servlet ---
+12:13:55.054 [INFO]  [Measuring] out: [INFO] Loading execution data file /Users/amishra/Developer/demo-java-ee-servlet/target/jacoco.exec
+12:13:55.138 [INFO]  [Measuring] out: [INFO] Analyzed bundle 'Java EE Servlet Webapp' with 14 classes
+12:13:55.239 [INFO]  [Measuring] out: [INFO] ------------------------------------------------------------------------
+12:13:55.239 [INFO]  [Measuring] out: [INFO] BUILD SUCCESS
+12:13:55.239 [INFO]  [Measuring] out: [INFO] ------------------------------------------------------------------------
+12:13:55.239 [INFO]  [Measuring] out: [INFO] Total time:  3.742 s
+12:13:55.239 [INFO]  [Measuring] out: [INFO] Finished at: 2025-03-06T12:13:55Z
+12:13:55.240 [INFO]  [Measuring] out: [INFO] ------------------------------------------------------------------------
+12:13:55.310 [INFO]  [Measuring] JaCoCo report file created in /Users/amishra/Developer/demo-java-ee-servlet/.diffblue/reports/diffblue-tests-jacoco-report.xml
+12:13:55.348 [INFO]  [Measuring] Calculating coverage from manual tests.
+12:13:55.350 [INFO]  [Measuring] Using default build rules as no custom rules found in any of [/Users/amishra/Developer/demo-java-ee-servlet]
+12:13:55.351 [INFO]  [Measuring] Attempting to invoke mvnw in working directory: /Users/amishra/Developer/demo-java-ee-servlet
+12:13:55.355 [INFO]  [Measuring] Attempting to invoke /opt/homebrew/bin/mvn in working directory: /Users/amishra/Developer/demo-java-ee-servlet
+12:13:55.359 [INFO]  [Measuring] Started "/opt/homebrew/bin/mvn -Dmaven.ext.class.path=/usr/local/bin/diffblue/cover-buildsystem-maven-spy-jar-with-dependencies.jar -Dcom.diffblue.cover.skipTests=true --batch-mode --projects=com.diffblue.pov:java-ee-servlet org.jacoco:jacoco-maven-plugin:0.8.11:prepare-agent -Djacoco.skip=false test -DfailIfNoTests=false -Dsurefire.failIfNoSpecifiedTests=false -Dmaven.test.failure.ignore=True -Dtest=!*DiffblueTest,**/Test*.java,**/*Test.java,**/*Tests.java,**/*TestCase.java org.jacoco:jacoco-maven-plugin:0.8.11:report -Djacoco.skip=false"
+12:13:56.435 [INFO]  [Measuring] out: [INFO] Scanning for projects...
+12:13:56.547 [INFO]  [Measuring] out: [INFO] 
+12:13:56.547 [INFO]  [Measuring] out: [INFO] ------------------< com.diffblue.pov:java-ee-servlet >------------------
+12:13:56.547 [INFO]  [Measuring] out: [INFO] Building Java EE Servlet Webapp 1.0.0
+12:13:56.547 [INFO]  [Measuring] out: [INFO]   from pom.xml
+12:13:56.547 [INFO]  [Measuring] out: [INFO] --------------------------------[ war ]---------------------------------
+12:13:56.820 [INFO]  [Measuring] out: [INFO] 
+12:13:56.820 [INFO]  [Measuring] out: [INFO] --- jacoco:0.8.11:prepare-agent (default-cli) @ java-ee-servlet ---
+12:13:56.989 [INFO]  [Measuring] out: [INFO] argLine set to -javaagent:/Users/amishra/.m2/repository/org/jacoco/org.jacoco.agent/0.8.11/org.jacoco.agent-0.8.11-runtime.jar=destfile=/Users/amishra/Developer/demo-java-ee-servlet/target/jacoco.exec
+12:13:56.990 [INFO]  [Measuring] out: [INFO] 
+12:13:56.991 [INFO]  [Measuring] out: [INFO] --- resources:3.3.1:resources (default-resources) @ java-ee-servlet ---
+12:13:57.094 [INFO]  [Measuring] out: [INFO] skip non existing resourceDirectory /Users/amishra/Developer/demo-java-ee-servlet/src/main/resources
+12:13:57.096 [INFO]  [Measuring] out: [INFO] 
+12:13:57.096 [INFO]  [Measuring] out: [INFO] --- compiler:3.13.0:compile (default-compile) @ java-ee-servlet ---
+12:13:57.266 [INFO]  [Measuring] out: [INFO] Nothing to compile - all classes are up to date.
+12:13:57.268 [INFO]  [Measuring] out: [INFO] 
+12:13:57.268 [INFO]  [Measuring] out: [INFO] --- resources:3.3.1:testResources (default-testResources) @ java-ee-servlet ---
+12:13:57.269 [INFO]  [Measuring] out: [INFO] skip non existing resourceDirectory /Users/amishra/Developer/demo-java-ee-servlet/src/test/resources
+12:13:57.271 [INFO]  [Measuring] out: [INFO] 
+12:13:57.271 [INFO]  [Measuring] out: [INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ java-ee-servlet ---
+12:13:57.283 [INFO]  [Measuring] out: [INFO] Nothing to compile - all classes are up to date.
+12:13:57.285 [INFO]  [Measuring] out: [INFO] 
+12:13:57.285 [INFO]  [Measuring] out: [INFO] --- surefire:3.3.0:test (default-test) @ java-ee-servlet ---
+12:13:57.424 [INFO]  [Measuring] out: [INFO] 
+12:13:57.424 [INFO]  [Measuring] out: [INFO] --- jacoco:0.8.11:report (default-cli) @ java-ee-servlet ---
+12:13:57.427 [INFO]  [Measuring] out: [INFO] Loading execution data file /Users/amishra/Developer/demo-java-ee-servlet/target/jacoco.exec
+12:13:57.549 [INFO]  [Measuring] out: [INFO] Analyzed bundle 'Java EE Servlet Webapp' with 14 classes
+12:13:57.646 [INFO]  [Measuring] out: [INFO] ------------------------------------------------------------------------
+12:13:57.646 [INFO]  [Measuring] out: [INFO] BUILD SUCCESS
+12:13:57.646 [INFO]  [Measuring] out: [INFO] ------------------------------------------------------------------------
+12:13:57.647 [INFO]  [Measuring] out: [INFO] Total time:  1.226 s
+12:13:57.647 [INFO]  [Measuring] out: [INFO] Finished at: 2025-03-06T12:13:57Z
+12:13:57.647 [INFO]  [Measuring] out: [INFO] ------------------------------------------------------------------------
+12:13:57.715 [INFO]  [Measuring] JaCoCo report file created in /Users/amishra/Developer/demo-java-ee-servlet/.diffblue/reports/manual-tests-jacoco-report.xml
+12:13:57.738 [INFO]  [Measuring] 
+12:13:57.761 [INFO]  [Measuring] Diffblue tests cover 488 of 593 lines to cover (82.3%)
+12:13:57.768 [INFO]  [Measuring] Manual tests cover 0 of 593 lines to cover (0.0%)
+12:13:57.959 [INFO]  [Reporting] Writing JSON report to /Users/amishra/Developer/demo-java-ee-servlet/.diffblue/reports/report.json
+12:13:58.155 [INFO]  [Reporting] 
+12:13:58.156 [INFO]  [Reporting] Log file: /Users/amishra/Developer/demo-java-ee-servlet/.diffblue/log/user-20250306T120940.log
+12:13:58.156 [INFO]  [Reporting] Finished in 4m 9s
